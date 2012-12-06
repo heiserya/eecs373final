@@ -1,0 +1,74 @@
+# Actel Physical design constraints file
+# Generated file
+
+# Version: 9.1 SP5 9.1.5.1
+# Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
+# Date generated: Wed Nov 28 14:18:16 2012 
+
+
+# 
+# IO banks setting
+# 
+
+
+# 
+# User Groups
+# 
+
+define_group -name UART_0_PADs
+
+
+# 
+# I/O constraints
+# 
+
+set_io GPIO_0_BI      \
+    -pinname V1       \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io MSS_RESET_N    \
+    -pinname R1       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+# User Group UART_0_PADs
+
+set_io UART_0_RXD            \
+    -pinname U18             \
+    -fixed yes               \
+    -GROUP_NAME UART_0_PADs  \
+    -DIRECTION Input
+
+
+set_io UART_0_TXD            \
+    -pinname Y22             \
+    -fixed yes               \
+    -GROUP_NAME UART_0_PADs  \
+    -DIRECTION Output
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io GPIO_0_BI -pinname V1 -fixed yes -DIRECTION Inout 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io GPIO_0_BI -pinname V1 -fixed yes -DIRECTION Inout 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 

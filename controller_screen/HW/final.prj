@@ -1,0 +1,540 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.5.1"
+KEY DEFAULT_IMPORT_LOC "C:\LOHIT\SCHOOL\Fall11\GSIeecs373\F11 Lab Dev\Lab4\testlab4fpga\lab4fpga\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "1a45274b-3f1e-423b-a76e-057e5cfd4d96"
+KEY HDLTechnology "VERILOG"
+KEY VendorTechnology_Family "SmartFusion"
+KEY VendorTechnology_Die "IP4X3M1"
+KEY VendorTechnology_Package "fg484"
+KEY ProjectLocation "C:\Users\thinkpad\SkyDrive\eecs373final\final"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "final_top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+MSS_BFM_LIB
+ENDLIST
+LIST LIBRARY_MSS_BFM_LIB
+ALIAS=..\component\Actel\SmartFusionMSS\MSS\2.5.106\mti\user_verilog\MSS_BFM_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130312"
+SIZE="945"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v,hdl"
+STATE="utd"
+TIME="1354130312"
+SIZE="11243"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130300"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130300"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130300"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130300"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.102\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130303"
+SIZE="253"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130303"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130303"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="253"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="253"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="254"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="252"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="254"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UART\1.0.101\MSS_UART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="253"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130304"
+SIZE="254"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\work\final_mss\final_mss.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130312"
+SIZE="9544"
+ENDFILE
+VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
+STATE="utd"
+TIME="1354130296"
+SIZE="1901"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\final_mss.v,hdl"
+STATE="utd"
+TIME="1354130312"
+SIZE="9803"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\MSS_ACE_0\MSS_ACE_0.log,???"
+STATE="utd"
+TIME="1353435527"
+SIZE="31587"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130300"
+SIZE="485"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
+STATE="utd"
+TIME="1354130300"
+SIZE="2905"
+PARENT="<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+STATE="utd"
+TIME="1354130303"
+SIZE="16217"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\mss_tshell.v,hdl"
+STATE="utd"
+TIME="1354130304"
+SIZE="12227"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1354130312"
+SIZE="1530"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\final_top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354130344"
+SIZE="2962"
+ENDFILE
+VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
+STATE="utd"
+TIME="1354130343"
+SIZE="2448"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideDESIGNER"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\final_top.v,hdl"
+STATE="utd"
+TIME="1354130344"
+SIZE="517"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1354130344"
+SIZE="1508"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\final_mss.adb,adb"
+STATE="ood"
+TIME="1353446710"
+SIZE="239104"
+ENDFILE
+VALUE "<project>\designer\impl1\final_mss.fdb,fdb"
+STATE="ood"
+TIME="1353446575"
+SIZE="42447"
+ENDFILE
+VALUE "<project>\designer\impl1\final_mss_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1353446710"
+SIZE="93195"
+ENDFILE
+VALUE "<project>\designer\impl1\final_mss_ba.v,ba_hdl"
+STATE="ood"
+TIME="1353446710"
+SIZE="73752"
+ENDFILE
+VALUE "<project>\designer\impl1\final_top.adb,adb"
+STATE="utd"
+TIME="1354130444"
+SIZE="312320"
+ENDFILE
+VALUE "<project>\designer\impl1\final_top.fdb,fdb"
+STATE="utd"
+TIME="1354130440"
+SIZE="41922"
+ENDFILE
+VALUE "<project>\designer\impl1\final_top_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1353530870"
+SIZE="111502"
+ENDFILE
+VALUE "<project>\designer\impl1\final_top_ba.v,ba_hdl"
+STATE="ood"
+TIME="1353530870"
+SIZE="95206"
+ENDFILE
+VALUE "<project>\designer\impl1\final_top_fp\final_top.pro,pro"
+STATE="utd"
+TIME="1354130520"
+SIZE="2027"
+ENDFILE
+VALUE "<project>\hdl\gcn.v,hdl"
+STATE="utd"
+TIME="1353805942"
+SIZE="3133"
+ENDFILE
+VALUE "<project>\hdl\n64.v,hdl"
+STATE="utd"
+TIME="1353516885"
+SIZE="477"
+ENDFILE
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+STATE="utd"
+TIME="1354130315"
+SIZE="41"
+PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1353530873"
+SIZE="1195"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1354130314"
+SIZE="5497"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1353435565"
+SIZE="670"
+PARENT="<project>\component\work\final_mss\final_mss.cxf"
+ENDFILE
+VALUE "<project>\synthesis\final_mss.edn,syn_edn"
+STATE="ood"
+TIME="1353446477"
+SIZE="87872"
+ENDFILE
+VALUE "<project>\synthesis\final_mss_drc.rpt,log"
+STATE="utd"
+TIME="1353446490"
+SIZE="21595"
+ENDFILE
+VALUE "<project>\synthesis\final_mss_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1353446477"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\final_top.edn,syn_edn"
+STATE="utd"
+TIME="1354130354"
+SIZE="91404"
+ENDFILE
+VALUE "<project>\synthesis\final_top_drc.rpt,log"
+STATE="utd"
+TIME="1354130370"
+SIZE="24673"
+ENDFILE
+VALUE "<project>\synthesis\final_top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1354130354"
+SIZE="310"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "final_mss::work"
+FILE "<project>\component\work\final_mss\final_mss.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
+VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\final_mss.edn,syn_edn"
+VALUE "<project>\synthesis\final_mss_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\final_mss.v,syn_hdl"
+VALUE "<project>\phy_synthesis\final_mss_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\final_mss_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\final_mss_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\final_mss_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\final_mss_palace.v,palace_hdl"
+VALUE "<project>\designer\impl1\final_mss.adb,adb"
+VALUE "<project>\designer\impl1\final_mss.prb,prb"
+VALUE "<project>\designer\impl1\final_mss.pdb,pdb"
+VALUE "<project>\designer\impl1\final_mss.stp,stp"
+VALUE "<project>\designer\impl1\final_mss_fp\final_mss.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "final_top::work"
+FILE "<project>\component\work\final_top\final_top.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\final_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\final_top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST final_top
+VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
+ENDLIST
+LIST final_mss
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST final_top
+VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
+ENDLIST
+LIST final_mss
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
+VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=TRUE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=fdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "final_mss::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\final_mss.edn,syn_edn"
+VALUE "<project>\synthesis\final_mss_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\final_mss.v,syn_hdl"
+VALUE "<project>\phy_synthesis\final_mss_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\final_mss_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\final_mss_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\final_mss_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\final_mss_palace.v,palace_hdl"
+VALUE "<project>\designer\impl1\final_mss.adb,adb"
+VALUE "<project>\designer\impl1\final_mss.prb,prb"
+VALUE "<project>\designer\impl1\final_mss.pdb,pdb"
+VALUE "<project>\designer\impl1\final_mss.stp,stp"
+VALUE "<project>\designer\impl1\final_mss_fp\final_mss.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "final_top::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\final_top.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\final_top.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ENDLIST

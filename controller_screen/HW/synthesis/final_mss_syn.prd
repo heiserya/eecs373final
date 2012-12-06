@@ -1,0 +1,11 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09A-1
+#-- Project file C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_mss_syn.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

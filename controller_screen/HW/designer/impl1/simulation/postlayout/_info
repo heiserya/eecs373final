@@ -1,0 +1,51 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\thinkpad\SkyDrive\eecs373final\final\simulation
+vfinal_mss
+IkLH4YC^ekIQ6>5K0E3e_V0
+VKVDB^YAA=G8^@io^JRKA<2
+Z1 dC:\Users\thinkpad\SkyDrive\eecs373final\final\simulation
+w1353446710
+8C:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1/final_mss_ba.v
+FC:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1/final_mss_ba.v
+L0 6
+Z2 OW;L;6.6d;45
+r1
+31
+Z3 o-work postlayout -O0
+!s100 0D50Ci^eZJ;3RZHI_BAih3
+!s85 0
+!s101 -O0
+vfinal_top
+IlCZb9TZ?eOUFKmcZPiQJA1
+Vk@?_l2>Rzda`2diAiJ]=C1
+R1
+w1353530870
+8C:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1/final_top_ba.v
+FC:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1/final_top_ba.v
+L0 6
+R2
+r1
+31
+R3
+!s100 0_:B5OZ<MOm4kU<f2M26z1
+!s85 0
+!s101 -O0
+vtestbench
+!s100 PSR?h5aJohEBiGz0`Sf_b2
+IoO=lU;gWLZK;JekYNPkGD3
+VI0hf]9AUT4Y5kc[AFJ7Ok1
+R1
+w1353530669
+8C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_top/testbench.v
+FC:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_top/testbench.v
+L0 12
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+!s92 +incdir+C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_top -work postlayout -O0

@@ -1,0 +1,29 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS: Windows_NT
+
+#Hostname: THINKPAD-THINK
+
+$ Start of Compile
+#Wed Nov 21 16:38:37 2012
+
+Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@I::"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v"
+@I::"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\hdl\gcn.v"
+@E: CG485 :"C:\Users\thinkpad\SkyDrive\eecs373final\final\hdl\gcn.v":47:1:47:6|expecting delimiter ';' or ','
+@E: CS187 :"C:\Users\thinkpad\SkyDrive\eecs373final\final\hdl\gcn.v":57:0:57:8|Expecting endmodule
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_mss\mss_tshell.v"
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_mss\final_mss.v"
+@I::"C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_top\final_top.v"
+2 syntax errors
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Nov 21 16:38:37 2012
+
+###########################################################]

@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell final_mss.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          INBUF_MSS         1       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                             OUTBUF         2       0.0        0.0
+                                VCC         1       0.0        0.0
+          final_mss_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL              7                  0.0
+----------------------------------------------------------------------
+Report for cell final_mss_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
