@@ -8,10 +8,13 @@ Created a new design.
 'IDE_DESIGNERVIEW_COUNT' set to '1'
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\thinkpad\SkyDrive\eecs373final\final\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
-'DESDIR' set to 'C:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1'
-'BA_DIR' set to 'C:/Users/thinkpad/SkyDrive/eecs373final/final/designer/impl1'
+'DESDIR' set to
+'C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/designer/impl1'
+'BA_DIR' set to
+'C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/designer/impl1'
 'BA_NETLIST_ALSO' set to '1'
 'EDNINFLAVOR' set to 'GENERIC'
 'NETLIST_NAMING_STYLE' set to 'VERILOG'
@@ -24,11 +27,14 @@ Created a new design.
 
  Netlist Reading Time = 1.0 seconds
 Imported the files:
-   C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top.edn
-   C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_top\final_top.pdc
-   C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top_sdc.sdc
+   C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-The Import command succeeded ( 00:00:03 )
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+inal_top.pdc
+
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+
+The Import command succeeded ( 00:00:04 )
 'BLOCK' set to 'T'
 'ENABLE_BLOCK_MODE' set to '1'
 IDE_BEGINNING_OF_COMPILE
@@ -39,10 +45,13 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top.edn
+Source      :
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_top\final_top.pdc
-              C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top_sdc.sdc
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+inal_top.pdc
+
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 Format      : EDIF
 Topcell     : final_top
 Speed grade : -1
@@ -281,7 +290,6 @@ Warning: CMP201: Net final_mss_0/LVTTL6 drives no load.
 Warning: CMP201: Net final_mss_0/LVTTL7 drives no load.
 Warning: CMP201: Net final_mss_0/LVTTL8 drives no load.
 Warning: CMP201: Net final_mss_0/LVTTL9 drives no load.
-Warning: CMP201: Net final_mss_0/M2FRESETn drives no load.
 Warning: CMP201: Net final_mss_0/MACM2FMDC drives no load.
 Warning: CMP201: Net final_mss_0/MACM2FMDEN drives no load.
 Warning: CMP201: Net final_mss_0/MACM2FMDO drives no load.
@@ -302,36 +310,19 @@ Warning: CMP201: Net final_mss_0/MSSINT[4] drives no load.
 Warning: CMP201: Net final_mss_0/MSSINT[5] drives no load.
 Warning: CMP201: Net final_mss_0/MSSINT[6] drives no load.
 Warning: CMP201: Net final_mss_0/MSSINT[7] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[0] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[1] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[2] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[3] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[4] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[5] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[6] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[7] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[8] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[9] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[10] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[11] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[12] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[13] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[14] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[15] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[16] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[17] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[18] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPADDR[19] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPENABLE drives no load.
-Warning: CMP201: Net final_mss_0/MSSPSEL drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[0] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[1] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[2] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[3] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[4] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[5] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[6] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWDATA[7] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[0] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[1] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[5] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[6] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[7] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[12] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[13] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[14] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[15] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[16] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[17] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[18] drives no load.
+Warning: CMP201: Net final_mss_0/final_mss_0_MSS_MASTER_APB_PADDR_[19] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[8] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[9] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[10] drives no load.
@@ -356,7 +347,6 @@ Warning: CMP201: Net final_mss_0/MSSPWDATA[28] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[29] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[30] drives no load.
 Warning: CMP201: Net final_mss_0/MSSPWDATA[31] drives no load.
-Warning: CMP201: Net final_mss_0/MSSPWRITE drives no load.
 Warning: CMP201: Net final_mss_0/PUFABn drives no load.
 Warning: CMP201: Net final_mss_0/SDD0 drives no load.
 Warning: CMP201: Net final_mss_0/SDD1 drives no load.
@@ -391,12 +381,10 @@ Warning: CMP201: Net final_mss_0/UART0DTRn drives no load.
 Warning: CMP201: Net final_mss_0/UART0RTSn drives no load.
 Warning: CMP201: Net final_mss_0/UART1DTRn drives no load.
 Warning: CMP201: Net final_mss_0/UART1RTSn drives no load.
-Warning: CMP201: Net final_mss_0/UART1TXD drives no load.
 Warning: CMP201: Net final_mss_0/VAREFOUT drives no load.
 Warning: CMP201: Net final_mss_0/VCC15GOOD drives no load.
 Warning: CMP201: Net final_mss_0/VCC33GOOD drives no load.
 Warning: CMP201: Net final_mss_0/WDINT drives no load.
-Warning: CMP201: Net final_mss_0/MSS_CCC_0/I_MSSCCC_GLA drives no load.
 Warning: CMP201: Net final_mss_0/MSS_CCC_0/I_MSSCCC_GLB drives no load.
 Warning: CMP201: Net final_mss_0/MSS_CCC_0/I_MSSCCC_GLC drives no load.
 Warning: CMP201: Net final_mss_0/MSS_CCC_0/I_MSSCCC_LOCK drives no load.
@@ -411,11 +399,14 @@ Optimized macros:
   - Buffers:                0
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        0
+  - Logic combining:        6
 
-    Total macros optimized  0
+    Total macros optimized  6
 
-There were 0 error(s) and 333 warning(s) in this design.
+Warning: CMP503: Remapped 85 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 313 warning(s) in this design.
 =====================================================================
 
 Reading user pdc (Physical Design Constraints) file(s) postcompile
@@ -428,12 +419,12 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:      0  Total:   4608   (0.00%)
-    Fabric IO (W/ clocks)      Used:      0  Total:     94   (0.00%)
+    Fabric                     Used:   1049  Total:   4608   (22.76%)
+    Fabric IO (W/ clocks)      Used:      2  Total:     94   (2.13%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
-    Dedicated MSS IO           Used:      4  Total:     43   (9.30%)
-    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    Dedicated MSS IO           Used:      6  Total:     43   (13.95%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
     MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
     On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
     Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
@@ -445,7 +436,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 0      | 3  (0.00%)*
+    Chip global     | 2      | 3  (66.67%)*
     Quadrant global | 0      | 12 (0.00%)
     MSS global      | 3      | 3  (100.00%)
 
@@ -457,15 +448,15 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 0            | 0
-    SEQ     | 0            | 0
+    COMB    | 607          | 607
+    SEQ     | 442          | 442
 
 I/O Function:
 
     Type                          | w/o register  | w/ register  | w/ DDR register
     ------------------------------|---------------|--------------|----------------
-    Input I/O                     | 0             | 0            | 0
-    Output I/O                    | 0             | 0            | 0
+    Input I/O                     | 1             | 0            | 0
+    Output I/O                    | 1             | 0            | 0
     Bidirectional I/O             | 0             | 0            | 0
     Differential Input I/O Pairs  | 0             | 0            | 0
     Differential Output I/O Pairs | 0             | 0            | 0
@@ -476,9 +467,105 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 1     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   2 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
 
 Net information report:
 =======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    85      SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+                          Driver: final_mss_0/MSS_ADLIB_INST
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    443     CLK_NET       Net   : final_mss_0_FAB_CLK_0
+                          Driver: final_mss_0/MSS_CCC_0/I_MSSCCC
+                          Source: ESSENTIAL
+    66      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[0]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I_RNI9VL[0]/U_CLKSRC
+                          Source: NETLIST
+    66      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I[0]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I_RNIKLI4[0]/U_CLKSRC
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+                          Driver: final_mss_0/MSS_ADLIB_INST
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTIO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTIO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[0]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[0]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+                          Driver: final_mss_0/MSS_ADLIB_INST
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTIO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTIO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I[2]
+    18      INT_NET       Net   :
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
+                          Driver:
+CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[0]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[0]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
+    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
 
 
 SDC Import: Begin processing constraints...
@@ -488,13 +575,14 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:03 )
+The Compile command succeeded ( 00:00:07 )
 Wrote to the file:
-C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top_drc_temp.rpt
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_drc_te\
+mp.rpt
 
-The Export command succeeded ( 00:00:02 )
+The Export command succeeded ( 00:00:01 )
 
-The Execute Script command succeeded ( 00:00:13 )
+The Execute Script command succeeded ( 00:00:22 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

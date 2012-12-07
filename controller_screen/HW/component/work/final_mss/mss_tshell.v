@@ -296,7 +296,7 @@ module MSS_APB
     syn_tco42="FCLK->MSSPENABLE=2.474"
     syn_tsu35="MSSPRDATA[31:0]->FCLK=0"
     syn_tsu36="MSSPREADY->FCLK=0"
-    syn_tco43="FCLK->MSSPSEL=12.49"
+    syn_tco43="FCLK->MSSPSEL=2.49"
     syn_tsu37="MSSPSLVERR->FCLK=0"
     syn_tco44="FCLK->MSSPWDATA[31:0]=2.71"
     syn_tco45="FCLK->MSSPWRITE=2.456"

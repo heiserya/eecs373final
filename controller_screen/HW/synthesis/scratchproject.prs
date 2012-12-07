@@ -1,17 +1,25 @@
 #-- Synopsys, Inc.
 #-- Version E-2010.09A-1
-#-- Project file C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\scratchproject.prs
+#-- Project file C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/thinkpad/SkyDrive/eecs373final/final/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_mss/mss_tshell.v"
-add_file -verilog "C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_mss/final_mss.v"
-add_file -verilog "C:/Users/thinkpad/SkyDrive/eecs373final/final/component/work/final_top/final_top.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/mss_tshell.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/final_mss.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_top/final_top.v"
 
 
 #implementation: "synthesis"
-impl -add C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis -type fpga
+impl -add C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis -type fpga
 
 #
 #implementation attributes
@@ -30,7 +38,7 @@ set_option -use_fsm_explorer 0
 set_option -top_module "final_top"
 
 # mapper_options
-set_option -frequency 100.000
+set_option -frequency 1
 set_option -write_verilog 0
 set_option -write_vhdl 0
 
@@ -64,5 +72,5 @@ set_option -resource_sharing 1
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/thinkpad/SkyDrive/eecs373final/final/synthesis/final_top.edn"
+project -result_file "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/synthesis/final_top.edn"
 impl -active "synthesis"

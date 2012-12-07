@@ -3,7 +3,7 @@
 
 # Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Wed Nov 28 14:18:16 2012 
+# Date generated: Thu Dec 06 19:43:51 2012 
 
 
 # 
@@ -16,6 +16,8 @@
 # 
 
 define_group -name UART_0_PADs
+
+define_group -name UART_1_PADs
 
 
 # 
@@ -47,6 +49,22 @@ set_io UART_0_TXD            \
     -pinname Y22             \
     -fixed yes               \
     -GROUP_NAME UART_0_PADs  \
+    -DIRECTION Output
+
+
+# User Group UART_1_PADs
+
+set_io UART_1_RXD            \
+    -pinname W22             \
+    -fixed yes               \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION Input
+
+
+set_io UART_1_TXD            \
+    -pinname V20             \
+    -fixed yes               \
+    -GROUP_NAME UART_1_PADs  \
     -DIRECTION Output
 
 

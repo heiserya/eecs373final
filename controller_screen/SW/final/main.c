@@ -3,6 +3,10 @@
 #include "drivers/mss_gpio/mss_gpio.h"
 #include <string.h>
 
+//SCREEN: UART1; use actel drivers to utilize
+//RADIO: RX = F0; TX = F1; use drivers we write to communicate with it
+#define UART_BASE_REG 0x40050000
+
 ///////////////
 // Controller Code
 ///////////////

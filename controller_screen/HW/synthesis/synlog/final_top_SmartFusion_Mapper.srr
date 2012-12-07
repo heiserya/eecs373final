@@ -4,63 +4,147 @@ Product Version E-2010.09A-1
 @N: MF249 |Running in 32-bit mode.
 @N: MF258 |Gated clock conversion disabled 
 
-@W: MO111 :"c:\users\thinkpad\skydrive\eecs373final\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\skydrive\eecs373final\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\skydrive\eecs373final\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W:"c:\users\thinkpad\skydrive\eecs373final\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":82:40:82:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 58MB)
 
-Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Encoding state machine work.final_top_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s(verilog)-CUARTOl0[3:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
+Encoding state machine work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog)-CUARTO1ll[6:0]
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
+Encoding state machine work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog)-CUARTOl0[2:0]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: MF176 |Default generator successful 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: MF176 |Default generator successful 
+Finished factoring (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 59MB)
 
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
+@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 60MB)
 
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 61MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Finished Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
-Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Finished preparing to map (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
 
-Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                                                        Fanout, notes                   
+------------------------------------------------------------------------------------------------------------------
+final_mss_0.MSS_ADLIB_INST / M2FRESETn                                            150 : 148 asynchronous set/reset
+CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] / Q     66                              
+CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1] / Q     34                              
+CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[0] / Q       66                              
+CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q       34                              
+==================================================================================================================
+
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_81 
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_82 
+Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
+Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
+Finished technology mapping (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+
+@N: MF322 |Retiming summary: 0 registers retimed to 6 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 6
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTIOII_ret
+		CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTIOII_ret_1
+		CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTIOII_ret_2
+		CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTIOII_ret
+		CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTIOII_ret_1
+		CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTIOII_ret_2
+
+
+		#####   END RETIMING REPORT  #####
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
 
 
 Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Finished restoring hierarchy (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
 
-Writing Analyst data base C:\Users\thinkpad\SkyDrive\eecs373final\final\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Writing Analyst data base C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:05s; Memory used current: 61MB peak: 62MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 55MB peak: 56MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:05s; Memory used current: 61MB peak: 62MB)
 
-@W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 10.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
+@W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
-@W: MT420 |Found inferred clock final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock with period 10.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_FCLK"
+@W: MT420 |Found inferred clock final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0_FAB_CLK_0"
+
+@W: MT420 |Found inferred clock final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_FCLK"
 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Nov 28 14:19:14 2012
+# Timing Report written on Thu Dec 06 20:21:34 2012
 #
 
 
 Top view:               final_top
 Library name:           smartfusion
 Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
-Requested Frequency:    100.0 MHz
+Requested Frequency:    1.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
@@ -75,8 +159,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: NA
+Worst slack in design: 986.912
 
+                                                                         Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                                           Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock       1.0 MHz       150.3 MHz     1000.000      6.655         993.345     inferred     Inferred_clkgroup_1
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     1.0 MHz       76.4 MHz      1000.000      13.088        986.912     inferred     Inferred_clkgroup_2
+=============================================================================================================================================================================
 
 
 
@@ -85,11 +175,15 @@ Worst slack in design: NA
 Clock Relationships
 *******************
 
-Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
---------------------------------------------------------------------------------------------------------
-Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
---------------------------------------------------------------------------------------------------------
-========================================================================================================
+Clocks                                                                                                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                              Ending                                                                |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    |  1000.000    993.345  |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  |  1000.000    986.912  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -101,6 +195,189 @@ Interface Information
 		No IO constraint found 
 
 
+
+====================================
+Detailed Report for Clock: final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                                                                                        Arrival            
+Instance                       Reference                                                              Type        Pin              Net                                         Time        Slack  
+                               Clock                                                                                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[11]     final_mss_0_MSS_MASTER_APB_PADDR_\[11\]     2.679       993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[10]     final_mss_0_MSS_MASTER_APB_PADDR_\[10\]     2.679       993.513
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[8]      final_mss_0_MSS_MASTER_APB_PADDR_\[8\]      2.679       993.572
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPSEL          final_mss_0_MSS_MASTER_APB_PSELx            2.490       993.586
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[9]      final_mss_0_MSS_MASTER_APB_PADDR_\[9\]      2.679       993.652
+==================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                               Starting                                                                                                         Required            
+Instance                       Reference                                                              Type        Pin              Net          Time         Slack  
+                               Clock                                                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[0]     PRDATA_0     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[1]     PRDATA_1     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[2]     PRDATA_2     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[3]     PRDATA_3     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[4]     PRDATA_4     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[5]     PRDATA_5     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[6]     PRDATA_6     1000.000     993.345
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[7]     PRDATA_7     1000.000     993.345
+====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.000
+
+    - Propagation time:                      6.655
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 993.345
+
+    Number of logic level(s):                2
+    Starting point:                          final_mss_0.MSS_ADLIB_INST / MSSPADDR[11]
+    Ending point:                            final_mss_0.MSS_ADLIB_INST / MSSPRDATA[0]
+    The start point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
+    The end   point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
+
+Instance / Net                                          Pin              Pin               Arrival     No. of    
+Name                                        Type        Name             Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+final_mss_0.MSS_ADLIB_INST                  MSS_APB     MSSPADDR[11]     Out     2.679     2.679       -         
+final_mss_0_MSS_MASTER_APB_PADDR_\[11\]     Net         -                -       0.322     -           1         
+CoreAPB3_0.CAPB3O11_2[0]                    NOR3A       C                In      -         3.000       -         
+CoreAPB3_0.CAPB3O11_2[0]                    NOR3A       Y                Out     0.716     3.716       -         
+CAPB3O11_2[0]                               Net         -                -       1.994     -           12        
+CoreAPB3_0.CAPB3llOI.PRDATA_0               NOR3C       B                In      -         5.710       -         
+CoreAPB3_0.CAPB3llOI.PRDATA_0               NOR3C       Y                Out     0.624     6.334       -         
+PRDATA_0                                    Net         -                -       0.322     -           1         
+final_mss_0.MSS_ADLIB_INST                  MSS_APB     MSSPRDATA[0]     In      -         6.655       -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 6.655 is 4.019(60.4%) logic and 2.636(39.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                                       Arrival            
+Instance                                                                        Reference                                                                Type         Pin     Net              Time        Slack  
+                                                                                Clock                                                                                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[2]     0.737       986.912
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[0]     0.737       987.112
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[1]     0.737       987.251
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[3]     0.737       987.524
+CoreUARTapb_0.CUARTOOlI.CUARTOl0[1]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTOl0[1]      0.580       987.995
+CoreUARTapb_0.CUARTOOlI.CUARTOl0[0]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTOl0[0]      0.580       988.146
+CoreUARTapb_0.CUARTOOlI.CUARTII0                                                final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E0P0     Q       CUARTII0         0.737       988.274
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[0]          final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTO0[0]       0.737       988.852
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[1]          final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTO0[1]       0.737       988.991
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTI0             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTIl          0.737       989.386
+==================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                    Starting                                                                                                         Required            
+Instance                                                                                                            Reference                                                                Type       Pin     Net                  Time         Slack  
+                                                                                                                    Clock                                                                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[3]     999.427      986.912
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[2]     999.427      987.735
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[12]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n12          999.427      988.852
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTOO0I[3]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTOO0I[3]     999.461      989.062
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[1]                                              final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n1           999.461      989.239
+CoreUARTapb_0.CUARTOOlI.CUARTl10.CUARTO1ll[5]                                                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO1ll_ns[5]      999.427      989.386
+CoreUARTapb_0.CUARTOOlI.CUARTl10.CUARTO1ll[3]                                                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO1ll_RNO[3]     999.461      989.552
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[11]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n11          999.427      989.618
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[1]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[1]     999.427      989.677
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.859
+=========================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.427
+
+    - Propagation time:                      12.515
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     986.912
+
+    Number of logic level(s):                8
+    Starting point:                          CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2] / Q
+    Ending point:                            CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3] / D
+    The start point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                      Pin      Pin               Arrival     No. of    
+Name                                                                                                     Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2]                              DFN1C0     Q        Out     0.737     0.737       -         
+CUARTl1lI[2]                                                                                             Net        -        -       1.279     -           5         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI_RNI742E[3]                      OR2        B        In      -         2.016       -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI_RNI742E[3]                      OR2        Y        Out     0.646     2.663       -         
+CUARTIllI_0                                                                                              Net        -        -       0.322     -           1         
+CoreUARTapb_0.CUARTOOlI.CUARTII0_RNIOV6U                                                                 OAI1       B        In      -         2.984       -         
+CoreUARTapb_0.CUARTOOlI.CUARTII0_RNIOV6U                                                                 OAI1       Y        Out     0.554     3.539       -         
+CUARTIl04                                                                                                Net        -        -       0.386     -           2         
+CoreUARTapb_0.CUARTOOlI.CUARTOl0_RNIJ0P61[0]                                                             NOR2A      B        In      -         3.924       -         
+CoreUARTapb_0.CUARTOOlI.CUARTOl0_RNIJ0P61[0]                                                             NOR2A      Y        Out     0.386     4.310       -         
+CUARTIIlI_i_1                                                                                            Net        -        -       2.082     -           14        
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI_0_sqmuxa_0_a2                   NOR2A      A        In      -         6.392       -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI_0_sqmuxa_0_a2                   NOR2A      Y        Out     0.627     7.020       -         
+un1_CUARTl1lI_0_sqmuxa[1]                                                                                Net        -        -       1.423     -           6         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I2_un5_CO1     OR2B       A        In      -         8.443       -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I2_un5_CO1     OR2B       Y        Out     0.514     8.957       -         
+I2_un5_CO1                                                                                               Net        -        -       0.386     -           2         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I1_CO1         AO1B       C        In      -         9.343       -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I1_CO1         AO1B       Y        Out     0.655     9.998       -         
+N76                                                                                                      Net        -        -       0.386     -           2         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I2_un1_CO1     AO1B       A        In      -         10.384      -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I2_un1_CO1     AO1B       Y        Out     0.502     10.886      -         
+I2_un1_CO1                                                                                               Net        -        -       0.322     -           1         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I3_Y_0         XOR3       C        In      -         11.208      -         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.un1_CUARTl1lI.ADD_4x4_slow_I3_Y_0         XOR3       Y        Out     0.985     12.193      -         
+un1_CUARTl1lI[3]                                                                                         Net        -        -       0.322     -           1         
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3]                              DFN1C0     D        In      -         12.515      -         
+=====================================================================================================================================================================
+Total path delay (propagation time + setup) of 13.088 is 6.182(47.2%) logic and 6.907(52.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
 ##### END OF TIMING REPORT #####]
 
 --------------------------------------------------------------------------------
@@ -108,34 +385,88 @@ Target Part: A2F200M3F_FBGA256_Std
 Report for cell final_top.verilog
   Core Cell usage:
               cell count     area count*area
-               GND     3      0.0        0.0
+              AND2     2      1.0        2.0
+               AO1     2      1.0        2.0
+              AO1B     6      1.0        6.0
+              AO1C     9      1.0        9.0
+              AO1D     2      1.0        2.0
+              AOI1     3      1.0        3.0
+             AOI1B     6      1.0        6.0
+              AX1A     2      1.0        2.0
+              AX1B     7      1.0        7.0
+              AX1C     1      1.0        1.0
+              AX1E     2      1.0        2.0
+            CLKINT     2      0.0        0.0
+               GND    16      0.0        0.0
+               INV     6      1.0        6.0
+              MIN3     1      1.0        1.0
            MSS_CCC     1      0.0        0.0
+               MX2   245      1.0      245.0
+              MX2C     3      1.0        3.0
+              NOR2    11      1.0       11.0
+             NOR2A    15      1.0       15.0
+             NOR2B    25      1.0       25.0
+              NOR3    11      1.0       11.0
+             NOR3A    21      1.0       21.0
+             NOR3B    15      1.0       15.0
+             NOR3C    14      1.0       14.0
+               OA1     1      1.0        1.0
+              OA1A     4      1.0        4.0
+              OA1C     6      1.0        6.0
+              OAI1     2      1.0        2.0
+               OR2    17      1.0       17.0
+              OR2A     6      1.0        6.0
+              OR2B    19      1.0       19.0
+               OR3     1      1.0        1.0
+              OR3A     5      1.0        5.0
+              OR3B     7      1.0        7.0
+              OR3C     8      1.0        8.0
              RCOSC     1      0.0        0.0
-               VCC     3      0.0        0.0
+               VCC    16      0.0        0.0
+               XA1     3      1.0        3.0
+              XA1A     1      1.0        1.0
+              XA1B     1      1.0        1.0
+              XA1C     1      1.0        1.0
+              XAI1     1      1.0        1.0
+             XNOR2     5      1.0        5.0
+               XO1     2      1.0        2.0
+              XO1A     3      1.0        3.0
+              XOR2    20      1.0       20.0
+              XOR3     6      1.0        6.0
 
 
+              DFN1     4      1.0        4.0
+            DFN1C0    60      1.0       60.0
+            DFN1E0     8      1.0        8.0
+          DFN1E0C0    24      1.0       24.0
+          DFN1E0P0     3      1.0        3.0
+            DFN1E1   280      1.0      280.0
+          DFN1E1C0    58      1.0       58.0
+            DFN1P0     5      1.0        5.0
            MSS_APB     1      0.0        0.0
                    -----          ----------
-             TOTAL     9                 0.0
+             TOTAL  1007               970.0
 
 
   IO Cell usage:
               cell count
          BIBUF_MSS     1
-         INBUF_MSS     2
-        OUTBUF_MSS     1
+             INBUF     1
+         INBUF_MSS     3
+            OUTBUF     1
+        OUTBUF_MSS     2
                    -----
-             TOTAL     4
+             TOTAL     8
 
 
-Core Cells         : 0 of 4608 (0%)
-IO Cells           : 4
+Core Cells         : 970 of 4608 (21%)
+IO Cells           : 8
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Nov 28 14:19:14 2012
+Process took 0h:00m:10s realtime, 0h:00m:06s cputime
+# Thu Dec 06 20:21:34 2012
 
 ###########################################################]

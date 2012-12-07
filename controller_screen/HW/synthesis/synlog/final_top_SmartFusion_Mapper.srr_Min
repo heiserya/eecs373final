@@ -1,13 +1,13 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Nov 28 14:19:14 2012
+# Timing Report written on Thu Dec 06 20:21:34 2012
 #
 
 
 Top view:               final_top
 Operating conditions:   smartfusion.COMWC-2
-Requested Frequency:    100.0 MHz
+Requested Frequency:    1.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
@@ -24,17 +24,27 @@ Performance Summary
 
 Worst slack in design: NA
 
+                                                                         Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                                           Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock       1.0 MHz       150.3 MHz     1000.000      6.655         993.345     inferred     Inferred_clkgroup_1
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     1.0 MHz       76.4 MHz      1000.000      13.088        986.912     inferred     Inferred_clkgroup_2
+=============================================================================================================================================================================
 
 
 
 Clock Relationships
 *******************
 
-Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
---------------------------------------------------------------------------------------------------------
-Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
---------------------------------------------------------------------------------------------------------
-========================================================================================================
+Clocks                                                                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                              Ending                                                                |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 

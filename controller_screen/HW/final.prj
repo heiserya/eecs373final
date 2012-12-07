@@ -7,7 +7,7 @@ KEY HDLTechnology "VERILOG"
 KEY VendorTechnology_Family "SmartFusion"
 KEY VendorTechnology_Die "IP4X3M1"
 KEY VendorTechnology_Package "fg484"
-KEY ProjectLocation "C:\Users\thinkpad\SkyDrive\eecs373final\final"
+KEY ProjectLocation "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW"
 KEY SimulationType "VERILOG"
 KEY Vendor "Actel"
 KEY ActiveRoot "final_top::work"
@@ -17,21 +17,159 @@ CURREV=1
 ENDLIST
 LIST LIBRARIES
 MSS_BFM_LIB
+COREAPB3_LIB
 ENDLIST
 LIST LIBRARY_MSS_BFM_LIB
 ALIAS=..\component\Actel\SmartFusionMSS\MSS\2.5.106\mti\user_verilog\MSS_BFM_LIB
 COMPILE_OPTION=REFRESH_AND_COMPILE
 ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=..\component\Actel\DirectCore\CoreAPB3\3.0.103\mti\user_vlog\COREAPB3_LIB
+COMPILE_OPTION=REFRESH_AND_COMPILE
+ENDLIST
 LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354843139"
+SIZE="2278"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1354843140"
+SIZE="882"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1354843134"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v,hdl"
+STATE="utd"
+TIME="1354843139"
+SIZE="20552"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v,hdl"
+STATE="utd"
+TIME="1354843139"
+SIZE="6349"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1354843134"
+SIZE="16546"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354843155"
+SIZE="1812"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="8058"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="11180"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="2461"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="48750"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="4635"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="9072"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="25127"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="36273"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="4698"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="122453"
+PARENT="<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\CoreUARTapb.cxf"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130312"
+TIME="1354841046"
 SIZE="945"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v,hdl"
 STATE="utd"
-TIME="1354130312"
+TIME="1354841046"
 SIZE="11243"
 PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -43,97 +181,97 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130300"
+TIME="1354841035"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130300"
+TIME="1354841035"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130300"
+TIME="1354841035"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130300"
+TIME="1354841035"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.102\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130303"
+TIME="1354841038"
 SIZE="253"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130303"
+TIME="1354841038"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130303"
+TIME="1354841038"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841038"
 SIZE="253"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841038"
 SIZE="253"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841038"
 SIZE="254"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841038"
 SIZE="252"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841038"
 SIZE="254"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UART\1.0.101\MSS_UART.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841039"
 SIZE="253"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130304"
+TIME="1354841039"
 SIZE="254"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\work\final_mss\final_mss.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130312"
-SIZE="9544"
+TIME="1354841046"
+SIZE="13005"
 ENDFILE
 VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
 STATE="utd"
-TIME="1354130296"
-SIZE="1901"
+TIME="1354841031"
+SIZE="2272"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideDESIGNER"
@@ -143,8 +281,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_mss\final_mss.v,hdl"
 STATE="utd"
-TIME="1354130312"
-SIZE="9803"
+TIME="1354841046"
+SIZE="11173"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -157,28 +295,28 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130300"
+TIME="1354841035"
 SIZE="485"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
 STATE="utd"
-TIME="1354130300"
-SIZE="2905"
+TIME="1354841035"
+SIZE="2883"
 PARENT="<project>\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
 STATE="utd"
-TIME="1354130303"
+TIME="1354841038"
 SIZE="16217"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_mss\mss_tshell.v,hdl"
 STATE="utd"
-TIME="1354130304"
-SIZE="12227"
+TIME="1354841039"
+SIZE="12226"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
@@ -189,20 +327,99 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1354130312"
-SIZE="1530"
+TIME="1354841046"
+SIZE="1782"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1354843155"
+SIZE="604"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1354843155"
+SIZE="4109"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1354843154"
+SIZE="1011"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
+STATE="utd"
+TIME="1354843154"
+SIZE="2034"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v,hdl"
+STATE="utd"
+TIME="1354843154"
+SIZE="6128"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
+STATE="utd"
+TIME="1354843155"
+SIZE="9051"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v,hdl"
+STATE="utd"
+TIME="1354843155"
+SIZE="6587"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v,hdl"
+STATE="utd"
+TIME="1354843155"
+SIZE="5103"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v,hdl"
+STATE="utd"
+TIME="1354843154"
+SIZE="9464"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v,hdl"
+STATE="utd"
+TIME="1354843155"
+SIZE="5225"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1354843142"
+SIZE="8945"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_top\final_top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1354130344"
-SIZE="2962"
+TIME="1354843156"
+SIZE="5175"
 ENDFILE
 VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
 STATE="utd"
-TIME="1354130343"
-SIZE="2448"
+TIME="1354843124"
+SIZE="3251"
 PARENT="<project>\component\work\final_top\final_top.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideDESIGNER"
@@ -212,15 +429,15 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_top\final_top.v,hdl"
 STATE="utd"
-TIME="1354130344"
-SIZE="517"
+TIME="1354843155"
+SIZE="29828"
 PARENT="<project>\component\work\final_top\final_top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1354130344"
-SIZE="1508"
+TIME="1354843160"
+SIZE="1592"
 PARENT="<project>\component\work\final_top\final_top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -269,31 +486,62 @@ STATE="utd"
 TIME="1354130520"
 SIZE="2027"
 ENDFILE
-VALUE "<project>\hdl\gcn.v,hdl"
-STATE="utd"
-TIME="1353805942"
-SIZE="3133"
-ENDFILE
 VALUE "<project>\hdl\n64.v,hdl"
 STATE="utd"
 TIME="1353516885"
 SIZE="477"
 ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1354843156"
+SIZE="1237"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+ENDFILE
 VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 STATE="utd"
-TIME="1354130315"
+TIME="1354841050"
 SIZE="41"
 PARENT="<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1354843158"
+SIZE="10524"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1354843158"
+SIZE="3992"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1354843159"
+SIZE="2905"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreuart_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1354843159"
+SIZE="13006"
+PARENT="<project>\component\work\final_top\CoreUARTapb_0\final_top_CoreUARTapb_0_CoreUARTapb.cxf"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
 TIME="1353530873"
 SIZE="1195"
 ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1354843156"
+SIZE="632"
+PARENT="<project>\component\work\final_top\final_top.cxf"
+ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1354130314"
-SIZE="5497"
+TIME="1354841049"
+SIZE="5496"
 PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\simulation\user.bfm,sim"
@@ -377,6 +625,7 @@ ENDLIST
 LIST "final_top::work"
 FILE "<project>\component\work\final_top\final_top.v,hdl"
 LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
 VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
 VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
 ENDLIST
@@ -398,6 +647,78 @@ ENDUsed_File_List
 ENDLIST
 ENDLIST
 ENDLIST
+LIST "final_top_CoreUARTapb_0_CoreUARTapb::work"
+FILE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coreuart_usertb_include.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB"
+FILE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_include.bfm,sim"
+VALUE "<project>\simulation\coreapb3_usertb_apb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\mti\scripts\wave_user.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 LIST final_top
@@ -406,9 +727,28 @@ ENDLIST
 LIST final_mss
 VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
 ENDLIST
+LIST final_top_CoreUARTapb_0_CoreUARTapb
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
 LIST final_top
+VALUE "<project>\simulation\subsystem.bfm,sim"
 VALUE "<project>\component\work\final_top\testbench.v,tb_hdl"
 VALUE "<project>\component\work\final_top\final_top.pdc,pdc"
 ENDLIST
@@ -419,6 +759,32 @@ VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
 VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
 VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
 VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
+ENDLIST
+LIST final_top_CoreUARTapb_0_CoreUARTapb
+VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coreuart_usertb_include.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\final_top\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_include.bfm,sim"
+VALUE "<project>\simulation\coreapb3_usertb_apb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\mti\scripts\wave_user.do,do"
 ENDLIST
 ENDLIST
 LIST SimulationOptions
@@ -525,6 +891,28 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
+LIST "final_top_CoreUARTapb_0_CoreUARTapb::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -537,4 +925,7 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
+DESIGNFLOW:
+SD:final_top::work
+ACTIVE_VIEW:0
 ENDLIST
