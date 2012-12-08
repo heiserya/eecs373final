@@ -186,8 +186,32 @@ output TX;
         , .APBSLOT3ENABLE(0), .APBSLOT4ENABLE(0), .APBSLOT5ENABLE(0), .APBSLOT6ENABLE(0)
         , .APBSLOT7ENABLE(0), .APBSLOT8ENABLE(0), .APBSLOT9ENABLE(0), .APB_DWIDTH(32)
         , .IADDR_ENABLE(0), .RANGESIZE(256) )  CoreAPB3_0 (.PRESETN(
-        GND_net), .PCLK(GND_net), .PADDR({GND_net, GND_net, GND_net, 
-        GND_net, \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
+        GND_net), .PCLK(GND_net), .PWRITE(
+        final_mss_0_MSS_MASTER_APB_PWRITE), .PENABLE(
+        final_mss_0_MSS_MASTER_APB_PENABLE), .PSEL(
+        final_mss_0_MSS_MASTER_APB_PSELx), .PREADY(
+        final_mss_0_MSS_MASTER_APB_PREADY), .PSLVERR(
+        final_mss_0_MSS_MASTER_APB_PSLVERR), .PWRITES(
+        CoreAPB3_0_APBmslave0_PWRITE), .PENABLES(
+        CoreAPB3_0_APBmslave0_PENABLE), .PSELS0(
+        CoreAPB3_0_APBmslave0_PSELx), .PREADYS0(
+        CoreAPB3_0_APBmslave0_PREADY), .PSLVERRS0(
+        CoreAPB3_0_APBmslave0_PSLVERR), .PSELS1(), .PREADYS1(VCC_net), 
+        .PSLVERRS1(GND_net), .PSELS2(), .PREADYS2(VCC_net), .PSLVERRS2(
+        GND_net), .PSELS3(), .PREADYS3(VCC_net), .PSLVERRS3(GND_net), 
+        .PSELS4(), .PREADYS4(VCC_net), .PSLVERRS4(GND_net), .PSELS5(), 
+        .PREADYS5(VCC_net), .PSLVERRS5(GND_net), .PSELS6(), .PREADYS6(
+        VCC_net), .PSLVERRS6(GND_net), .PSELS7(), .PREADYS7(VCC_net), 
+        .PSLVERRS7(GND_net), .PSELS8(), .PREADYS8(VCC_net), .PSLVERRS8(
+        GND_net), .PSELS9(), .PREADYS9(VCC_net), .PSLVERRS9(GND_net), 
+        .PSELS10(), .PREADYS10(VCC_net), .PSLVERRS10(GND_net), 
+        .PSELS11(), .PREADYS11(VCC_net), .PSLVERRS11(GND_net), 
+        .PSELS12(), .PREADYS12(VCC_net), .PSLVERRS12(GND_net), 
+        .PSELS13(), .PREADYS13(VCC_net), .PSLVERRS13(GND_net), 
+        .PSELS14(), .PREADYS14(VCC_net), .PSLVERRS14(GND_net), 
+        .PSELS15(), .PREADYS15(VCC_net), .PSLVERRS15(GND_net), .PADDR({
+        GND_net, GND_net, GND_net, GND_net, 
+        \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[18] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[17] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[16] , 
@@ -206,9 +230,7 @@ output TX;
         \final_mss_0_MSS_MASTER_APB_PADDR_[3] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[2] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[1] , 
-        \final_mss_0_MSS_MASTER_APB_PADDR_[0] }), .PWRITE(
-        final_mss_0_MSS_MASTER_APB_PWRITE), .PENABLE(
-        final_mss_0_MSS_MASTER_APB_PENABLE), .PWDATA({
+        \final_mss_0_MSS_MASTER_APB_PADDR_[0] }), .PWDATA({
         \final_mss_0_MSS_MASTER_APB_PWDATA_[31] , 
         \final_mss_0_MSS_MASTER_APB_PWDATA_[30] , 
         \final_mss_0_MSS_MASTER_APB_PWDATA_[29] , 
@@ -272,11 +294,8 @@ output TX;
         \final_mss_0_MSS_MASTER_APB_PRDATA_[3] , 
         \final_mss_0_MSS_MASTER_APB_PRDATA_[2] , 
         \final_mss_0_MSS_MASTER_APB_PRDATA_[1] , 
-        \final_mss_0_MSS_MASTER_APB_PRDATA_[0] }), .PSEL(
-        final_mss_0_MSS_MASTER_APB_PSELx), .PREADY(
-        final_mss_0_MSS_MASTER_APB_PREADY), .PSLVERR(
-        final_mss_0_MSS_MASTER_APB_PSLVERR), .PADDRS({nc0, nc1, nc2, 
-        nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13, 
+        \final_mss_0_MSS_MASTER_APB_PRDATA_[0] }), .PADDRS({nc0, nc1, 
+        nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13, 
         nc14, nc15, nc16, nc17, nc18, nc19, nc20, nc21, nc22, nc23}), 
         .PADDRS0({\CoreAPB3_0_APBmslave0_PADDR_[23] , 
         \CoreAPB3_0_APBmslave0_PADDR_[22] , 
@@ -301,9 +320,7 @@ output TX;
         \CoreAPB3_0_APBmslave0_PADDR_[3] , 
         \CoreAPB3_0_APBmslave0_PADDR_[2] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
-        \CoreAPB3_0_APBmslave0_PADDR_[0] }), .PWRITES(
-        CoreAPB3_0_APBmslave0_PWRITE), .PENABLES(
-        CoreAPB3_0_APBmslave0_PENABLE), .PWDATAS({
+        \CoreAPB3_0_APBmslave0_PADDR_[0] }), .PWDATAS({
         \CoreAPB3_0_APBmslave0_PWDATA_[31] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[30] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[29] , 
@@ -335,108 +352,92 @@ output TX;
         \CoreAPB3_0_APBmslave0_PWDATA_[3] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[2] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[1] , 
-        \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .PSELS0(
-        CoreAPB3_0_APBmslave0_PSELx), .PRDATAS0({GND_net, GND_net, 
+        \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .PRDATAS0({GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, \CoreAPB3_0_APBmslave0_PRDATA_[7] , 
+        GND_net, GND_net, \CoreAPB3_0_APBmslave0_PRDATA_[7] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[6] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[5] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[4] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[3] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[2] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[1] , 
-        \CoreAPB3_0_APBmslave0_PRDATA_[0] }), .PREADYS0(
-        CoreAPB3_0_APBmslave0_PREADY), .PSLVERRS0(
-        CoreAPB3_0_APBmslave0_PSLVERR), .PSELS1(), .PRDATAS1({GND_net, 
+        \CoreAPB3_0_APBmslave0_PRDATA_[0] }), .PRDATAS1({GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net}), .PREADYS1(VCC_net), .PSLVERRS1(
-        GND_net), .PSELS2(), .PRDATAS2({GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net}), .PRDATAS2({GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net}), .PREADYS2(VCC_net), .PSLVERRS2(GND_net), .PSELS3(), 
-        .PRDATAS3({GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS3(VCC_net), .PSLVERRS3(GND_net), .PSELS4(), .PRDATAS4({
+        GND_net, GND_net}), .PRDATAS3({GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net}), .PREADYS4(VCC_net), 
-        .PSLVERRS4(GND_net), .PSELS5(), .PRDATAS5({GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net}), .PREADYS5(VCC_net), .PSLVERRS5(GND_net), 
-        .PSELS6(), .PRDATAS6({GND_net, GND_net, GND_net, GND_net, 
+        GND_net}), .PRDATAS4({GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net})
-        , .PREADYS6(VCC_net), .PSLVERRS6(GND_net), .PSELS7(), 
+        , .PRDATAS5({GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
+        .PRDATAS6({GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
         .PRDATAS7({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS7(VCC_net), .PSLVERRS7(GND_net), .PSELS8(), .PRDATAS8({
+        .PRDATAS8({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net}), .PREADYS8(VCC_net), 
-        .PSLVERRS8(GND_net), .PSELS9(), .PRDATAS9({GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
+        .PRDATAS9({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net}), .PREADYS9(VCC_net), .PSLVERRS9(GND_net), 
-        .PSELS10(), .PRDATAS10({GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
+        .PRDATAS10({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net})
-        , .PREADYS10(VCC_net), .PSLVERRS10(GND_net), .PSELS11(), 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
         .PRDATAS11({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS11(VCC_net), .PSLVERRS11(GND_net), .PSELS12(), 
         .PRDATAS12({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS12(VCC_net), .PSLVERRS12(GND_net), .PSELS13(), 
         .PRDATAS13({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS13(VCC_net), .PSLVERRS13(GND_net), .PSELS14(), 
         .PRDATAS14({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS14(VCC_net), .PSLVERRS14(GND_net), .PSELS15(), 
         .PRDATAS15({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PREADYS15(VCC_net), .PSLVERRS15(GND_net));
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}));
     VCC VCC (.Y(VCC_net));
     GND GND (.Y(GND_net));
     final_mss final_mss_0 (.MSS_RESET_N(MSS_RESET_N), .M2F_RESET_N(
@@ -537,15 +538,17 @@ output TX;
         , .BAUD_VAL_FRCTN_EN(0), .FAMILY(18), .FIXEDMODE(1), .PRG_BIT8(1)
         , .PRG_PARITY(0), .RX_FIFO(1), .RX_LEGACY_MODE(0), .TX_FIFO(1)
          )  CoreUARTapb_0 (.PCLK(final_mss_0_FAB_CLK_0), .PRESETN(
-        final_mss_0_M2F_RESET_N), .PADDR({
+        final_mss_0_M2F_RESET_N), .PSEL(CoreAPB3_0_APBmslave0_PSELx), 
+        .PENABLE(CoreAPB3_0_APBmslave0_PENABLE), .PWRITE(
+        CoreAPB3_0_APBmslave0_PWRITE), .TXRDY(), .RXRDY(), .PARITY_ERR(
+        ), .OVERFLOW(), .RX(RX), .TX(TX), .PREADY(
+        CoreAPB3_0_APBmslave0_PREADY), .PSLVERR(
+        CoreAPB3_0_APBmslave0_PSLVERR), .FRAMING_ERR(), .PADDR({
         \CoreAPB3_0_APBmslave0_PADDR_[4] , 
         \CoreAPB3_0_APBmslave0_PADDR_[3] , 
         \CoreAPB3_0_APBmslave0_PADDR_[2] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
-        \CoreAPB3_0_APBmslave0_PADDR_[0] }), .PSEL(
-        CoreAPB3_0_APBmslave0_PSELx), .PENABLE(
-        CoreAPB3_0_APBmslave0_PENABLE), .PWRITE(
-        CoreAPB3_0_APBmslave0_PWRITE), .PWDATA({
+        \CoreAPB3_0_APBmslave0_PADDR_[0] }), .PWDATA({
         \CoreAPB3_0_APBmslave0_PWDATA_[7] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[6] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[5] , 
@@ -561,9 +564,6 @@ output TX;
         \CoreAPB3_0_APBmslave0_PRDATA_[3] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[2] , 
         \CoreAPB3_0_APBmslave0_PRDATA_[1] , 
-        \CoreAPB3_0_APBmslave0_PRDATA_[0] }), .TXRDY(), .RXRDY(), 
-        .PARITY_ERR(), .OVERFLOW(), .RX(RX), .TX(TX), .PREADY(
-        CoreAPB3_0_APBmslave0_PREADY), .PSLVERR(
-        CoreAPB3_0_APBmslave0_PSLVERR), .FRAMING_ERR());
+        \CoreAPB3_0_APBmslave0_PRDATA_[0] }));
     
 endmodule

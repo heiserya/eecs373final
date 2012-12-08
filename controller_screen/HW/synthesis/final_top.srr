@@ -5,10 +5,10 @@
 
 #Implementation: synthesis
 
-#Thu Dec 06 20:21:18 2012
+#Sat Dec 08 15:49:32 2012
 
 $ Start of Compile
-#Thu Dec 06 20:21:18 2012
+#Sat Dec 08 15:49:32 2012
 
 Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
 @N|Running in 32-bit mode
@@ -30,7 +30,19 @@ Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
 @I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"
 @I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v"
 Verilog syntax check successful!
-Options changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v changed - recompiling
+File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v changed - recompiling
 Selecting top level module final_top
 @W: CG775 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
 @N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
@@ -281,7 +293,7 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused
 @END
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Thu Dec 06 20:21:20 2012
+# Sat Dec 08 15:49:33 2012
 
 ###########################################################]
 Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
@@ -349,15 +361,15 @@ Finished factoring (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 59M
 Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 60MB)
 
 @W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 61MB)
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 61MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
 
 Finished Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
 Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
-Finished preparing to map (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
 
 High Fanout Net Report
@@ -376,7 +388,7 @@ CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q     
 @N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_82 
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
-Finished technology mapping (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished technology mapping (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 6 
 
@@ -398,21 +410,21 @@ New registers created by retiming :
 
 		#####   END RETIMING REPORT  #####
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
 
 Added 0 Buffers
 Added 2 Cells via replication
 	Added 2 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished restoring hierarchy (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
 
 Writing Analyst data base C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:05s; Memory used current: 61MB peak: 62MB)
+Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:05s; Memory used current: 61MB peak: 62MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
 
 @W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
@@ -423,7 +435,7 @@ Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:05s; Mem
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Thu Dec 06 20:21:34 2012
+# Timing Report written on Sat Dec 08 15:49:58 2012
 #
 
 
@@ -752,7 +764,7 @@ IO Cells           : 8
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:10s realtime, 0h:00m:06s cputime
-# Thu Dec 06 20:21:34 2012
+Process took 0h:00m:23s realtime, 0h:00m:04s cputime
+# Sat Dec 08 15:49:58 2012
 
 ###########################################################]

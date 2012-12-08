@@ -1,7 +1,7 @@
 
 Starting:    C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\mbin\synplify.exe
 Install:     C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
-Date:        Thu Dec 06 20:21:14 2012
+Date:        Sat Dec 08 15:49:23 2012
 Version:     E-2010.09A-1
 
 Arguments:   -product synplify_pro final_top_syn.prj
@@ -34,7 +34,7 @@ Running SmartFusion Mapper...
 
 SmartFusion Mapper Completed with warnings
 Return Code: 1
-Run Time:00:00:14
+Run Time:00:00:25
 
 exit status=0
 

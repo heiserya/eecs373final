@@ -12,7 +12,7 @@ inal_top.pdc
 
 C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 
-The Import command succeeded ( 00:00:03 )
+The Import command succeeded ( 00:00:04 )
 Info: The design
       C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
       _top.adb was last modified by software version 9.1.5.1.
@@ -578,7 +578,7 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:06 )
+The Compile command succeeded ( 00:00:07 )
 ***** Layout Variables *********************************************
 
 Mode: TIMING_DRIVEN
@@ -601,16 +601,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Thu Dec 06 20:24:59 2012
+Timing-driven Placer Started: Sat Dec 08 15:51:18 2012
 
-Placer Finished: Thu Dec 06 20:25:27 2012
+Placer Finished: Sat Dec 08 15:51:46 2012
 Total Placer CPU Time:     00:00:28
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: final_top                       Started: Thu Dec 06 20:25:33 2012
+Design: final_top                       Started: Sat Dec 08 15:51:54 2012
 
  
 Iterative improvement...
@@ -618,8 +618,8 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: final_top                       
-Finished: Thu Dec 06 20:25:56 2012
-Total CPU Time:     00:00:22            Total Elapsed Time: 00:00:23
+Finished: Sat Dec 08 15:52:21 2012
+Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:27
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -627,13 +627,13 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:01:09 )
+The Layout command succeeded ( 00:01:14 )
 
-The Export-map command succeeded ( 00:00:16 )
+The Export-map command succeeded ( 00:00:18 )
 CHECKSUM: 2FCE
 Wrote to the file: final_top.fdb
 
-The Export command succeeded ( 00:01:34 )
+The Export command succeeded ( 00:01:42 )
 Design saved to file
 C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
 db.

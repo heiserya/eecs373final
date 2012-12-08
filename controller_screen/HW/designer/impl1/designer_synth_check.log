@@ -34,7 +34,7 @@ inal_top.pdc
 
 C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 
-The Import command succeeded ( 00:00:04 )
+The Import command succeeded ( 00:00:03 )
 'BLOCK' set to 'T'
 'ENABLE_BLOCK_MODE' set to '1'
 IDE_BEGINNING_OF_COMPILE
@@ -575,14 +575,14 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:07 )
+The Compile command succeeded ( 00:00:06 )
 Wrote to the file:
 C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_drc_te\
 mp.rpt
 
 The Export command succeeded ( 00:00:01 )
 
-The Execute Script command succeeded ( 00:00:22 )
+The Execute Script command succeeded ( 00:00:18 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

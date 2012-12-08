@@ -17,23 +17,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   6 .debug_pubnames 00000651  00000000  00000000  0000bf89  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_info   000051b1  00000000  00000000  0000c5da  2**0
+  7 .debug_info   000051b2  00000000  00000000  0000c5da  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_abbrev 00000c66  00000000  00000000  0001178b  2**0
+  8 .debug_abbrev 00000c66  00000000  00000000  0001178c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_line   00001628  00000000  00000000  000123f1  2**0
+  9 .debug_line   00001676  00000000  00000000  000123f2  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_frame  00000d30  00000000  00000000  00013a1c  2**2
+ 10 .debug_frame  00000d30  00000000  00000000  00013a68  2**2
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00001dbb  00000000  00000000  0001474c  2**0
+ 11 .debug_str    00001dec  00000000  00000000  00014798  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    00001182  00000000  00000000  00016507  2**0
+ 12 .debug_loc    00001182  00000000  00000000  00016584  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_macinfo 0002a391  00000000  00000000  00017689  2**0
+ 13 .debug_macinfo 0002aa99  00000000  00000000  00017706  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .ARM.attributes 00000025  00000000  00000000  00041a1a  2**0
+ 14 .ARM.attributes 00000025  00000000  00000000  0004219f  2**0
                   CONTENTS, READONLY
- 15 .debug_ranges 00000048  00000000  00000000  00041a3f  2**0
+ 15 .debug_ranges 00000048  00000000  00000000  000421c4  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -1546,6 +1546,8 @@ int main(){
 	//SmartFusion Global Initializations
 	MSS_GPIO_init();
 20000a48:	f000 fd00 	bl	2000144c <MSS_GPIO_init>
+	);*/
+
 
 	//Controller Initialization
 	struct Controller c, cPrev;
@@ -1567,6 +1569,8 @@ int main(){
 	while(1){
 		pollController(&c,&cPrev);
 20000a6a:	ad13      	add	r5, sp, #76	; 0x4c
+//		uint8_t msg[15] = "Start on down!\n";
+//		MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
 		wait(1000000);
 20000a6c:	f244 2440 	movw	r4, #16960	; 0x4240
 20000a70:	f2c0 040f 	movt	r4, #15
@@ -1579,6 +1583,8 @@ int main(){
 20000a74:	4628      	mov	r0, r5
 20000a76:	4669      	mov	r1, sp
 20000a78:	f7ff ff78 	bl	2000096c <pollController>
+//		uint8_t msg[15] = "Start on down!\n";
+//		MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
 		wait(1000000);
 20000a7c:	4620      	mov	r0, r4
 20000a7e:	f7ff fd0f 	bl	200004a0 <wait>

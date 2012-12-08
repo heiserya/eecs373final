@@ -704,15 +704,15 @@ END GROUP
  .debug_pubnames
                 0x00000566       0xeb ./CMSIS/startup_gcc/newlib_stubs.o
 
-.debug_info     0x00000000     0x51b1
+.debug_info     0x00000000     0x51b2
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x8c0 ./main.o
- .debug_info    0x000008c0     0x173c ./drivers/mss_uart/mss_uart.o
- .debug_info    0x00001ffc     0x112c ./drivers/mss_gpio/mss_gpio.o
- .debug_info    0x00003128      0x500 ./CMSIS/brownout_isr.o
- .debug_info    0x00003628      0x531 ./CMSIS/core_cm3.o
- .debug_info    0x00003b59      0x571 ./CMSIS/system_a2fxxxm3.o
- .debug_info    0x000040ca     0x10e7 ./CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x00000000      0x8c1 ./main.o
+ .debug_info    0x000008c1     0x173c ./drivers/mss_uart/mss_uart.o
+ .debug_info    0x00001ffd     0x112c ./drivers/mss_gpio/mss_gpio.o
+ .debug_info    0x00003129      0x500 ./CMSIS/brownout_isr.o
+ .debug_info    0x00003629      0x531 ./CMSIS/core_cm3.o
+ .debug_info    0x00003b5a      0x571 ./CMSIS/system_a2fxxxm3.o
+ .debug_info    0x000040cb     0x10e7 ./CMSIS/startup_gcc/newlib_stubs.o
 
 .debug_abbrev   0x00000000      0xc66
  *(.debug_abbrev)
@@ -724,15 +724,15 @@ END GROUP
  .debug_abbrev  0x000008c5      0x152 ./CMSIS/system_a2fxxxm3.o
  .debug_abbrev  0x00000a17      0x24f ./CMSIS/startup_gcc/newlib_stubs.o
 
-.debug_line     0x00000000     0x1628
+.debug_line     0x00000000     0x1676
  *(.debug_line)
- .debug_line    0x00000000      0x5d1 ./main.o
- .debug_line    0x000005d1      0x4d5 ./drivers/mss_uart/mss_uart.o
- .debug_line    0x00000aa6      0x2cb ./drivers/mss_gpio/mss_gpio.o
- .debug_line    0x00000d71      0x10b ./CMSIS/brownout_isr.o
- .debug_line    0x00000e7c      0x12e ./CMSIS/core_cm3.o
- .debug_line    0x00000faa      0x25e ./CMSIS/system_a2fxxxm3.o
- .debug_line    0x00001208      0x420 ./CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x00000000      0x61f ./main.o
+ .debug_line    0x0000061f      0x4d5 ./drivers/mss_uart/mss_uart.o
+ .debug_line    0x00000af4      0x2cb ./drivers/mss_gpio/mss_gpio.o
+ .debug_line    0x00000dbf      0x10b ./CMSIS/brownout_isr.o
+ .debug_line    0x00000eca      0x12e ./CMSIS/core_cm3.o
+ .debug_line    0x00000ff8      0x25e ./CMSIS/system_a2fxxxm3.o
+ .debug_line    0x00001256      0x420 ./CMSIS/startup_gcc/newlib_stubs.o
 
 .debug_frame    0x00000000      0xd30
  *(.debug_frame)
@@ -771,22 +771,22 @@ END GROUP
  .debug_frame   0x00000cd8       0x2c c:/actel/libero_v9.1/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
  .debug_frame   0x00000d04       0x2c c:/actel/libero_v9.1/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
 
-.debug_str      0x00000000     0x1dbb
+.debug_str      0x00000000     0x1dec
  *(.debug_str)
- .debug_str     0x00000000      0x496 ./main.o
-                                0x4e4 (size before relaxing)
- .debug_str     0x00000496     0x134c ./drivers/mss_uart/mss_uart.o
-                               0x1471 (size before relaxing)
- .debug_str     0x000017e2      0x103 ./drivers/mss_gpio/mss_gpio.o
-                               0x1249 (size before relaxing)
- .debug_str     0x000018e5       0x92 ./CMSIS/brownout_isr.o
-                                0x379 (size before relaxing)
- .debug_str     0x00001977      0x147 ./CMSIS/core_cm3.o
-                                0x227 (size before relaxing)
- .debug_str     0x00001abe       0xf7 ./CMSIS/system_a2fxxxm3.o
-                                0x414 (size before relaxing)
- .debug_str     0x00001bb5      0x206 ./CMSIS/startup_gcc/newlib_stubs.o
-                               0x1060 (size before relaxing)
+ .debug_str     0x00000000      0x4c7 ./main.o
+                                0x515 (size before relaxing)
+ .debug_str     0x000004c7     0x134c ./drivers/mss_uart/mss_uart.o
+                               0x14a2 (size before relaxing)
+ .debug_str     0x00001813      0x103 ./drivers/mss_gpio/mss_gpio.o
+                               0x127a (size before relaxing)
+ .debug_str     0x00001916       0x92 ./CMSIS/brownout_isr.o
+                                0x3aa (size before relaxing)
+ .debug_str     0x000019a8      0x147 ./CMSIS/core_cm3.o
+                                0x258 (size before relaxing)
+ .debug_str     0x00001aef       0xf7 ./CMSIS/system_a2fxxxm3.o
+                                0x445 (size before relaxing)
+ .debug_str     0x00001be6      0x206 ./CMSIS/startup_gcc/newlib_stubs.o
+                               0x1091 (size before relaxing)
 
 .debug_loc      0x00000000     0x1182
  *(.debug_loc)
@@ -798,22 +798,22 @@ END GROUP
  .debug_loc     0x00000dac       0xc9 ./CMSIS/system_a2fxxxm3.o
  .debug_loc     0x00000e75      0x30d ./CMSIS/startup_gcc/newlib_stubs.o
 
-.debug_macinfo  0x00000000    0x2a391
+.debug_macinfo  0x00000000    0x2aa99
  *(.debug_macinfo)
  .debug_macinfo
-                0x00000000     0x8585 ./main.o
+                0x00000000     0x8c8d ./main.o
  .debug_macinfo
-                0x00008585     0x63e3 ./drivers/mss_uart/mss_uart.o
+                0x00008c8d     0x63e3 ./drivers/mss_uart/mss_uart.o
  .debug_macinfo
-                0x0000e968     0x5cfa ./drivers/mss_gpio/mss_gpio.o
+                0x0000f070     0x5cfa ./drivers/mss_gpio/mss_gpio.o
  .debug_macinfo
-                0x00014662     0x5408 ./CMSIS/brownout_isr.o
+                0x00014d6a     0x5408 ./CMSIS/brownout_isr.o
  .debug_macinfo
-                0x00019a6a     0x152b ./CMSIS/core_cm3.o
+                0x0001a172     0x152b ./CMSIS/core_cm3.o
  .debug_macinfo
-                0x0001af95     0x5a98 ./CMSIS/system_a2fxxxm3.o
+                0x0001b69d     0x5a98 ./CMSIS/system_a2fxxxm3.o
  .debug_macinfo
-                0x00020a2d     0x9964 ./CMSIS/startup_gcc/newlib_stubs.o
+                0x00021135     0x9964 ./CMSIS/startup_gcc/newlib_stubs.o
 
 .debug_weaknames
  *(.debug_weaknames)

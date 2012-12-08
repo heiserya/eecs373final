@@ -1,7 +1,7 @@
 #-- Synopsys, Inc.
 #-- Version E-2010.09A-1
 #-- Project file C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\run_options.txt
-#-- Written on Thu Dec 06 20:21:17 2012
+#-- Written on Sat Dec 08 15:49:31 2012
 
 
 #project files
