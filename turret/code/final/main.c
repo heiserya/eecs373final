@@ -23,27 +23,29 @@ pwm_instance_t servos;
 #define SERVO_PWM_ADDRESS 0x40050100
 
 void start_gun(){
+//EFFECT: Starts gun motors
 	MSS_GPIO_set_output(MSS_GPIO_31, 1);
 	return;
 }
 
 void stop_gun(){
+//EFFECT: Stops gun motors
 	MSS_GPIO_set_output(MSS_GPIO_31, 0);
 	return;
 }
 
 void pwm_init(){
+//EFFECT: Initializes PWM outputs
 	//PWM_init(&s94156_pwm, FPIN_0, PWM_PRESCALE, PWM_SERVO_PERIOD);
 	PWM_init(&motors, MOTOR_PWM_ADDRESS, MOTOR_PRESCALE, MOTOR_PERIOD);
 	PWM_init(&servos, SERVO_PWM_ADDRESS, SERVO_PRESCALE, SERVO_PERIOD);
 }
 
-void gun_angle_servo_pwm(unsigned char pwm_val){
-
-	return;
-}
-
 void wheel1(int pwm){
+//REQUIRES: pwm_init() has been called
+//          Takes a number from -255 to 255 where 0 is stopped and 
+//          255 is full speed ahead
+//EFFECTS: Modifies the speed of wheel1 
 	if (pwm == 0){
 		PWM_disable(&motors, PWM_1);
 		PWM_disable(&motors, PWM_2);
@@ -63,6 +65,10 @@ void wheel1(int pwm){
 }
 
 void wheel2(int pwm){
+//REQUIRES: pwm_init() has been called
+//          Takes a number from -255 to 255 where 0 is stopped and 
+//          255 is full speed ahead
+//EFFECTS: Modifies the speed of wheel2
 	if (pwm == 0){
 		PWM_disable(&motors, PWM_3);
 		PWM_disable(&motors, PWM_4);
@@ -82,6 +88,10 @@ void wheel2(int pwm){
 }
 
 void wheel3(int pwm){
+//REQUIRES: pwm_init() has been called
+//          Takes a number from -255 to 255 where 0 is stopped and 
+//          255 is full speed ahead
+//EFFECTS: Modifies the speed of wheel3
 	if (pwm == 0){
 		PWM_disable(&motors, PWM_5);
 		PWM_disable(&motors, PWM_6);
@@ -101,6 +111,10 @@ void wheel3(int pwm){
 }
 
 void wheel4(int pwm){
+//REQUIRES: pwm_init() has been called
+//          Takes a number from -255 to 255 where 0 is stopped and 
+//          255 is full speed ahead
+//EFFECTS: Modifies the speed of wheel4
 	if (pwm == 0){
 		PWM_disable(&motors, PWM_7);
 		PWM_disable(&motors, PWM_8);
@@ -120,7 +134,9 @@ void wheel4(int pwm){
 }
 
 void set_gun_angle(int angle){
-//angle is a number between 0 and 204
+//REQUIRES: pwm_init() has been called
+//          angle is a number between 0 and 204
+//EFFECTS: Sets angle of gun on robot
 	angle += 46;
 	PWM_set_duty_cycle(&servos, PWM_1, angle);
 	return;
@@ -134,14 +150,8 @@ int main(){
 
 
 	while(1){
-		//PWM_set_duty_cycle(&s94156_pwm, PWM_1, 50);
-		//int duty_cycle = PWM_get_duty_cycle( &s94156_pwm, PWM_1 );
-		//PWM_enable(&s94156_pwm, PWM_1);
 		set_gun_angle(0);
 		wheel1(-255);
-    }
-    while (1){
-    	int i = 1;
     }
     return 0;
 }
