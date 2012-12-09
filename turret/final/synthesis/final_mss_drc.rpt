@@ -1,0 +1,458 @@
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\Users\David\Desktop\final\synthesis\final_mss.edn
+              C:\Users\David\Desktop\final\component\work\final_mss\final_mss.pdc
+              C:\Users\David\Desktop\final\synthesis\final_mss_sdc.sdc
+Format      : EDIF
+Topcell     : final_mss
+Speed grade : -1
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net ACEFLAGS[0] drives no load.
+Warning: CMP201: Net ACEFLAGS[1] drives no load.
+Warning: CMP201: Net ACEFLAGS[2] drives no load.
+Warning: CMP201: Net ACEFLAGS[3] drives no load.
+Warning: CMP201: Net ACEFLAGS[4] drives no load.
+Warning: CMP201: Net ACEFLAGS[5] drives no load.
+Warning: CMP201: Net ACEFLAGS[6] drives no load.
+Warning: CMP201: Net ACEFLAGS[7] drives no load.
+Warning: CMP201: Net ACEFLAGS[8] drives no load.
+Warning: CMP201: Net ACEFLAGS[9] drives no load.
+Warning: CMP201: Net ACEFLAGS[10] drives no load.
+Warning: CMP201: Net ACEFLAGS[11] drives no load.
+Warning: CMP201: Net ACEFLAGS[12] drives no load.
+Warning: CMP201: Net ACEFLAGS[13] drives no load.
+Warning: CMP201: Net ACEFLAGS[14] drives no load.
+Warning: CMP201: Net ACEFLAGS[15] drives no load.
+Warning: CMP201: Net ACEFLAGS[16] drives no load.
+Warning: CMP201: Net ACEFLAGS[17] drives no load.
+Warning: CMP201: Net ACEFLAGS[18] drives no load.
+Warning: CMP201: Net ACEFLAGS[19] drives no load.
+Warning: CMP201: Net ACEFLAGS[20] drives no load.
+Warning: CMP201: Net ACEFLAGS[21] drives no load.
+Warning: CMP201: Net ACEFLAGS[22] drives no load.
+Warning: CMP201: Net ACEFLAGS[23] drives no load.
+Warning: CMP201: Net ACEFLAGS[24] drives no load.
+Warning: CMP201: Net ACEFLAGS[25] drives no load.
+Warning: CMP201: Net ACEFLAGS[26] drives no load.
+Warning: CMP201: Net ACEFLAGS[27] drives no load.
+Warning: CMP201: Net ACEFLAGS[28] drives no load.
+Warning: CMP201: Net ACEFLAGS[29] drives no load.
+Warning: CMP201: Net ACEFLAGS[30] drives no load.
+Warning: CMP201: Net ACEFLAGS[31] drives no load.
+Warning: CMP201: Net CALIBOUT drives no load.
+Warning: CMP201: Net CMP0 drives no load.
+Warning: CMP201: Net CMP1 drives no load.
+Warning: CMP201: Net CMP10 drives no load.
+Warning: CMP201: Net CMP11 drives no load.
+Warning: CMP201: Net CMP2 drives no load.
+Warning: CMP201: Net CMP3 drives no load.
+Warning: CMP201: Net CMP4 drives no load.
+Warning: CMP201: Net CMP5 drives no load.
+Warning: CMP201: Net CMP6 drives no load.
+Warning: CMP201: Net CMP7 drives no load.
+Warning: CMP201: Net CMP8 drives no load.
+Warning: CMP201: Net CMP9 drives no load.
+Warning: CMP201: Net DEEPSLEEP drives no load.
+Warning: CMP201: Net EMCAB[0] drives no load.
+Warning: CMP201: Net EMCAB[1] drives no load.
+Warning: CMP201: Net EMCAB[2] drives no load.
+Warning: CMP201: Net EMCAB[3] drives no load.
+Warning: CMP201: Net EMCAB[4] drives no load.
+Warning: CMP201: Net EMCAB[5] drives no load.
+Warning: CMP201: Net EMCAB[6] drives no load.
+Warning: CMP201: Net EMCAB[7] drives no load.
+Warning: CMP201: Net EMCAB[8] drives no load.
+Warning: CMP201: Net EMCAB[9] drives no load.
+Warning: CMP201: Net EMCAB[10] drives no load.
+Warning: CMP201: Net EMCAB[11] drives no load.
+Warning: CMP201: Net EMCAB[12] drives no load.
+Warning: CMP201: Net EMCAB[13] drives no load.
+Warning: CMP201: Net EMCAB[14] drives no load.
+Warning: CMP201: Net EMCAB[15] drives no load.
+Warning: CMP201: Net EMCAB[16] drives no load.
+Warning: CMP201: Net EMCAB[17] drives no load.
+Warning: CMP201: Net EMCAB[18] drives no load.
+Warning: CMP201: Net EMCAB[19] drives no load.
+Warning: CMP201: Net EMCAB[20] drives no load.
+Warning: CMP201: Net EMCAB[21] drives no load.
+Warning: CMP201: Net EMCAB[22] drives no load.
+Warning: CMP201: Net EMCAB[23] drives no load.
+Warning: CMP201: Net EMCAB[24] drives no load.
+Warning: CMP201: Net EMCAB[25] drives no load.
+Warning: CMP201: Net EMCBYTEN[0] drives no load.
+Warning: CMP201: Net EMCBYTEN[1] drives no load.
+Warning: CMP201: Net EMCCS0n drives no load.
+Warning: CMP201: Net EMCCS1n drives no load.
+Warning: CMP201: Net EMCDBOE drives no load.
+Warning: CMP201: Net EMCOEN0n drives no load.
+Warning: CMP201: Net EMCOEN1n drives no load.
+Warning: CMP201: Net EMCRWn drives no load.
+Warning: CMP201: Net EMCWDB[0] drives no load.
+Warning: CMP201: Net EMCWDB[1] drives no load.
+Warning: CMP201: Net EMCWDB[2] drives no load.
+Warning: CMP201: Net EMCWDB[3] drives no load.
+Warning: CMP201: Net EMCWDB[4] drives no load.
+Warning: CMP201: Net EMCWDB[5] drives no load.
+Warning: CMP201: Net EMCWDB[6] drives no load.
+Warning: CMP201: Net EMCWDB[7] drives no load.
+Warning: CMP201: Net EMCWDB[8] drives no load.
+Warning: CMP201: Net EMCWDB[9] drives no load.
+Warning: CMP201: Net EMCWDB[10] drives no load.
+Warning: CMP201: Net EMCWDB[11] drives no load.
+Warning: CMP201: Net EMCWDB[12] drives no load.
+Warning: CMP201: Net EMCWDB[13] drives no load.
+Warning: CMP201: Net EMCWDB[14] drives no load.
+Warning: CMP201: Net EMCWDB[15] drives no load.
+Warning: CMP201: Net FABPRDATA[0] drives no load.
+Warning: CMP201: Net FABPRDATA[1] drives no load.
+Warning: CMP201: Net FABPRDATA[2] drives no load.
+Warning: CMP201: Net FABPRDATA[3] drives no load.
+Warning: CMP201: Net FABPRDATA[4] drives no load.
+Warning: CMP201: Net FABPRDATA[5] drives no load.
+Warning: CMP201: Net FABPRDATA[6] drives no load.
+Warning: CMP201: Net FABPRDATA[7] drives no load.
+Warning: CMP201: Net FABPRDATA[8] drives no load.
+Warning: CMP201: Net FABPRDATA[9] drives no load.
+Warning: CMP201: Net FABPRDATA[10] drives no load.
+Warning: CMP201: Net FABPRDATA[11] drives no load.
+Warning: CMP201: Net FABPRDATA[12] drives no load.
+Warning: CMP201: Net FABPRDATA[13] drives no load.
+Warning: CMP201: Net FABPRDATA[14] drives no load.
+Warning: CMP201: Net FABPRDATA[15] drives no load.
+Warning: CMP201: Net FABPRDATA[16] drives no load.
+Warning: CMP201: Net FABPRDATA[17] drives no load.
+Warning: CMP201: Net FABPRDATA[18] drives no load.
+Warning: CMP201: Net FABPRDATA[19] drives no load.
+Warning: CMP201: Net FABPRDATA[20] drives no load.
+Warning: CMP201: Net FABPRDATA[21] drives no load.
+Warning: CMP201: Net FABPRDATA[22] drives no load.
+Warning: CMP201: Net FABPRDATA[23] drives no load.
+Warning: CMP201: Net FABPRDATA[24] drives no load.
+Warning: CMP201: Net FABPRDATA[25] drives no load.
+Warning: CMP201: Net FABPRDATA[26] drives no load.
+Warning: CMP201: Net FABPRDATA[27] drives no load.
+Warning: CMP201: Net FABPRDATA[28] drives no load.
+Warning: CMP201: Net FABPRDATA[29] drives no load.
+Warning: CMP201: Net FABPRDATA[30] drives no load.
+Warning: CMP201: Net FABPRDATA[31] drives no load.
+Warning: CMP201: Net FABPREADY drives no load.
+Warning: CMP201: Net FABPSLVERR drives no load.
+Warning: CMP201: Net GPO[0] drives no load.
+Warning: CMP201: Net GPO[1] drives no load.
+Warning: CMP201: Net GPO[2] drives no load.
+Warning: CMP201: Net GPO[3] drives no load.
+Warning: CMP201: Net GPO[4] drives no load.
+Warning: CMP201: Net GPO[5] drives no load.
+Warning: CMP201: Net GPO[6] drives no load.
+Warning: CMP201: Net GPO[7] drives no load.
+Warning: CMP201: Net GPO[8] drives no load.
+Warning: CMP201: Net GPO[9] drives no load.
+Warning: CMP201: Net GPO[10] drives no load.
+Warning: CMP201: Net GPO[11] drives no load.
+Warning: CMP201: Net GPO[12] drives no load.
+Warning: CMP201: Net GPO[13] drives no load.
+Warning: CMP201: Net GPO[14] drives no load.
+Warning: CMP201: Net GPO[15] drives no load.
+Warning: CMP201: Net GPO[16] drives no load.
+Warning: CMP201: Net GPO[17] drives no load.
+Warning: CMP201: Net GPO[18] drives no load.
+Warning: CMP201: Net GPO[19] drives no load.
+Warning: CMP201: Net GPO[20] drives no load.
+Warning: CMP201: Net GPO[21] drives no load.
+Warning: CMP201: Net GPO[22] drives no load.
+Warning: CMP201: Net GPO[23] drives no load.
+Warning: CMP201: Net GPO[24] drives no load.
+Warning: CMP201: Net GPO[25] drives no load.
+Warning: CMP201: Net GPO[26] drives no load.
+Warning: CMP201: Net GPO[27] drives no load.
+Warning: CMP201: Net GPO[28] drives no load.
+Warning: CMP201: Net GPO[29] drives no load.
+Warning: CMP201: Net GPO[30] drives no load.
+Warning: CMP201: Net GPO[31] drives no load.
+Warning: CMP201: Net GPOE[0] drives no load.
+Warning: CMP201: Net GPOE[1] drives no load.
+Warning: CMP201: Net GPOE[2] drives no load.
+Warning: CMP201: Net GPOE[3] drives no load.
+Warning: CMP201: Net GPOE[4] drives no load.
+Warning: CMP201: Net GPOE[5] drives no load.
+Warning: CMP201: Net GPOE[6] drives no load.
+Warning: CMP201: Net GPOE[7] drives no load.
+Warning: CMP201: Net GPOE[8] drives no load.
+Warning: CMP201: Net GPOE[9] drives no load.
+Warning: CMP201: Net GPOE[10] drives no load.
+Warning: CMP201: Net GPOE[11] drives no load.
+Warning: CMP201: Net GPOE[12] drives no load.
+Warning: CMP201: Net GPOE[13] drives no load.
+Warning: CMP201: Net GPOE[14] drives no load.
+Warning: CMP201: Net GPOE[15] drives no load.
+Warning: CMP201: Net GPOE[16] drives no load.
+Warning: CMP201: Net GPOE[17] drives no load.
+Warning: CMP201: Net GPOE[18] drives no load.
+Warning: CMP201: Net GPOE[19] drives no load.
+Warning: CMP201: Net GPOE[20] drives no load.
+Warning: CMP201: Net GPOE[21] drives no load.
+Warning: CMP201: Net GPOE[22] drives no load.
+Warning: CMP201: Net GPOE[23] drives no load.
+Warning: CMP201: Net GPOE[24] drives no load.
+Warning: CMP201: Net GPOE[25] drives no load.
+Warning: CMP201: Net GPOE[26] drives no load.
+Warning: CMP201: Net GPOE[27] drives no load.
+Warning: CMP201: Net GPOE[28] drives no load.
+Warning: CMP201: Net GPOE[29] drives no load.
+Warning: CMP201: Net GPOE[30] drives no load.
+Warning: CMP201: Net GPOE[31] drives no load.
+Warning: CMP201: Net I2C0SCLO drives no load.
+Warning: CMP201: Net I2C0SDAO drives no load.
+Warning: CMP201: Net I2C0SMBALERTNO drives no load.
+Warning: CMP201: Net I2C0SMBUSNO drives no load.
+Warning: CMP201: Net I2C1SCLO drives no load.
+Warning: CMP201: Net I2C1SDAO drives no load.
+Warning: CMP201: Net I2C1SMBALERTNO drives no load.
+Warning: CMP201: Net I2C1SMBUSNO drives no load.
+Warning: CMP201: Net LVTTL0 drives no load.
+Warning: CMP201: Net LVTTL1 drives no load.
+Warning: CMP201: Net LVTTL10 drives no load.
+Warning: CMP201: Net LVTTL11 drives no load.
+Warning: CMP201: Net LVTTL2 drives no load.
+Warning: CMP201: Net LVTTL3 drives no load.
+Warning: CMP201: Net LVTTL4 drives no load.
+Warning: CMP201: Net LVTTL5 drives no load.
+Warning: CMP201: Net LVTTL6 drives no load.
+Warning: CMP201: Net LVTTL7 drives no load.
+Warning: CMP201: Net LVTTL8 drives no load.
+Warning: CMP201: Net LVTTL9 drives no load.
+Warning: CMP201: Net MACM2FMDC drives no load.
+Warning: CMP201: Net MACM2FMDEN drives no load.
+Warning: CMP201: Net MACM2FMDO drives no load.
+Warning: CMP201: Net MACM2FTXD[0] drives no load.
+Warning: CMP201: Net MACM2FTXD[1] drives no load.
+Warning: CMP201: Net MACM2FTXEN drives no load.
+Warning: CMP201: Net MACMDC drives no load.
+Warning: CMP201: Net MACMDEN drives no load.
+Warning: CMP201: Net MACMDO drives no load.
+Warning: CMP201: Net MACTXD[0] drives no load.
+Warning: CMP201: Net MACTXD[1] drives no load.
+Warning: CMP201: Net MACTXEN drives no load.
+Warning: CMP201: Net MSSINT[0] drives no load.
+Warning: CMP201: Net MSSINT[1] drives no load.
+Warning: CMP201: Net MSSINT[2] drives no load.
+Warning: CMP201: Net MSSINT[3] drives no load.
+Warning: CMP201: Net MSSINT[4] drives no load.
+Warning: CMP201: Net MSSINT[5] drives no load.
+Warning: CMP201: Net MSSINT[6] drives no load.
+Warning: CMP201: Net MSSINT[7] drives no load.
+Warning: CMP201: Net PUFABn drives no load.
+Warning: CMP201: Net SDD0 drives no load.
+Warning: CMP201: Net SDD1 drives no load.
+Warning: CMP201: Net SDD2 drives no load.
+Warning: CMP201: Net SLEEP drives no load.
+Warning: CMP201: Net SPI0CLKO drives no load.
+Warning: CMP201: Net SPI0DO drives no load.
+Warning: CMP201: Net SPI0DOE drives no load.
+Warning: CMP201: Net SPI0MODE drives no load.
+Warning: CMP201: Net SPI0SSO[0] drives no load.
+Warning: CMP201: Net SPI0SSO[1] drives no load.
+Warning: CMP201: Net SPI0SSO[2] drives no load.
+Warning: CMP201: Net SPI0SSO[3] drives no load.
+Warning: CMP201: Net SPI0SSO[4] drives no load.
+Warning: CMP201: Net SPI0SSO[5] drives no load.
+Warning: CMP201: Net SPI0SSO[6] drives no load.
+Warning: CMP201: Net SPI0SSO[7] drives no load.
+Warning: CMP201: Net SPI1CLKO drives no load.
+Warning: CMP201: Net SPI1DO drives no load.
+Warning: CMP201: Net SPI1DOE drives no load.
+Warning: CMP201: Net SPI1MODE drives no load.
+Warning: CMP201: Net SPI1SSO[0] drives no load.
+Warning: CMP201: Net SPI1SSO[1] drives no load.
+Warning: CMP201: Net SPI1SSO[2] drives no load.
+Warning: CMP201: Net SPI1SSO[3] drives no load.
+Warning: CMP201: Net SPI1SSO[4] drives no load.
+Warning: CMP201: Net SPI1SSO[5] drives no load.
+Warning: CMP201: Net SPI1SSO[6] drives no load.
+Warning: CMP201: Net SPI1SSO[7] drives no load.
+Warning: CMP201: Net TXEV drives no load.
+Warning: CMP201: Net UART0DTRn drives no load.
+Warning: CMP201: Net UART0RTSn drives no load.
+Warning: CMP201: Net UART1DTRn drives no load.
+Warning: CMP201: Net UART1RTSn drives no load.
+Warning: CMP201: Net UART1TXD drives no load.
+Warning: CMP201: Net VAREFOUT drives no load.
+Warning: CMP201: Net VCC15GOOD drives no load.
+Warning: CMP201: Net VCC33GOOD drives no load.
+Warning: CMP201: Net WDINT drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLA drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLB drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_GLC drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_LOCK drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_YB drives no load.
+Warning: CMP201: Net MSS_CCC_0/I_MSSCCC_YC drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 279 warning(s) in this design.
+=====================================================================
+
+Reading user pdc (Physical Design Constraints) file(s) postcompile
+
+
+There were 0 error(s) and 0 warning(s) in reading the user pdc.
+
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
+    Fabric                     Used:      0  Total:   4608   (0.00%)
+    Fabric IO (W/ clocks)      Used:     90  Total:     94   (95.74%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      3  Total:     43   (6.98%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
+    On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 0      | 3  (0.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 3      | 3  (100.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 0            | 0
+    SEQ     | 0            | 0
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 34            | 0            | 0
+    Output I/O                    | 56            | 0            | 0
+    Bidirectional I/O             | 0             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 34    | 56     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  90 ( 100.00% )
+
+Net information report:
+=======================
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : MSSPSEL_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPENABLE_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPWRITE_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPREADY_c
+                          Driver: MSSPREADY_pad
+    1       INT_NET       Net   : MSSPSLVERR_c
+                          Driver: MSSPSLVERR_pad
+    1       INT_NET       Net   : M2F_RESET_N_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[0]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[1]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[2]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[3]
+                          Driver: MSS_ADLIB_INST
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : MSSPSEL_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPENABLE_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPWRITE_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPREADY_c
+                          Driver: MSSPREADY_pad
+    1       INT_NET       Net   : MSSPSLVERR_c
+                          Driver: MSSPSLVERR_pad
+    1       INT_NET       Net   : M2F_RESET_N_c
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[0]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[1]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[2]
+                          Driver: MSS_ADLIB_INST
+    1       INT_NET       Net   : MSSPADDR_c[3]
+                          Driver: MSS_ADLIB_INST
+
+
+SDC Import: Begin processing constraints...
+
+
+
+SDC Import: End processing constraints
+
+
+The Compile command succeeded ( 00:00:06 )
+

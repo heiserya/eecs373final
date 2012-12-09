@@ -1,0 +1,39 @@
+#===========================================================
+# Created by Actel SmartDesign Wed Dec 05 14:26:16 2012
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap final_mss0 0x00000000;
+memmap final_mss0 0x00000100;
+memmap final_mss0 0x00000200;
+memmap final_mss0 0x00000300;
+memmap final_mss0 0x00000400;
+memmap final_mss0 0x00000500;
+memmap final_mss0 0x00000600;
+memmap final_mss0 0x00000700;
+memmap final_mss0 0x00000800;
+memmap final_mss0 0x00000900;
+memmap final_mss0 0x00000A00;
+memmap final_mss0 0x00000B00;
+memmap final_mss0 0x00000C00;
+memmap final_mss0 0x00000D00;
+memmap final_mss0 0x00000E00;
+memmap final_mss0 0x00000F00;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+

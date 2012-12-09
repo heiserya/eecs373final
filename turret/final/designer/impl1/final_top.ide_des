@@ -1,0 +1,22 @@
+KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_FAMILY "SmartFusion"
+KEY IDE_DES_DIE "IP4X3M1"
+KEY IDE_DES_PACKAGE "fg484"
+KEY IDE_DES_TOP_CELL_NAME "final_top"
+KEY IDE_DES_KEEP_PHY_CONSTR "FALSE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "C:\Users\David\Desktop\final\designer\impl1\final_top.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\David\Desktop\final\synthesis\final_top.edn;edn"
+VALUE "C:\Users\David\Desktop\final\component\work\final_top\final_top.pdc;pdc"
+VALUE "C:\Users\David\Desktop\final\synthesis\final_top_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\David\Desktop\final\synthesis\final_top_sdc.sdc;Used"
+VALUE "C:\Users\David\Desktop\final\component\work\final_top\final_top.pdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,285 @@
+----------------------------------------------------------------------
+Report for cell final_top.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         3       0.0        0.0
+                        CoreAPB3_Z1         1     140.0      140.0
+                                GND         1       0.0        0.0
+                             OUTBUF        11       0.0        0.0
+                                VCC         1       0.0        0.0
+                         corepwm_Z2         1     789.0      789.0
+                         corepwm_Z4         1    1701.0     1701.0
+                          final_mss         1       3.0        3.0
+                            
+                         TOTAL             20               2633.0
+----------------------------------------------------------------------
+Report for cell final_mss.netlist
+     Instance path:  final_mss_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                          INBUF_MSS         2       0.0        0.0
+                             MSSINT         1       0.0        0.0
+                            MSS_APB         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                         OUTBUF_MSS         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          final_mss_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL             11                  3.0
+----------------------------------------------------------------------
+Report for cell final_mss_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  final_mss_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell corepwm_Z4.netlist
+     Instance path:  corepwm_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                                OR2         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                OR3         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                   pwm_gen_8s_32s_0         1     581.0      581.0
+                          reg_if_Z5         1     847.0      847.0
+          timebase_32s_corepwm_1_genblk100.genblk102.genblk103.timebase_1         1     264.0      264.0
+                            
+                         TOTAL             14               1701.0
+----------------------------------------------------------------------
+Report for cell pwm_gen_8s_32s_0.netlist
+     Instance path:  corepwm_0.genblk104.genblk105.pwm_gen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        15       1.0       15.0
+                           DFN1E1C0         8       1.0        8.0
+                                GND         1       0.0        0.0
+                               NOR2       103       1.0      103.0
+                              NOR2B        23       1.0       23.0
+                              NOR3A        41       1.0       41.0
+                              NOR3B         8       1.0        8.0
+                              NOR3C       102       1.0      102.0
+                               OR3C        25       1.0       25.0
+                                VCC         1       0.0        0.0
+                               XA1A        74       1.0       74.0
+                              XNOR2       182       1.0      182.0
+                            
+                         TOTAL            583                581.0
+----------------------------------------------------------------------
+Report for cell timebase_32s_corepwm_1_genblk100.genblk102.genblk103.timebase_1.netlist
+  Original Cell name timebase_32s_corepwm_1_genblk100.genblk102.genblk103.timebase
+     Instance path:  corepwm_0.genblk100.genblk102.genblk103.timebase
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         9       1.0        9.0
+                              AND2A         3       1.0        3.0
+                               AND3        13       1.0       13.0
+                                AO1         7       1.0        7.0
+                               AO1C        15       1.0       15.0
+                              AOI1A         5       1.0        5.0
+                               AX1E         4       1.0        4.0
+                             DFN1C0        32       1.0       32.0
+                                GND         1       0.0        0.0
+                              NAND2         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        20       1.0       20.0
+                              NOR2B        16       1.0       16.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C        10       1.0       10.0
+                                OA1         5       1.0        5.0
+                               OA1A        10       1.0       10.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A        25       1.0       25.0
+                               OR2B        14       1.0       14.0
+                                OR3         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1        13       1.0       13.0
+                               XA1A        12       1.0       12.0
+                              XNOR2        39       1.0       39.0
+                            
+                         TOTAL            266                264.0
+----------------------------------------------------------------------
+Report for cell reg_if_Z5.netlist
+     Instance path:  corepwm_0.genblk96.genblk97.reg_if
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        10       1.0       10.0
+                              AND2A         3       1.0        3.0
+                               AND3        13       1.0       13.0
+                                AO1         7       1.0        7.0
+                               AO1C        15       1.0       15.0
+                              AOI1A         5       1.0        5.0
+                              AOI1B        55       1.0       55.0
+                           DFN1E0C0        31       1.0       31.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0       296       1.0      296.0
+                           DFN1E1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         5       1.0        5.0
+                              NOR2A        15       1.0       15.0
+                              NOR2B        25       1.0       25.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C        41       1.0       41.0
+                                OA1         5       1.0        5.0
+                               OA1A        31       1.0       31.0
+                                OR2         1       1.0        1.0
+                               OR2A        30       1.0       30.0
+                               OR2B        83       1.0       83.0
+                               OR3B         8       1.0        8.0
+                               OR3C       120       1.0      120.0
+                                VCC         1       0.0        0.0
+                              XNOR2        39       1.0       39.0
+                            
+                         TOTAL            849                847.0
+----------------------------------------------------------------------
+Report for cell corepwm_Z2.netlist
+     Instance path:  corepwm_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                   pwm_gen_2s_32s_0         1     163.0      163.0
+                          reg_if_Z3         1     365.0      365.0
+          timebase_32s_corepwm_1_genblk100.genblk102.genblk103.timebase         1     261.0      261.0
+                            
+                         TOTAL              5                789.0
+----------------------------------------------------------------------
+Report for cell pwm_gen_2s_32s_0.netlist
+     Instance path:  corepwm_1.genblk104.genblk105.pwm_gen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                             DFN1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               MX2C         2       1.0        2.0
+                               NOR2        29       1.0       29.0
+                              NOR2B        10       1.0       10.0
+                              NOR3A        19       1.0       19.0
+                              NOR3C        28       1.0       28.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1A        23       1.0       23.0
+                              XNOR2        41       1.0       41.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL            165                163.0
+----------------------------------------------------------------------
+Report for cell timebase_32s_corepwm_1_genblk100.genblk102.genblk103.timebase.netlist
+  Original Cell name timebase_32s
+     Instance path:  corepwm_1.genblk100.genblk102.genblk103.timebase
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         7       1.0        7.0
+                              AND2A         3       1.0        3.0
+                               AND3        13       1.0       13.0
+                                AO1         7       1.0        7.0
+                               AO1A         1       1.0        1.0
+                               AO1C        15       1.0       15.0
+                              AOI1A         5       1.0        5.0
+                             DFN1C0        32       1.0       32.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        18       1.0       18.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         9       1.0        9.0
+                                OA1         5       1.0        5.0
+                               OA1A        10       1.0       10.0
+                               OA1C         1       1.0        1.0
+                               OR2A        27       1.0       27.0
+                               OR2B        15       1.0       15.0
+                               OR3B         1       1.0        1.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1        11       1.0       11.0
+                               XA1A        18       1.0       18.0
+                              XNOR2        39       1.0       39.0
+                            
+                         TOTAL            263                261.0
+----------------------------------------------------------------------
+Report for cell reg_if_Z3.netlist
+     Instance path:  corepwm_1.genblk96.genblk97.reg_if
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         7       1.0        7.0
+                              AND2A         3       1.0        3.0
+                               AND3        13       1.0       13.0
+                                AO1         7       1.0        7.0
+                               AO1C        15       1.0       15.0
+                              AOI1A         5       1.0        5.0
+                              AOI1B         2       1.0        2.0
+                           DFN1E0C0        31       1.0       31.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        98       1.0       98.0
+                           DFN1E1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2A        12       1.0       12.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C        13       1.0       13.0
+                                OA1         5       1.0        5.0
+                               OA1A        32       1.0       32.0
+                               OR2A        26       1.0       26.0
+                               OR2B        22       1.0       22.0
+                               OR3B         2       1.0        2.0
+                               OR3C        24       1.0       24.0
+                                VCC         1       0.0        0.0
+                              XNOR2        39       1.0       39.0
+                            
+                         TOTAL            367                365.0
+----------------------------------------------------------------------
+Report for cell CoreAPB3_Z1.netlist
+     Instance path:  CoreAPB3_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CAPB3O         1     137.0      137.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                140.0
+----------------------------------------------------------------------
+Report for cell CAPB3O.netlist
+     Instance path:  CoreAPB3_0.CAPB3llOI
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1        22       1.0       22.0
+                               AO1A         6       1.0        6.0
+                               AO1B        30       1.0       30.0
+                               AO1C         3       1.0        3.0
+                               AO1D         6       1.0        6.0
+                               AOI1         9       1.0        9.0
+                              AOI1B        20       1.0       20.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         5       1.0        5.0
+                              NOR3C        21       1.0       21.0
+                               OA1A         8       1.0        8.0
+                                OR2         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            139                137.0

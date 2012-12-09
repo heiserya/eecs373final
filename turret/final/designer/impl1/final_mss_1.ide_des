@@ -1,0 +1,21 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_FAMILY "SmartFusion"
+KEY IDE_DES_DIE "IP4X3M1"
+KEY IDE_DES_PACKAGE "fg484"
+KEY IDE_DES_TOP_CELL_NAME "final_mss"
+KEY IDE_DES_KEEP_PHY_CONSTR "FALSE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "C:\Users\David\Desktop\final\designer\impl1\final_mss_1.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\David\Desktop\final\synthesis\final_mss.edn;edn"
+VALUE "C:\Users\David\Desktop\final\synthesis\final_mss_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\David\Desktop\final\synthesis\final_mss_sdc.sdc;Used"
+VALUE "C:\Users\David\Desktop\final\component\work\final_mss\final_mss.pdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST
