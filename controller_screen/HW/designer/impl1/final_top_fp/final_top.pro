@@ -1,12 +1,12 @@
 <project name="final_top" version="1.1">
     <ProjectDirectory>
-        C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp
+        C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\final_top.log
+        C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\final_top.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -59,7 +59,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\projectData\final_top.pdb
+                C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\projectData\final_top.pdb
             </filename>
             <local>
                 projectData\final_top.pdb

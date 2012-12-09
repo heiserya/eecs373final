@@ -3,7 +3,7 @@
 
 # Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Sat Dec 08 15:48:51 2012 
+# Date generated: Sun Dec 09 18:22:13 2012 
 
 
 # 
@@ -115,11 +115,11 @@ set_io UART_1_TXD            \
 # Old IO constraints, commented out for reference
 #
 
-# set_io GPIO_0_BI -pinname V1 -fixed yes -DIRECTION Inout 
-# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io GPIO_0_BI -pinname V1 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SCHMITT_TRIGGER Off -SKEW Off -SLEW High -DIRECTION Inout 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -DIRECTION Input 
 # set_io RX -pinname E3 -fixed yes -DIRECTION Input 
 # set_io TX -pinname F3 -fixed yes -DIRECTION Output 
-# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
-# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
-# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
-# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io UART_0_RXD -pinname U18 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME UART_1_PADs -DIRECTION Output 

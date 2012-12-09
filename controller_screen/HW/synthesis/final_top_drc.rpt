@@ -6,12 +6,12 @@ Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
 Source      :
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 Format      : EDIF
 Topcell     : final_top
 Speed grade : -1
@@ -363,7 +363,7 @@ Optimized macros:
 
     Total macros optimized  6
 
-Warning: CMP503: Remapped 85 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 89 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
 There were 0 error(s) and 313 warning(s) in this design.
@@ -379,7 +379,7 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:   1049  Total:   4608   (22.76%)
+    Fabric                     Used:   1127  Total:   4608   (24.46%)
     Fabric IO (W/ clocks)      Used:      2  Total:     94   (2.13%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -408,8 +408,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 607          | 607
-    SEQ     | 442          | 442
+    COMB    | 679          | 679
+    SEQ     | 448          | 448
 
 I/O Function:
 
@@ -441,13 +441,13 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    85      SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    89      SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
 
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    443     CLK_NET       Net   : final_mss_0_FAB_CLK_0
+    449     CLK_NET       Net   : final_mss_0_FAB_CLK_0
                           Driver: final_mss_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
     66      INT_NET       Net   :
@@ -464,11 +464,12 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I_RNIKLI4[0
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    158     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
-                          Driver:
-CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    19      INT_NET       Net   : CoreUARTapb_0/CUARTl01
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTl01/U1
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTO00
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTOl0_RNI5L28[0]
     18      INT_NET       Net   :
 CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
                           Driver:
@@ -491,17 +492,16 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
     17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
-    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
-                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    158     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
-                          Driver:
-CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    19      INT_NET       Net   : CoreUARTapb_0/CUARTl01
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTl01/U1
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTO00
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTOl0_RNI5L28[0]
     18      INT_NET       Net   :
 CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
                           Driver:
@@ -524,8 +524,6 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
     17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
-    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
-                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
 
 
 SDC Import: Begin processing constraints...
@@ -535,5 +533,5 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:03 )
+The Compile command succeeded ( 00:00:07 )
 

@@ -1,8 +1,8 @@
 #add_file options
-add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/controller_screen/HW/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/mss_tshell.v"
-add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/final_mss.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/mss_tshell.v"
+add_file -verilog "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/component/work/final_mss/final_mss.v"
 set_option -top_module final_mss
 
 #device options
@@ -57,4 +57,4 @@ set_option -write_apr_constraint 1
 
 #set result format/file last
 impl -active "synthesis"
-project -result_file "C:/Users/bschlenk/Documents/GitHub/eecs373final/controller_screen/HW/synthesis/final_mss.edn"
+project -result_file "C:/Users/thinkpad/Documents/GitHub/eecs373final/controller_screen/HW/synthesis/final_mss.edn"

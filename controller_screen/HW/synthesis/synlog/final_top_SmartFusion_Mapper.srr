@@ -4,17 +4,16 @@ Product Version E-2010.09A-1
 @N: MF249 |Running in 32-bit mode.
 @N: MF258 |Gated clock conversion disabled 
 
-@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 58MB)
 
 Encoding state machine work.final_top_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s(verilog)-CUARTOl0[3:0]
 original code -> new code
@@ -22,9 +21,9 @@ original code -> new code
    01 -> 01
    10 -> 10
    11 -> 11
-@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
-@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
-@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog)-CUARTO1ll[6:0]
 original code -> new code
    00000000000000000000000000000000 -> 0000001
@@ -34,44 +33,36 @@ original code -> new code
    00000000000000000000000000000100 -> 0010000
    00000000000000000000000000000101 -> 0100000
    00000000000000000000000000000110 -> 1000000
-@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
-@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
+@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog)-CUARTOl0[2:0]
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 59MB)
+Finished factoring (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 59MB)
 
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
+@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 60MB)
 
-@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:03s; Memory used current: 62MB peak: 63MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 62MB peak: 63MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
+Finished Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 62MB peak: 63MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 62MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:03s; Memory used current: 62MB peak: 63MB)
 
-Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 63MB)
 
 
 High Fanout Net Report
@@ -79,18 +70,20 @@ High Fanout Net Report
 
 Driver Instance / Pin Name                                                        Fanout, notes                   
 ------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST / M2FRESETn                                            150 : 148 asynchronous set/reset
+final_mss_0.MSS_ADLIB_INST / M2FRESETn                                            155 : 153 asynchronous set/reset
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0.genblk2.genblk3.CUARTI0 / Q              25                              
 CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] / Q     66                              
 CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1] / Q     34                              
 CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[0] / Q       66                              
 CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q       34                              
 ==================================================================================================================
 
-@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_81 
-@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_82 
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_80 
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_81 
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
-Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0.genblk2.genblk3.CUARTI0, fanout 25 segments 2
+Finished technology mapping (Time elapsed 0h:00m:04s; Memory used current: 62MB peak: 63MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 6 
 
@@ -112,21 +105,21 @@ New registers created by retiming :
 
 		#####   END RETIMING REPORT  #####
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:04s; Memory used current: 62MB peak: 63MB)
 
 
 Added 0 Buffers
-Added 2 Cells via replication
-	Added 2 Sequential Cells via replication
+Added 3 Cells via replication
+	Added 3 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Finished restoring hierarchy (Time elapsed 0h:00m:04s; Memory used current: 63MB peak: 63MB)
 
-Writing Analyst data base C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Writing Analyst data base C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 62MB peak: 63MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:05s; Memory used current: 63MB peak: 64MB)
 
 @W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
@@ -137,7 +130,7 @@ Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Mem
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Dec 08 20:02:40 2012
+# Timing Report written on Sun Dec 09 18:22:53 2012
 #
 
 
@@ -291,13 +284,13 @@ Instance                                                                        
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[2]     0.737       986.912
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[0]     0.737       987.112
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[1]     0.737       987.251
+CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1C0     Q       CUARTl01         0.737       987.511
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTl1lI[3]     0.737       987.524
 CoreUARTapb_0.CUARTOOlI.CUARTOl0[1]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTOl0[1]      0.580       987.995
 CoreUARTapb_0.CUARTOOlI.CUARTOl0[0]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTOl0[0]      0.580       988.146
 CoreUARTapb_0.CUARTOOlI.CUARTII0                                                final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E0P0     Q       CUARTII0         0.737       988.274
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[0]          final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTO0[0]       0.737       988.852
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[1]          final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTO0[1]       0.737       988.991
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTI0             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTIl          0.737       989.386
+CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTllI                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1P0       Q       CUARTllI         0.737       989.527
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[3]          final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0       Q       CUARTO0[3]       0.737       989.543
 ==================================================================================================================================================================================================================
 
 
@@ -310,14 +303,14 @@ Instance                                                                        
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[3]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[3]     999.427      986.912
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[2]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[2]     999.427      987.735
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[12]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n12          999.427      988.852
 CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTOO0I[3]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTOO0I[3]     999.461      989.062
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[1]                                              final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n1           999.461      989.239
-CoreUARTapb_0.CUARTOOlI.CUARTl10.CUARTO1ll[5]                                                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO1ll_ns[5]      999.427      989.386
-CoreUARTapb_0.CUARTOOlI.CUARTl10.CUARTO1ll[3]                                                                       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO1ll_RNO[3]     999.461      989.552
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk0\.genblk2\.genblk3\.CUARTO0[11]                                             final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       CUARTO0_n11          999.427      989.618
-CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTl1lI[1]                                         final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1C0     D       un1_CUARTl1lI[1]     999.427      989.677
-CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.859
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[3]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[4]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[5]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
+CoreUARTapb_0.CUARTOOlI.genblk9\.genblk10\.CUARTlOOI.CUARTlOlI.CUARTlO0I.CUARTll0I.CUARTlO0I.CUARTll0I_ram0_[6]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock     DFN1E1     E       awe0                 999.566      989.433
 =========================================================================================================================================================================================================================================================
 
 
@@ -386,66 +379,70 @@ Report for cell final_top.verilog
   Core Cell usage:
               cell count     area count*area
               AND2     2      1.0        2.0
-               AO1     2      1.0        2.0
-              AO1B     6      1.0        6.0
-              AO1C     9      1.0        9.0
+               AO1     3      1.0        3.0
+              AO16     1      1.0        1.0
+              AO1A     1      1.0        1.0
+              AO1B     8      1.0        8.0
+              AO1C     4      1.0        4.0
               AO1D     2      1.0        2.0
-              AOI1     3      1.0        3.0
-             AOI1B     6      1.0        6.0
-              AX1A     2      1.0        2.0
-              AX1B     7      1.0        7.0
-              AX1C     1      1.0        1.0
-              AX1E     2      1.0        2.0
+              AOI1     1      1.0        1.0
+             AOI1B    10      1.0       10.0
+              AX1B     1      1.0        1.0
+              AX1C     2      1.0        2.0
+              AX1D     2      1.0        2.0
+              AX1E     4      1.0        4.0
+             AXOI5     1      1.0        1.0
+             AXOI7     1      1.0        1.0
             CLKINT     2      0.0        0.0
                GND    16      0.0        0.0
                INV     6      1.0        6.0
-              MIN3     1      1.0        1.0
+              MAJ3     1      1.0        1.0
            MSS_CCC     1      0.0        0.0
-               MX2   245      1.0      245.0
-              MX2C     3      1.0        3.0
-              NOR2    11      1.0       11.0
-             NOR2A    15      1.0       15.0
-             NOR2B    25      1.0       25.0
-              NOR3    11      1.0       11.0
-             NOR3A    21      1.0       21.0
-             NOR3B    15      1.0       15.0
-             NOR3C    14      1.0       14.0
-               OA1     1      1.0        1.0
+               MX2   254      1.0      254.0
+              MX2C     6      1.0        6.0
+              NOR2    13      1.0       13.0
+             NOR2A    23      1.0       23.0
+             NOR2B    28      1.0       28.0
+              NOR3    13      1.0       13.0
+             NOR3A    23      1.0       23.0
+             NOR3B    13      1.0       13.0
+             NOR3C    16      1.0       16.0
+               OA1     4      1.0        4.0
               OA1A     4      1.0        4.0
-              OA1C     6      1.0        6.0
-              OAI1     2      1.0        2.0
-               OR2    17      1.0       17.0
-              OR2A     6      1.0        6.0
-              OR2B    19      1.0       19.0
-               OR3     1      1.0        1.0
-              OR3A     5      1.0        5.0
-              OR3B     7      1.0        7.0
-              OR3C     8      1.0        8.0
+              OA1B     4      1.0        4.0
+              OA1C     5      1.0        5.0
+              OAI1     4      1.0        4.0
+               OR2    21      1.0       21.0
+              OR2A    15      1.0       15.0
+              OR2B    21      1.0       21.0
+               OR3     5      1.0        5.0
+              OR3A     7      1.0        7.0
+              OR3B     5      1.0        5.0
+              OR3C    10      1.0       10.0
              RCOSC     1      0.0        0.0
                VCC    16      0.0        0.0
                XA1     3      1.0        3.0
-              XA1A     1      1.0        1.0
-              XA1B     1      1.0        1.0
-              XA1C     1      1.0        1.0
-              XAI1     1      1.0        1.0
-             XNOR2     5      1.0        5.0
-               XO1     2      1.0        2.0
-              XO1A     3      1.0        3.0
-              XOR2    20      1.0       20.0
-              XOR3     6      1.0        6.0
+              XA1A     4      1.0        4.0
+              XA1B     6      1.0        6.0
+              XA1C     2      1.0        2.0
+              XAI1     2      1.0        2.0
+             XNOR2     6      1.0        6.0
+               XO1     1      1.0        1.0
+              XOR2    21      1.0       21.0
+              XOR3     7      1.0        7.0
 
 
               DFN1     4      1.0        4.0
-            DFN1C0    60      1.0       60.0
+            DFN1C0    62      1.0       62.0
             DFN1E0     8      1.0        8.0
           DFN1E0C0    24      1.0       24.0
           DFN1E0P0     3      1.0        3.0
             DFN1E1   280      1.0      280.0
-          DFN1E1C0    58      1.0       58.0
+          DFN1E1C0    62      1.0       62.0
             DFN1P0     5      1.0        5.0
            MSS_APB     1      0.0        0.0
                    -----          ----------
-             TOTAL  1007               970.0
+             TOTAL  1081              1044.0
 
 
   IO Cell usage:
@@ -459,14 +456,14 @@ Report for cell final_top.verilog
              TOTAL     8
 
 
-Core Cells         : 970 of 4608 (21%)
+Core Cells         : 1044 of 4608 (23%)
 IO Cells           : 8
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
-# Sat Dec 08 20:02:40 2012
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Sun Dec 09 18:22:53 2012
 
 ###########################################################]

@@ -535,7 +535,7 @@ output TX;
         \final_mss_0_MSS_MASTER_APB_PWDATA_[1] , 
         \final_mss_0_MSS_MASTER_APB_PWDATA_[0] }));
     final_top_CoreUARTapb_0_CoreUARTapb #( .BAUD_VALUE(4800), .BAUD_VAL_FRCTN(0)
-        , .BAUD_VAL_FRCTN_EN(0), .FAMILY(18), .FIXEDMODE(1), .PRG_BIT8(1)
+        , .BAUD_VAL_FRCTN_EN(0), .FAMILY(18), .FIXEDMODE(0), .PRG_BIT8(1)
         , .PRG_PARITY(0), .RX_FIFO(1), .RX_LEGACY_MODE(0), .TX_FIFO(1)
          )  CoreUARTapb_0 (.PCLK(final_mss_0_FAB_CLK_0), .PRESETN(
         final_mss_0_M2F_RESET_N), .PSEL(CoreAPB3_0_APBmslave0_PSELx), 

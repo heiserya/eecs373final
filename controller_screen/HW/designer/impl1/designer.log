@@ -3,21 +3,21 @@ Version: 9.1.5.1
 Release: v9.1 SP5
 
 
- Netlist Reading Time = 0.0 seconds
+ Netlist Reading Time = 1.0 seconds
 Imported the files:
-   C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+   C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 
-The Import command succeeded ( 00:00:03 )
+The Import command succeeded ( 00:00:05 )
 Info: The design
-      C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
+      C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
       _top.adb was last modified by software version 9.1.5.1.
 Opened an existing Libero design
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
 db.
 'BA_NAME' set to 'final_top_ba'
 'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
@@ -25,12 +25,13 @@ db.
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
 'IDE_DESIGNERVIEW_ROOTDIR' set to
-'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer'
+'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
 The Execute Script command succeeded ( 00:00:00 )
+Checking for software updates...
 Warning: File
-         C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\fi\
+         C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\fi\
          nal_top.fdb already exists
          Do you want to replace it? [YES]
 =====================================================================
@@ -41,12 +42,12 @@ Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
 Source      :
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 Format      : EDIF
 Topcell     : final_top
 Speed grade : -1
@@ -398,7 +399,7 @@ Optimized macros:
 
     Total macros optimized  6
 
-Warning: CMP503: Remapped 85 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 89 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
 There were 0 error(s) and 313 warning(s) in this design.
@@ -421,7 +422,7 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:   1049  Total:   4608   (22.76%)
+    Fabric                     Used:   1127  Total:   4608   (24.46%)
     Fabric IO (W/ clocks)      Used:      2  Total:     94   (2.13%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
@@ -450,8 +451,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 607          | 607
-    SEQ     | 442          | 442
+    COMB    | 679          | 679
+    SEQ     | 448          | 448
 
 I/O Function:
 
@@ -483,13 +484,13 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    85      SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    89      SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
 
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    443     CLK_NET       Net   : final_mss_0_FAB_CLK_0
+    449     CLK_NET       Net   : final_mss_0_FAB_CLK_0
                           Driver: final_mss_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
     66      INT_NET       Net   :
@@ -506,11 +507,12 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTOO0I_RNIKLI4[0
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    158     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
-                          Driver:
-CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    19      INT_NET       Net   : CoreUARTapb_0/CUARTl01
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTl01/U1
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTO00
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTOl0_RNI5L28[0]
     18      INT_NET       Net   :
 CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
                           Driver:
@@ -533,17 +535,16 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
     17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
-    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
-                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    152     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    158     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTIl
-                          Driver:
-CoreUARTapb_0/CUARTOOlI/CUARTI10/genblk0.genblk2.genblk3.CUARTI0
+    19      INT_NET       Net   : CoreUARTapb_0/CUARTl01
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTl01/U1
+    18      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTO00
+                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTIl1/CUARTOl0_RNI5L28[0]
     18      INT_NET       Net   :
 CoreUARTapb_0/CUARTOOlI/genblk7.genblk8.CUARTO11/CUARTlOlI/CUARTOO0I[2]
                           Driver:
@@ -566,8 +567,6 @@ CoreUARTapb_0/CUARTOOlI/genblk9.genblk10.CUARTlOOI/CUARTlOlI/CUARTIO0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[1]/U1
     17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]
                           Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[2]/U1
-    17      INT_NET       Net   : CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]
-                          Driver: CoreUARTapb_0/CUARTOOlI/CUARTI0I[3]/U1
 
 
 SDC Import: Begin processing constraints...
@@ -577,7 +576,7 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:03 )
+The Compile command succeeded ( 00:00:08 )
 ***** Layout Variables *********************************************
 
 Mode: TIMING_DRIVEN
@@ -600,16 +599,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sat Dec 08 20:03:20 2012
+Timing-driven Placer Started: Sun Dec 09 18:25:06 2012
 
-Placer Finished: Sat Dec 08 20:03:30 2012
-Total Placer CPU Time:     00:00:10
+Placer Finished: Sun Dec 09 18:25:36 2012
+Total Placer CPU Time:     00:00:30
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: final_top                       Started: Sat Dec 08 20:03:32 2012
+Design: final_top                       Started: Sun Dec 09 18:25:45 2012
 
  
 Iterative improvement...
@@ -617,8 +616,8 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: final_top                       
-Finished: Sat Dec 08 20:03:41 2012
-Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Finished: Sun Dec 09 18:26:17 2012
+Total CPU Time:     00:00:32            Total Elapsed Time: 00:00:32
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -626,15 +625,15 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:00:27 )
+The Layout command succeeded ( 00:01:24 )
 
-The Export-map command succeeded ( 00:00:05 )
-CHECKSUM: 2FCE
+The Export-map command succeeded ( 00:00:18 )
+CHECKSUM: 63EC
 Wrote to the file: final_top.fdb
 
-The Export command succeeded ( 00:00:38 )
+The Export command succeeded ( 00:01:55 )
 Design saved to file
-C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
+C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
 db.
 Design closed.
 

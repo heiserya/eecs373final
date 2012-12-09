@@ -2,12 +2,14 @@
 #include <stdio.h>
 #include "drivers/mss_gpio/mss_gpio.h"
 #include "drivers/mss_uart/mss_uart.h"
-//#include "drivers/CoreUARTapb/core_uart_apb.h"
+#include "drivers/CoreUARTapb/core_uart_apb.h"
 #include <string.h>
 
 //SCREEN: UART1;  use actel drivers to utilize
 //RADIO: coreUART (RX = F0; TX = F1);
 #define UART_BASE_REG 0x40050000
+
+UART_instance_t g_uart;
 
 ///////////////
 // Controller Code
@@ -349,9 +351,9 @@ int main(){
 	    MSS_UART_115200_BAUD,
 	    MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT
 	);
-/*	UART_init(&g_uart, COREUARTAPB0_BASE_ADDR,
-	    BAUD_VALUE_4800, (DATA_8_BITS | EVEN_PARITY)
-	);*/
+	UART_init(&g_uart, UART_BASE_REG,
+	    1302, (DATA_8_BITS | EVEN_PARITY)
+	);
 
 
 	//Controller Initialization
@@ -364,8 +366,11 @@ int main(){
 	//Main Loop
 	while(1){
 		pollController(&c,&cPrev);
-		uint8_t msg[15] = "Start on down!\n";
-		MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
+		if(c.StartOnDown){
+			uint8_t msg[15] = "Start on down!\n";
+			MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
+			UART_send(&g_uart,msg,sizeof(msg));
+		}
 		wait(1000000);
 	}
 }

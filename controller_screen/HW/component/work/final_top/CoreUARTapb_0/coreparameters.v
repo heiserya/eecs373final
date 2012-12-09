@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Actel SmartDesign Sat Dec 08 15:49:02 2012
+// Created by Actel SmartDesign Sun Dec 09 18:22:24 2012
 // Parameters for CoreUARTapb
 //--------------------------------------------------------------------
 
@@ -8,7 +8,7 @@ parameter BAUD_VALUE = 4800;
 parameter BAUD_VAL_FRCTN = 0;
 parameter BAUD_VAL_FRCTN_EN = 0;
 parameter FAMILY = 18;
-parameter FIXEDMODE = 1;
+parameter FIXEDMODE = 0;
 parameter HDL_license = "O";
 parameter PRG_BIT8 = 1;
 parameter PRG_PARITY = 0;

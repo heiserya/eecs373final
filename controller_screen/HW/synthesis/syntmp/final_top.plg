@@ -20,21 +20,21 @@
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock - Estimated Period(min analysis) : 13.088
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock - Requested Period(min analysis) : 1000.000
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_0_inferred_clock - Slack(min analysis) : 986.912
-@P:  Total Area : 970.0
-@P:  Total Area : 960.0
-@P:  Total Area : 892.0
+@P:  Total Area : 1044.0
+@P:  Total Area : 1034.0
+@P:  Total Area : 964.0
 @P:  Total Area : 332.0
 @P:  Total Area : 332.0
 @P:  Total Area : 276.0
 @P:  Total Area : 332.0
 @P:  Total Area : 332.0
 @P:  Total Area : 276.0
-@P:  Total Area : 83.0
-@P:  Total Area : 51.0
-@P:  Total Area : 55.0
+@P:  Total Area : 113.0
+@P:  Total Area : 65.0
+@P:  Total Area : 75.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
 @P:  Total Area : 10.0
 @P:  Total Area : 8.0
-@P:  Total Area : 970.0
-@P:  CPU Time : 0h:00m:01s
+@P:  Total Area : 1044.0
+@P:  CPU Time : 0h:00m:05s

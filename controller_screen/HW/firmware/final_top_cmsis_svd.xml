@@ -2,7 +2,7 @@
 <device>
   <name>final_top</name>
   <version>1.0</version>
-  <description>CMSIS description for final_top.  Created by Actel SmartDesign on Sat Dec 08 15:49:03 2012</description>
+  <description>CMSIS description for final_top.  Created by Actel SmartDesign on Sun Dec 09 18:22:25 2012</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
