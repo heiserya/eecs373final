@@ -304,16 +304,16 @@ struct Controller pingController(int rumble){
 	wait(30);
 	c.cY = c.cY | ((MSS_GPIO_get_inputs() & 1));
 
-	//printf("Start: %u\n\t", c.Start);
-	//printf("Y: %u\n\t", c.Y);
-	//printf("X: %u\n\t", c.X);
-	//printf("B: %u\n\t", c.B);
-	//printf("A: %u\n\t", c.A);
-	//printf("L: %u R: %u Z: %u dUp: %u dDown: %u dRight: %u dLeft: %u\n\t", c.L, c.R, c.Z, c.dUp, c.dDown, c.dRight, c.dLeft);
-	//printf("JoyX: %x\n\t", c.joyX);
-	//printf("JoyY: %x\n\t", c.joyY);
-	//printf("cX:   %x\n\t", c.cX);
-	//printf("cY:   %x\n\t", c.cY);
+	printf("Start: %u\n\t", c.Start);
+	printf("Y: %u\n\t", c.Y);
+	printf("X: %u\n\t", c.X);
+	printf("B: %u\n\t", c.B);
+	printf("A: %u\n\t", c.A);
+	printf("L: %u R: %u Z: %u dUp: %u dDown: %u dRight: %u dLeft: %u\n\t", c.L, c.R, c.Z, c.dUp, c.dDown, c.dRight, c.dLeft);
+	printf("JoyX: %x\n\t", c.joyX);
+	printf("JoyY: %x\n\t", c.joyY);
+	printf("cX:   %x\n\t", c.cX);
+	printf("cY:   %x\n\t", c.cY);
 
 	return c;
 }
@@ -344,11 +344,11 @@ void pollController(struct Controller *c, struct Controller *cPrev){
 int main(){
 	//SmartFusion Global Initializations
 	MSS_GPIO_init();
-/*	MSS_UART_init(
+	MSS_UART_init(
 		&g_mss_uart1,
 	    MSS_UART_115200_BAUD,
 	    MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT
-	);*/
+	);
 /*	UART_init(&g_uart, COREUARTAPB0_BASE_ADDR,
 	    BAUD_VALUE_4800, (DATA_8_BITS | EVEN_PARITY)
 	);*/
@@ -364,8 +364,8 @@ int main(){
 	//Main Loop
 	while(1){
 		pollController(&c,&cPrev);
-//		uint8_t msg[15] = "Start on down!\n";
-//		MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
+		uint8_t msg[15] = "Start on down!\n";
+		MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
 		wait(1000000);
 	}
 }

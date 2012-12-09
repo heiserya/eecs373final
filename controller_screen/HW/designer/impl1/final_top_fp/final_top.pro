@@ -1,22 +1,22 @@
 <project name="final_top" version="1.1">
     <ProjectDirectory>
-        C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp
+        C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\final_top.log
+        C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\final_top.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro3" revision="UndefRev" connection="usb2.0">
         <name>
-            59291
+            69640
         </name>
         <id>
-            59291
+            69640
         </id>
     </programmer>
     <configuration>
@@ -59,7 +59,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\projectData\final_top.pdb
+                C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_fp\projectData\final_top.pdb
             </filename>
             <local>
                 projectData\final_top.pdb

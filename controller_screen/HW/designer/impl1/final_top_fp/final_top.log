@@ -4,53 +4,55 @@ Release: v9.1 SP5
 
 Software Version: 9.1.5.1
 PDB file
-'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\projectData\final_top.pdb' has been loaded successfully.
 DESIGN : final_top;  CHECKSUM : 2FCE;  PDB_VERSION : 1.7
 Warning: One or more programming or configuration files have changed since generation.
          To view details and update a PDB, you may click on Modify PDB button for the target
          device.
          To update a STAPL file, you may reload the file or reload the project.
-Driver : 3.0.0 build 1
-programmer '69640' : FlashPro3
 Warning: The programmer with id '59291' in the project file cannot be detected and connected.
 Warning: One or more programming or configuration files have changed since generation.
          To view details and update a PDB, you may click on Modify PDB button for the target
          device.
          To update a STAPL file, you may reload the file or reload the project.
 Opened
-'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\final_top.pro'
-Info: Updating Flash Memory data from file
+Info: Replacing Flash Memory data from file
       C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final\
+      _mss\MSS_ENVM_0\MSS_ENVM_0.efc with data from file
+      C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final\
       _mss\MSS_ENVM_0\MSS_ENVM_0.efc.
-Info: Updating FPGA Array data from file
+Info: Replacing FPGA Array data from file
       C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
+      _top.fdb with data from file
+      C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
       _top.fdb.
 PDB file
-'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\projectData\final_top.pdb' has been loaded successfully.
 DESIGN : final_top;  CHECKSUM : 2FCE;  PDB_VERSION : 1.7
-programmer '69640' : Scan Chain...
-Error: Vjtag is disconnected or shorted. Please check the FPGA's Vjtag pin is properly
-       connected. Please check that the target board is powered.
-Error: programmer '69640' : Scan Chain FAILED.
-Error: Failed to run Action.
-programmer '69640' : Scan Chain...
-Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
-         Vpump has also been detected. Using externally provided Vpump voltage source.
-programmer '69640' : Scan Chain PASSED.
-programmer '69640' : Executing action PROGRAM
-programmer '69640' : EXPORT FSN[48] = 0114ab1c8c90
-programmer '69640' : Erase ...
-programmer '69640' : Failed to program UROW
-programmer '69640' : EXPORT ERROR_CODE[16] = 8056
-programmer '69640' : Finished: Sat Dec 08 15:54:46 2012 (Elapsed time 00:00:10)
-Error: programmer '69640' : Executing action PROGRAM FAILED, EXIT -24, refer to FlashPro online
-       help for details.
-
-                        o - o - o - o - o - o
-
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+Driver : 3.0.0 build 1
+programmer '69640' : FlashPro3
+Rescanning for Programmers DONE.
 programmer '69640' : Scan Chain...
 Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
@@ -64,9 +66,9 @@ programmer '69640' : Verifying FPGA Array
 programmer '69640' :         Verifying FPGA Array -- pass
 programmer '69640' : Program System Init and Boot Clients...
 programmer '69640' : Verify System Init and Boot Clients...
-programmer '69640' : Finished: Sat Dec 08 15:56:09 2012 (Elapsed time 00:00:38)
+programmer '69640' : Finished: Sat Dec 08 18:26:01 2012 (Elapsed time 00:00:43)
 programmer '69640' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
 
-Warning: Project 'final_top' has been modified. Do you want to save it? [NO]
+Warning: Project 'final_top' has been modified. Do you want to save it? [YES]
