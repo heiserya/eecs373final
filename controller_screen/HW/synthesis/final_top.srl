@@ -6,55 +6,55 @@
 #
 # Created by Synplify Verilog HDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
 # Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
-# Synthesis Netlist written on Sat Dec 08 15:49:33 2012
+# Synthesis Netlist written on Sat Dec 08 20:02:37 2012
 #
 #
-#OPTIONS:"|-top|final_top|-nram|-fixsmult|-I|C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\synthesis\\|-I|C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v2001|-devicelib|C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#OPTIONS:"|-top|final_top|-nram|-fixsmult|-I|C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\synthesis\\|-I|C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib|-v2001|-devicelib|C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
 #CUR:"C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_ver.exe":1286459480
 #CUR:"C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\proasic\\smartfusion.v":1286459504
 #CUR:"C:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vlog\\hypermods.v":1286459506
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.106\\mss_comps.v":1354999002
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\MSS_CCC_0\\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":1354998980
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\mss_tshell.v":1354998985
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\final_mss.v":1354999003
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Clock_gen.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Tx_async.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Rx_async.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\fifo_256x8.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUART.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUARTapb.v":1354999742
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1354999738
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1354999738
-#CUR:"C:\\Users\\thinkpad\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\final_top.v":1354999742
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.106\\mss_comps.v":1355008065
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\MSS_CCC_0\\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\mss_tshell.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_mss\\final_mss.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Clock_gen.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Tx_async.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Rx_async.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\fifo_256x8.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUART.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUARTapb.v":1355008067
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1355008064
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1355008064
+#CUR:"C:\\Users\\bschlenk\\Documents\\GitHub\\eecs373final\\controller_screen\\HW\\component\\work\\final_top\\final_top.v":1355008067
 f "C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v"; # file 0
 af .is_verilog 1;
 f "C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"; # file 1
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"; # file 2
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"; # file 2
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"; # file 3
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"; # file 3
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v"; # file 4
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v"; # file 4
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v"; # file 5
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v"; # file 5
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v"; # file 6
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v"; # file 6
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v"; # file 7
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v"; # file 7
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v"; # file 8
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v"; # file 8
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v"; # file 9
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v"; # file 9
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v"; # file 10
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v"; # file 10
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v"; # file 11
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v"; # file 11
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"; # file 12
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"; # file 12
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"; # file 13
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"; # file 13
 af .is_verilog 1;
-f "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v"; # file 14
+f "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v"; # file 14
 af .is_verilog 1;
 @E
 @ 

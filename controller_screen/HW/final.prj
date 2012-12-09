@@ -463,13 +463,13 @@ SIZE="73752"
 ENDFILE
 VALUE "<project>\designer\impl1\final_top.adb,adb"
 STATE="utd"
-TIME="1355008067"
+TIME="1355015309"
 SIZE="1279488"
 ENDFILE
 VALUE "<project>\designer\impl1\final_top.fdb,fdb"
 STATE="utd"
-TIME="1355008067"
-SIZE="70644"
+TIME="1355015031"
+SIZE="70642"
 ENDFILE
 VALUE "<project>\designer\impl1\final_top_ba.sdf,ba_sdf"
 STATE="ood"
@@ -483,7 +483,7 @@ SIZE="95206"
 ENDFILE
 VALUE "<project>\designer\impl1\final_top_fp\final_top.pro,pro"
 STATE="utd"
-TIME="1355008067"
+TIME="1355016134"
 SIZE="2096"
 ENDFILE
 VALUE "<project>\hdl\n64.v,hdl"
@@ -567,17 +567,17 @@ SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\final_top.edn,syn_edn"
 STATE="utd"
-TIME="1355008068"
-SIZE="695801"
+TIME="1355014960"
+SIZE="695800"
 ENDFILE
 VALUE "<project>\synthesis\final_top_drc.rpt,log"
 STATE="utd"
-TIME="1355008068"
+TIME="1355014974"
 SIZE="28965"
 ENDFILE
 VALUE "<project>\synthesis\final_top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1355008068"
+TIME="1355014960"
 SIZE="310"
 ENDFILE
 ENDLIST
@@ -925,4 +925,7 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
+DESIGNFLOW:
+SD:final_top::work
+ACTIVE_VIEW:0
 ENDLIST

@@ -4,17 +4,17 @@ Product Version E-2010.09A-1
 @N: MF249 |Running in 32-bit mode.
 @N: MF258 |Gated clock conversion disabled 
 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 58MB)
+@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
 
 Encoding state machine work.final_top_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s(verilog)-CUARTOl0[3:0]
 original code -> new code
@@ -22,9 +22,9 @@ original code -> new code
    01 -> 01
    10 -> 10
    11 -> 11
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog)-CUARTO1ll[6:0]
 original code -> new code
    00000000000000000000000000000000 -> 0000001
@@ -34,44 +34,44 @@ original code -> new code
    00000000000000000000000000000100 -> 0010000
    00000000000000000000000000000101 -> 0100000
    00000000000000000000000000000110 -> 1000000
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog)-CUARTOl0[2:0]
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-Finished factoring (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 59MB)
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 59MB)
 
-@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
-@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 60MB)
+@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
+@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
 
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 61MB)
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 62MB)
 
-Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 
 High Fanout Net Report
@@ -90,7 +90,7 @@ CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q     
 @N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_82 
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
-Finished technology mapping (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 6 
 
@@ -112,21 +112,21 @@ New registers created by retiming :
 
 		#####   END RETIMING REPORT  #####
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 
 Added 0 Buffers
 Added 2 Cells via replication
 	Added 2 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
-Writing Analyst data base C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Writing Analyst data base C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 @W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
@@ -137,7 +137,7 @@ Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Mem
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Dec 08 15:49:58 2012
+# Timing Report written on Sat Dec 08 20:02:40 2012
 #
 
 
@@ -466,7 +466,7 @@ IO Cells           : 8
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:23s realtime, 0h:00m:04s cputime
-# Sat Dec 08 15:49:58 2012
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Dec 08 20:02:40 2012
 
 ###########################################################]

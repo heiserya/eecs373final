@@ -1,14 +1,14 @@
 #Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
 #install: C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
 #OS:  6.1
-#Hostname: THINKPAD-THINK
+#Hostname: MACROSOFT
 
 #Implementation: synthesis
 
-#Sat Dec 08 15:49:32 2012
+#Sat Dec 08 20:02:36 2012
 
 $ Start of Compile
-#Sat Dec 08 15:49:32 2012
+#Sat Dec 08 20:02:36 2012
 
 Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
 @N|Running in 32-bit mode
@@ -16,38 +16,26 @@ Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
 
 @I::"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v"
 @I::"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vlog\hypermods.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"
-@I::"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v"
 Verilog syntax check successful!
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v changed - recompiling
-File C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v changed - recompiling
+Options changed - recompiling
 Selecting top level module final_top
-@W: CG775 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
+@W: CG775 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
 
 	APB_DWIDTH=6'b100000
 	RANGESIZE=21'b000000000000100000000
@@ -99,28 +87,28 @@ Selecting top level module final_top
 
 @N: CG364 :"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v":1133:7:1133:9|Synthesizing module GND
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
 
 @N: CG364 :"C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v":2566:7:2566:11|Synthesizing module RCOSC
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:37|Synthesizing module final_mss_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:37|Synthesizing module final_mss_tmp_MSS_CCC_0_MSS_CCC
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v":5:7:5:15|Synthesizing module final_mss
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.v":5:7:5:15|Synthesizing module final_mss
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:32|Synthesizing module final_top_CoreUARTapb_0_Clock_gen
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:32|Synthesizing module final_top_CoreUARTapb_0_Clock_gen
 
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
    Generated name = final_top_CoreUARTapb_0_Clock_gen_0s
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_Tx_async
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_Tx_async
 
 	TX_FIFO=32'b00000000000000000000000000000001
 	CUARTlIll=32'b00000000000000000000000000000000
@@ -132,8 +120,8 @@ Selecting top level module final_top
 	CUARTl0ll=32'b00000000000000000000000000000110
    Generated name = final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s
 
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":794:0:794:8|Removing redundant assignment
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_Rx_async
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":794:0:794:8|Removing redundant assignment
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_Rx_async
 
 	RX_FIFO=32'b00000000000000000000000000000001
 	CUARTllIl=32'b00000000000000000000000000000000
@@ -141,12 +129,12 @@ Selecting top level module final_top
 	CUARTI0Il=32'b00000000000000000000000000000010
    Generated name = final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s
 
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":654:0:654:7|Removing redundant assignment
-@N: CL177 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Sharing sequential element CUARTl0l.
-@W: CL190 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Optimizing register bit CUARTIOIl to a constant 0
-@W: CL169 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Pruning Register CUARTIOIl 
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":654:0:654:7|Removing redundant assignment
+@N: CL177 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Sharing sequential element CUARTl0l.
+@W: CL190 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Optimizing register bit CUARTIOIl to a constant 0
+@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1414:0:1414:5|Pruning Register CUARTIOIl 
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_COREUART
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:31|Synthesizing module final_top_CoreUARTapb_0_COREUART
 
 	TX_FIFO=32'b00000000000000000000000000000001
 	RX_FIFO=32'b00000000000000000000000000000001
@@ -155,20 +143,20 @@ Selecting top level module final_top
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
    Generated name = final_top_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s
 
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1209:0:1209:7|Removing redundant assignment
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":634:0:634:30|Synthesizing module final_top_CoreUARTapb_0_ram16x8
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1209:0:1209:7|Removing redundant assignment
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":634:0:634:30|Synthesizing module final_top_CoreUARTapb_0_ram16x8
 
-@N: CL134 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM CUARTll0I, depth=16, width=8
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":151:0:151:36|Synthesizing module final_top_CoreUARTapb_0_fifo_ctrl_256
+@N: CL134 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM CUARTll0I, depth=16, width=8
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":151:0:151:36|Synthesizing module final_top_CoreUARTapb_0_fifo_ctrl_256
 
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":588:0:588:8|Removing redundant assignment
-@A:"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Feedback mux created for signal CUARTIOII[7:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":14:0:14:33|Synthesizing module final_top_CoreUARTapb_0_fifo_256x8
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":588:0:588:8|Removing redundant assignment
+@A:"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Feedback mux created for signal CUARTIOII[7:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":14:0:14:33|Synthesizing module final_top_CoreUARTapb_0_fifo_256x8
 
-@W: CG133 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":320:0:320:7|No assignment to CUARTOI0
-@W: CL169 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1062:0:1062:5|Pruning Register CUARTlI0 
+@W: CG133 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":320:0:320:7|No assignment to CUARTOI0
+@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1062:0:1062:5|Pruning Register CUARTlI0 
 
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:34|Synthesizing module final_top_CoreUARTapb_0_CoreUARTapb
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:34|Synthesizing module final_top_CoreUARTapb_0_CoreUARTapb
 
 	FAMILY=32'b00000000000000000000000000010010
 	TX_FIFO=32'b00000000000000000000000000000001
@@ -182,36 +170,36 @@ Selecting top level module final_top
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
    Generated name = final_top_CoreUARTapb_0_CoreUARTapb_18s_1s_1s_4800s_1s_1s_0s_0s_0s_0s
 
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":700:0:700:8|Removing redundant assignment
-@N: CG179 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":776:0:776:8|Removing redundant assignment
-@W: CG133 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":270:0:270:8|No assignment to CUARTl0OI
-@N: CG364 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v":5:7:5:15|Synthesizing module final_top
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":700:0:700:8|Removing redundant assignment
+@N: CG179 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":776:0:776:8|Removing redundant assignment
+@W: CG133 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":270:0:270:8|No assignment to CUARTl0OI
+@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\final_top.v":5:7:5:15|Synthesizing module final_top
 
-@W: CL246 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":113:0:113:4|Input port bits 1 to 0 of PADDR[4:0] are unused
+@W: CL246 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":113:0:113:4|Input port bits 1 to 0 of PADDR[4:0] are unused
 
-@A: CL153 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":270:0:270:8|*Unassigned bits of CUARTl0OI[2:0] have been referenced and are being tied to 0 - simulation mismatch possible
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":44:0:44:7|Input CUARTl11 is unused
-@N: CL201 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":895:0:895:5|Trying to extract state machine for register CUARTOl0
+@A: CL153 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":270:0:270:8|*Unassigned bits of CUARTl0OI[2:0] have been referenced and are being tied to 0 - simulation mismatch possible
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":44:0:44:7|Input CUARTl11 is unused
+@N: CL201 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":895:0:895:5|Trying to extract state machine for register CUARTOl0
 Extracted state machine for register CUARTOl0
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@W: CL190 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Optimizing register bit CUARTOIIl to a constant 0
-@W: CL169 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Pruning Register CUARTOIIl 
+@W: CL190 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Optimizing register bit CUARTOIIl to a constant 0
+@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Pruning Register CUARTOIIl 
 
-@W: CL190 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":503:0:503:5|Optimizing register bit CUARTI01 to a constant 0
-@W: CL169 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":503:0:503:5|Pruning Register CUARTI01 
+@W: CL190 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":503:0:503:5|Optimizing register bit CUARTI01 to a constant 0
+@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":503:0:503:5|Pruning Register CUARTI01 
 
-@N: CL201 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Trying to extract state machine for register CUARTOl0
+@N: CL201 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":723:0:723:5|Trying to extract state machine for register CUARTOl0
 Extracted state machine for register CUARTOl0
 State machine has 3 reachable states with original encodings of:
    00
    01
    10
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":81:0:81:7|Input CUARTI1I is unused
-@N: CL201 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":253:0:253:5|Trying to extract state machine for register CUARTO1ll
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":81:0:81:7|Input CUARTI1I is unused
+@N: CL201 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":253:0:253:5|Trying to extract state machine for register CUARTO1ll
 Extracted state machine for register CUARTO1ll
 State machine has 7 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -221,79 +209,79 @@ State machine has 7 reachable states with original encodings of:
    00000000000000000000000000000100
    00000000000000000000000000000101
    00000000000000000000000000000110
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":60:0:60:7|Input CUARTO0I is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":68:0:68:7|Input CUARTI0I is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":70:0:70:16|Input BAUD_VAL_FRACTION is unused
-@W: CL157 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits - a simulation mismatch is possible 
-@W: CL157 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits - a simulation mismatch is possible 
-@W: CL157 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits - a simulation mismatch is possible 
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
-@W: CL246 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":217:0:217:4|Input port bits 23 to 12 of PADDR[23:0] are unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":60:0:60:7|Input CUARTO0I is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":68:0:68:7|Input CUARTI0I is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":70:0:70:16|Input BAUD_VAL_FRACTION is unused
+@W: CL157 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits - a simulation mismatch is possible 
+@W: CL157 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits - a simulation mismatch is possible 
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL246 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":217:0:217:4|Input port bits 23 to 12 of PADDR[23:0] are unused
 
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":356:0:356:7|Input PRDATAS1 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":363:0:363:7|Input PRDATAS2 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":370:0:370:7|Input PRDATAS3 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":377:0:377:7|Input PRDATAS4 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":384:0:384:7|Input PRDATAS5 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":391:0:391:7|Input PRDATAS6 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:7|Input PRDATAS7 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":405:0:405:7|Input PRDATAS8 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":412:0:412:7|Input PRDATAS9 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":419:0:419:8|Input PRDATAS10 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":426:0:426:8|Input PRDATAS11 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":433:0:433:8|Input PRDATAS12 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":440:0:440:8|Input PRDATAS13 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":447:0:447:8|Input PRDATAS14 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":454:0:454:8|Input PRDATAS15 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":458:0:458:7|Input PREADYS1 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":460:0:460:7|Input PREADYS2 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":462:0:462:7|Input PREADYS3 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":464:0:464:7|Input PREADYS4 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":466:0:466:7|Input PREADYS5 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":468:0:468:7|Input PREADYS6 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":470:0:470:7|Input PREADYS7 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":472:0:472:7|Input PREADYS8 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":474:0:474:7|Input PREADYS9 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":476:0:476:8|Input PREADYS10 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":478:0:478:8|Input PREADYS11 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":480:0:480:8|Input PREADYS12 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":482:0:482:8|Input PREADYS13 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":484:0:484:8|Input PREADYS14 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":486:0:486:8|Input PREADYS15 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":490:0:490:8|Input PSLVERRS1 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":492:0:492:8|Input PSLVERRS2 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":494:0:494:8|Input PSLVERRS3 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":496:0:496:8|Input PSLVERRS4 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":498:0:498:8|Input PSLVERRS5 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":500:0:500:8|Input PSLVERRS6 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":502:0:502:8|Input PSLVERRS7 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":504:0:504:8|Input PSLVERRS8 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":506:0:506:8|Input PSLVERRS9 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":508:0:508:9|Input PSLVERRS10 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:9|Input PSLVERRS11 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":512:0:512:9|Input PSLVERRS12 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":514:0:514:9|Input PSLVERRS13 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":516:0:516:9|Input PSLVERRS14 is unused
-@W: CL159 :"C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":356:0:356:7|Input PRDATAS1 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":363:0:363:7|Input PRDATAS2 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":370:0:370:7|Input PRDATAS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":377:0:377:7|Input PRDATAS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":384:0:384:7|Input PRDATAS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":391:0:391:7|Input PRDATAS6 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:7|Input PRDATAS7 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":405:0:405:7|Input PRDATAS8 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":412:0:412:7|Input PRDATAS9 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":419:0:419:8|Input PRDATAS10 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":426:0:426:8|Input PRDATAS11 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":433:0:433:8|Input PRDATAS12 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":440:0:440:8|Input PRDATAS13 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":447:0:447:8|Input PRDATAS14 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":454:0:454:8|Input PRDATAS15 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":458:0:458:7|Input PREADYS1 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":460:0:460:7|Input PREADYS2 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":462:0:462:7|Input PREADYS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":464:0:464:7|Input PREADYS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":466:0:466:7|Input PREADYS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":468:0:468:7|Input PREADYS6 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":470:0:470:7|Input PREADYS7 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":472:0:472:7|Input PREADYS8 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":474:0:474:7|Input PREADYS9 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":476:0:476:8|Input PREADYS10 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":478:0:478:8|Input PREADYS11 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":480:0:480:8|Input PREADYS12 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":482:0:482:8|Input PREADYS13 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":484:0:484:8|Input PREADYS14 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":486:0:486:8|Input PREADYS15 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":490:0:490:8|Input PSLVERRS1 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":492:0:492:8|Input PSLVERRS2 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":494:0:494:8|Input PSLVERRS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":496:0:496:8|Input PSLVERRS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":498:0:498:8|Input PSLVERRS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":500:0:500:8|Input PSLVERRS6 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":502:0:502:8|Input PSLVERRS7 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":504:0:504:8|Input PSLVERRS8 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":506:0:506:8|Input PSLVERRS9 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":508:0:508:9|Input PSLVERRS10 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:9|Input PSLVERRS11 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":512:0:512:9|Input PSLVERRS12 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":514:0:514:9|Input PSLVERRS13 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":516:0:516:9|Input PSLVERRS14 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused
 @END
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Dec 08 15:49:33 2012
+# Sat Dec 08 20:02:37 2012
 
 ###########################################################]
 Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
@@ -302,17 +290,17 @@ Product Version E-2010.09A-1
 @N: MF249 |Running in 32-bit mode.
 @N: MF258 |Gated clock conversion disabled 
 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module final_mss_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1148:0:1148:5|Register bit CUARTl1Ol is always 0, optimizing ...
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-@W:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-Finished RTL optimizations (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 58MB)
+@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+@W:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
 
 Encoding state machine work.final_top_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s(verilog)-CUARTOl0[3:0]
 original code -> new code
@@ -320,9 +308,9 @@ original code -> new code
    01 -> 01
    10 -> 10
    11 -> 11
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":962:0:962:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst genblk0\.genblk2\.genblk3\.CUARTO0[12:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1039:0:1039:5|Found counter in view:work.final_top_CoreUARTapb_0_Clock_gen_0s(verilog) inst CUARTO1[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":550:0:550:5|Found counter in view:work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog) inst CUARTOO0l[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog)-CUARTO1ll[6:0]
 original code -> new code
    00000000000000000000000000000000 -> 0000001
@@ -332,44 +320,44 @@ original code -> new code
    00000000000000000000000000000100 -> 0010000
    00000000000000000000000000000101 -> 0100000
    00000000000000000000000000000110 -> 1000000
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
-@N:"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":509:0:509:8|Register bit CUARTO1ll[4] is always 0, optimizing ...
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Removing sequential instance CUARTIO0l of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":739:0:739:5|Boundary register CUARTIO0l has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTOOIl[3:0]
+@N:"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":422:0:422:5|Found counter in view:work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog) inst CUARTl0Ol[3:0]
 Encoding state machine work.final_top_CoreUARTapb_0_Rx_async_1s_0s_1s_2s(verilog)-CUARTOl0[2:0]
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Removing sequential instance CUARTI1Ol[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":967:0:967:5|Boundary register CUARTI1Ol[8] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
-@A: BN291 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: MF135 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
-@N: BN116 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Removing sequential instance CUARTIOII[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+@A: BN291 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":541:0:541:5|Boundary register CUARTIOII[0] has been packed into a complex cell. To disable this register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
+@N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-Finished factoring (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 59MB)
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 59MB)
 
-@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
-@W: BN132 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 60MB)
+@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
+@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
 
-@W: MO161 :"c:\users\thinkpad\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 61MB)
+@W: MO161 :"c:\users\bschlenk\documents\github\eecs373final\controller_screen\hw\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1235:0:1235:5|Register bit CoreUARTapb_0.CUARTOOlI.CUARTIl1.CUARTl01 is always 0, optimizing ...
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 61MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 62MB)
 
-Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 
 High Fanout Net Report
@@ -388,7 +376,7 @@ CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q     
 @N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk7\.genblk8\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_82 
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk7.genblk8.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk9.genblk10.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
-Finished technology mapping (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 6 
 
@@ -410,21 +398,21 @@ New registers created by retiming :
 
 		#####   END RETIMING REPORT  #####
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 
 Added 0 Buffers
 Added 2 Cells via replication
 	Added 2 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:03s; Memory used current: 61MB peak: 62MB)
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
-Writing Analyst data base C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Writing Analyst data base C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Memory used current: 61MB peak: 62MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 62MB)
 
 @W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
@@ -435,7 +423,7 @@ Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Mem
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Dec 08 15:49:58 2012
+# Timing Report written on Sat Dec 08 20:02:40 2012
 #
 
 
@@ -764,7 +752,7 @@ IO Cells           : 8
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:23s realtime, 0h:00m:04s cputime
-# Sat Dec 08 15:49:58 2012
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Dec 08 20:02:40 2012
 
 ###########################################################]

@@ -6,12 +6,12 @@ Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
 Source      :
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 Format      : EDIF
 Topcell     : final_top
 Speed grade : -1
@@ -535,5 +535,5 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:06 )
+The Compile command succeeded ( 00:00:03 )
 

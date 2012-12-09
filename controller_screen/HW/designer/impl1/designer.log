@@ -3,21 +3,21 @@ Version: 9.1.5.1
 Release: v9.1 SP5
 
 
- Netlist Reading Time = 1.0 seconds
+ Netlist Reading Time = 0.0 seconds
 Imported the files:
-   C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+   C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 
-The Import command succeeded ( 00:00:04 )
+The Import command succeeded ( 00:00:03 )
 Info: The design
-      C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
+      C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
       _top.adb was last modified by software version 9.1.5.1.
 Opened an existing Libero design
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
 db.
 'BA_NAME' set to 'final_top_ba'
 'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
@@ -25,13 +25,12 @@ db.
 'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
 'IDE_DESIGNERVIEW_REVNUM0' set to '1'
 'IDE_DESIGNERVIEW_ROOTDIR' set to
-'C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer'
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
 The Execute Script command succeeded ( 00:00:00 )
-Checking for software updates...
 Warning: File
-         C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\fi\
+         C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\fi\
          nal_top.fdb already exists
          Do you want to replace it? [YES]
 =====================================================================
@@ -42,12 +41,12 @@ Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
 Source      :
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top.edn
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_top\f\
 inal_top.pdc
 
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_top_sdc.sdc
 Format      : EDIF
 Topcell     : final_top
 Speed grade : -1
@@ -578,7 +577,7 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:07 )
+The Compile command succeeded ( 00:00:03 )
 ***** Layout Variables *********************************************
 
 Mode: TIMING_DRIVEN
@@ -601,16 +600,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sat Dec 08 15:51:18 2012
+Timing-driven Placer Started: Sat Dec 08 20:03:20 2012
 
-Placer Finished: Sat Dec 08 15:51:46 2012
-Total Placer CPU Time:     00:00:28
+Placer Finished: Sat Dec 08 20:03:30 2012
+Total Placer CPU Time:     00:00:10
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: final_top                       Started: Sat Dec 08 15:51:54 2012
+Design: final_top                       Started: Sat Dec 08 20:03:32 2012
 
  
 Iterative improvement...
@@ -618,8 +617,8 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: final_top                       
-Finished: Sat Dec 08 15:52:21 2012
-Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:27
+Finished: Sat Dec 08 20:03:41 2012
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -627,15 +626,15 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:01:14 )
+The Layout command succeeded ( 00:00:27 )
 
-The Export-map command succeeded ( 00:00:18 )
+The Export-map command succeeded ( 00:00:05 )
 CHECKSUM: 2FCE
 Wrote to the file: final_top.fdb
 
-The Export command succeeded ( 00:01:42 )
+The Export command succeeded ( 00:00:38 )
 Design saved to file
-C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
+C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top.a\
 db.
 Design closed.
 

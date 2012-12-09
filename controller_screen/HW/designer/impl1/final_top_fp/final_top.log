@@ -7,67 +7,140 @@ PDB file
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\projectData\final_top.pdb' has been loaded successfully.
 DESIGN : final_top;  CHECKSUM : 2FCE;  PDB_VERSION : 1.7
-Warning: One or more programming or configuration files have changed since generation.
-         To view details and update a PDB, you may click on Modify PDB button for the target
-         device.
-         To update a STAPL file, you may reload the file or reload the project.
-Warning: The programmer with id '59291' in the project file cannot be detected and connected.
-Warning: One or more programming or configuration files have changed since generation.
-         To view details and update a PDB, you may click on Modify PDB button for the target
-         device.
-         To update a STAPL file, you may reload the file or reload the project.
+Driver : 3.0.0 build 1
+programmer '69640' : FlashPro3
 Opened
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\final_top.pro'
-Info: Replacing Flash Memory data from file
-      C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final\
-      _mss\MSS_ENVM_0\MSS_ENVM_0.efc with data from file
+Info: Updating Flash Memory data from file
       C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final\
       _mss\MSS_ENVM_0\MSS_ENVM_0.efc.
-Info: Replacing FPGA Array data from file
-      C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
-      _top.fdb with data from file
+Info: Updating FPGA Array data from file
       C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final\
       _top.fdb.
 PDB file
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
 fp\projectData\final_top.pdb' has been loaded successfully.
 DESIGN : final_top;  CHECKSUM : 2FCE;  PDB_VERSION : 1.7
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Rescanning for Programmers DONE.
-Rescanning for Programmers...
-Driver : 3.0.0 build 1
-programmer '69640' : FlashPro3
-Rescanning for Programmers DONE.
 programmer '69640' : Scan Chain...
 Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
 programmer '69640' : Scan Chain PASSED.
 programmer '69640' : Executing action PROGRAM
-programmer '69640' : EXPORT FSN[48] = 0114ab1c8c90
-programmer '69640' : Erase ...
-programmer '69640' : Completed erase
-programmer '69640' : Programming FPGA Array
-programmer '69640' : Verifying FPGA Array
-programmer '69640' :         Verifying FPGA Array -- pass
-programmer '69640' : Program System Init and Boot Clients...
-programmer '69640' : Verify System Init and Boot Clients...
-programmer '69640' : Finished: Sat Dec 08 18:26:01 2012 (Elapsed time 00:00:43)
-programmer '69640' : Executing action PROGRAM PASSED.
+programmer '69640' : Failed to access Embedded Flash Memory.
+programmer '69640' : EXPORT nvmBusy: [5] = 01
+programmer '69640' : EXPORT nvmAccess: [5] = 01
+programmer '69640' : EXPORT ERROR_CODE[16] = 8051
+programmer '69640' : Finished: Sat Dec 08 20:15:37 2012 (Elapsed time 00:00:00)
+Error: programmer '69640' : Executing action PROGRAM FAILED, EXIT -54, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+programmer '69640' : Programmer is disabled and skipped.
+Error: Failed to run Action.
+programmer '69640' : Programmer is disabled and skipped.
+Error: Failed to run Action.
+programmer '69640' : Scan Chain...
+Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '69640' : Scan Chain PASSED.
+programmer '69640' : Executing action PROGRAM
+programmer '69640' : Failed to access Embedded Flash Memory.
+programmer '69640' : EXPORT nvmBusy: [5] = 01
+programmer '69640' : EXPORT nvmAccess: [5] = 01
+programmer '69640' : EXPORT ERROR_CODE[16] = 8051
+programmer '69640' : Finished: Sat Dec 08 20:18:42 2012 (Elapsed time 00:00:00)
+Error: programmer '69640' : Executing action PROGRAM FAILED, EXIT -54, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+PDB file
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+fp\final_top.pdb' has been loaded successfully.
+DESIGN : final_top;  CHECKSUM : E6F7;  PDB_VERSION : 1.7
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+         
+         --------------------------------------------------------------------------------------\
+         -----
+         Audit Status of Programming file 'final_top.pdb'
+         --------------------------------------------------------------------------------------\
+         -----
+         The following original file[s] could not be located from the disk and will not be
+         monitored for changes:
+                 'C:\Users\thinkpad\SkyDrive\eecs373final\final\designer\impl1\final_top.fdb'
+
+         'C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_mss\MSS_ENVM_0\MSS\
+         _ENVM_0.efc'
+         
+         
+         Do you want to Continue Programming? [NO]
+PDB file
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+fp\final_top.pdb' has been loaded successfully.
+DESIGN : final_top;  CHECKSUM : E6F7;  PDB_VERSION : 1.7
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+         
+         --------------------------------------------------------------------------------------\
+         -----
+         Audit Status of Programming file 'final_top.pdb'
+         --------------------------------------------------------------------------------------\
+         -----
+         The following original file[s] could not be located from the disk and will not be
+         monitored for changes:
+                 'C:\Users\thinkpad\SkyDrive\eecs373final\final\designer\impl1\final_top.fdb'
+
+         'C:\Users\thinkpad\SkyDrive\eecs373final\final\component\work\final_mss\MSS_ENVM_0\MSS\
+         _ENVM_0.efc'
+         
+         
+         Do you want to Continue Programming? [YES]
+programmer '69640' : Scan Chain...
+Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '69640' : Scan Chain PASSED.
+programmer '69640' : Executing action PROGRAM
+programmer '69640' : Failed to access Embedded Flash Memory.
+programmer '69640' : EXPORT nvmBusy: [5] = 01
+programmer '69640' : EXPORT nvmAccess: [5] = 01
+programmer '69640' : EXPORT ERROR_CODE[16] = 8051
+programmer '69640' : Finished: Sat Dec 08 20:20:47 2012 (Elapsed time 00:00:00)
+Error: programmer '69640' : Executing action PROGRAM FAILED, EXIT -54, refer to FlashPro online
+       help for details.
+
+                        o - o - o - o - o - o
+
+PDB file
+'C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_top_\
+fp\projectData\final_top.pdb' has been loaded successfully.
+DESIGN : final_top;  CHECKSUM : 2FCE;  PDB_VERSION : 1.7
+programmer '69640' : Scan Chain...
+Warning: programmer '69640' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '69640' : Scan Chain PASSED.
+programmer '69640' : Executing action PROGRAM
+programmer '69640' : Failed to access Embedded Flash Memory.
+programmer '69640' : EXPORT nvmBusy: [5] = 01
+programmer '69640' : EXPORT nvmAccess: [5] = 01
+programmer '69640' : EXPORT ERROR_CODE[16] = 8051
+programmer '69640' : Finished: Sat Dec 08 20:21:51 2012 (Elapsed time 00:00:00)
+Error: programmer '69640' : Executing action PROGRAM FAILED, EXIT -54, refer to FlashPro online
+       help for details.
 
                         o - o - o - o - o - o
 
