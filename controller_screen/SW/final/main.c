@@ -307,16 +307,16 @@ struct Controller pingController(int rumble){
 	wait(30);
 	c.cY = c.cY | ((MSS_GPIO_get_inputs() & 1));
 
-	printf("Start: %u\n\t", c.Start);
+	/*printf("Start: %u\n\t", c.Start);
 	printf("Y: %u\n\t", c.Y);
 	printf("X: %u\n\t", c.X);
 	printf("B: %u\n\t", c.B);
-	printf("A: %u\n\t", c.A);
-	printf("L: %u R: %u Z: %u dUp: %u dDown: %u dRight: %u dLeft: %u\n\t", c.L, c.R, c.Z, c.dUp, c.dDown, c.dRight, c.dLeft);
-	printf("JoyX: %x\n\t", c.joyX);
-	printf("JoyY: %x\n\t", c.joyY);
-	printf("cX:   %x\n\t", c.cX);
-	printf("cY:   %x\n\t", c.cY);
+	printf("A: %u\n\t", c.A);*/
+	//printf("L: %u R: %u Z: %u dUp: %u dDown: %u dRight: %u dLeft: %u\n\t", c.L, c.R, c.Z, c.dUp, c.dDown, c.dRight, c.dLeft);
+	//printf("JoyX: %x\n\t", c.joyX);
+	//printf("JoyY: %x\n\t", c.joyY);
+	//printf("cX:   %x\n\t", c.cX);
+	//printf("cY:   %x\n\t", c.cY);
 
 	return c;
 }
@@ -346,6 +346,13 @@ void pollController(struct Controller *c, struct Controller *cPrev){
 
 int main(){
 	int joyX;
+	int joyY;
+	int cX;
+	int cY, B, Start;
+	int txSize;
+
+	int distance;
+	int mode;
 
 	//SmartFusion Global Initializations
 	MSS_GPIO_init();
@@ -365,27 +372,53 @@ int main(){
 	MSS_GPIO_config(MSS_GPIO_0, MSS_GPIO_INOUT_MODE);
 	MSS_GPIO_drive_inout(MSS_GPIO_0, MSS_GPIO_HIGH_Z);
 	initController();
-	uint8_t tx[40];
+	uint8_t tx[80];
+	uint8_t printMe[100];
+	int printMeSize;
+
+	//MSS_UART_polled_tx = screen
+	//Initialize Screen
+	/*printMeSize = sprintf(printMe, "|")+1;
+	MSS_UART_polled_tx(&g_mss_uart1, printMe, printMeSize);
+	printMeSize = sprintf(printMe, "      EECS 373: Awesome Turret     ") + 1;
+    MSS_UART_polled_tx(&g_mss_uart1, printMe, printMeSize);*/
+
 	//Main Loop
 	while(1){
 		pollController(&c,&cPrev);
 
-		//uint8_t joyX[16] = c.X.itoa();
+		//Send data to the controller
+		B = c.B;
+		Start = c.Start;
+		joyX = c.joyX;
+		joyY = c.joyY;
+		cX = c.cX;
+		cY = c.cY;
 		if(c.StartOnDown){
-			sprintf(tx, "%c %c %c %c     ", &c.joyX, &c.joyY, &c.cX, &c.cY);
-			tx[40] = '\0';
-			if(c.B) tx[39] = 1;
-			else tx[39] = 0;
-			if(c.Start) tx[37] = 1;
-			else tx[37] = 0;
-
-			uint8_t msg[40] = "12345678 87654321 71234567 76543210 1 0\0";
-			MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
-			UART_send(&g_uart,msg,sizeof(msg));
-
-			//MSS_UART_polled_tx(&g_mss_uart1, tx, sizeof(tx));
-			//UART_send(&g_uart,tx,sizeof(tx));
+			txSize = sprintf(tx, "%i %i %i %i %i %i", joyX, joyY, cX, cY, B, Start) + 1;
+			MSS_UART_polled_tx(&g_mss_uart1, tx, txSize);
+			UART_send(&g_uart,tx,sizeof(tx));
 		}
+
+		//Receive data from the controller
+		distance = 42;
+		mode = 0;
+/*
+		//Update Screen
+		//Set to line 2
+		printMeSize = sprintf(printMe, "|  ");
+		printMe[1] = 0x18;
+		printMe[2] = 8;
+	    MSS_UART_polled_tx(&g_mss_uart1, printMe, 3);
+	    //Output the mode
+	    if(!mode)
+		printMeSize = sprintf(printMe, "      EECS 373: Awesome Turret     ") + 1;
+	    MSS_UART_polled_tx(&g_mss_uart1, printMe, printMeSize);
+		printMeSize = sprintf(printMe, "      EECS 373: Awesome Turret     ") + 1;
+	    MSS_UART_polled_tx(&g_mss_uart1, printMe, printMeSize);
+
+*/
+
 		wait(1000000);
 	}
 }
