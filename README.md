@@ -5,6 +5,7 @@ The Awesome Turret for 373
 
 Ribbon Cable Header Pin Out
 --------------
+Note: Wheel by battery is wheel1. Wheel numbers go counter clockwise.  
 1 Brown   - Trigger Servo (Top Servo Port)  
 2 Red     - Gun angle Servo (Bottom Servo Port)   
 3 Orange  - Speed controller near ground - White wire   
@@ -25,3 +26,5 @@ Ribbon Cable Header Pin Out
 18 Grey   - Open  
 19 White  - Open  
 20 Black  - Gun relay  
+ 
+          
