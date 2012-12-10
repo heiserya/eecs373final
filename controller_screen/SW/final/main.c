@@ -4,6 +4,7 @@
 #include "drivers/mss_uart/mss_uart.h"
 #include "drivers/CoreUARTapb/core_uart_apb.h"
 #include <string.h>
+#include <stdlib.h>
 
 //SCREEN: UART1;  use actel drivers to utilize
 //RADIO: coreUART (RX = F0; TX = F1);
@@ -344,6 +345,8 @@ void pollController(struct Controller *c, struct Controller *cPrev){
 //////////////////
 
 int main(){
+	int joyX;
+
 	//SmartFusion Global Initializations
 	MSS_GPIO_init();
 	MSS_UART_init(
@@ -352,7 +355,7 @@ int main(){
 	    MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT
 	);
 	UART_init(&g_uart, UART_BASE_REG,
-	    1302, (DATA_8_BITS | EVEN_PARITY)
+	    162, (DATA_8_BITS | NO_PARITY)
 	);
 
 
@@ -362,14 +365,26 @@ int main(){
 	MSS_GPIO_config(MSS_GPIO_0, MSS_GPIO_INOUT_MODE);
 	MSS_GPIO_drive_inout(MSS_GPIO_0, MSS_GPIO_HIGH_Z);
 	initController();
-
+	uint8_t tx[40];
 	//Main Loop
 	while(1){
 		pollController(&c,&cPrev);
+
+		//uint8_t joyX[16] = c.X.itoa();
 		if(c.StartOnDown){
-			uint8_t msg[15] = "Start on down!\n";
+			sprintf(tx, "%c %c %c %c     ", &c.joyX, &c.joyY, &c.cX, &c.cY);
+			tx[40] = '\0';
+			if(c.B) tx[39] = 1;
+			else tx[39] = 0;
+			if(c.Start) tx[37] = 1;
+			else tx[37] = 0;
+
+			uint8_t msg[40] = "12345678 87654321 71234567 76543210 1 0\0";
 			MSS_UART_polled_tx(&g_mss_uart1, msg, sizeof(msg));
 			UART_send(&g_uart,msg,sizeof(msg));
+
+			//MSS_UART_polled_tx(&g_mss_uart1, tx, sizeof(tx));
+			//UART_send(&g_uart,tx,sizeof(tx));
 		}
 		wait(1000000);
 	}
