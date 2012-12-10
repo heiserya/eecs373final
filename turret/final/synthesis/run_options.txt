@@ -1,22 +1,28 @@
 #-- Synopsys, Inc.
 #-- Version E-2010.09A-1
-#-- Project file C:\Users\David\Desktop\final\synthesis\run_options.txt
-#-- Written on Sat Dec 08 20:15:02 2012
+#-- Project file C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\synthesis\run_options.txt
+#-- Written on Sun Dec 09 18:14:13 2012
 
 
 #project files
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/reg_if.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/tach_if.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/timebase.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/pwm_gen.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/corepwm.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/David/Desktop/final/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/David/Desktop/final/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/work/final_mss/mss_tshell.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/work/final_mss/final_mss.v"
-add_file -verilog "C:/Users/David/Desktop/final/component/work/final_top/final_top.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/reg_if.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/tach_if.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/timebase.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/pwm_gen.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/corepwm/4.1.106/rtl/vlog/core_obfuscated/corepwm.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_mss/mss_tshell.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_mss/MSS_CCC_0/final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_mss/final_mss.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/work/final_top/final_top.v"
 
 
 #implementation: "synthesis"
@@ -39,7 +45,7 @@ set_option -use_fsm_explorer 0
 set_option -top_module "final_top"
 
 # mapper_options
-set_option -frequency 100.000
+set_option -frequency 1
 set_option -write_verilog 0
 set_option -write_vhdl 0
 

@@ -14,7 +14,7 @@
             484 FBGA
         </package>
         <version>
-            9.1.0.18
+            9.1.5.1
         </version>
     </header>
     <nvm>
@@ -213,24 +213,41 @@
         </region>
         <region name="ACTEL_AB_MSS_CONFIG" address="0x083e00" retrieveAddressFromFile="false" size="208" format="HEX" type="Data Storage" wordSize="32" numberWords="52" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
             000000000000000000000000000000000000000000000000001f1f004245
-            45007e7f0100000004000008200100e1f505010000d2000000000000001e
+            45007e7f0100000000000008200100e1f505010000d2000000000000001e
             1a0707000500100005001000008000002bacb0c20a1828b0c20a2bacb0c2
-            0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
+            0a1828b0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
             0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
             0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb002
-            0000000078bf080090d0030000ff030080ff13000000245f0000a276
+            00000000789e080090d0531480fdc30080ff6300370a4eca0000b13c
             <crc>
-                f34e
+                14ab
             </crc>
         </region>
-        <region name="ACTEL_INIT_CONFIG" address="0x07fe00" retrieveAddressFromFile="false" size="136" format="HEX" type="Data Storage" wordSize="32" numberWords="34" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
-            000000000000000000000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000000000000000000000000
-            000000000500000003ff030201300140
+        <region name="ACTEL_PPE_MERGE_CONFIG" address="0x07fb00" retrieveAddressFromFile="false" size="48" format="HEX" type="Data Storage" wordSize="32" numberWords="12" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
+            0003000010001010000310021a0410200103400010001010010310025a04
+            102011001801010320181000100000032010
             <crc>
-                e1cc
+                35b3
+            </crc>
+        </region>
+        <region name="ACTEL_INIT_CONFIG" address="0x07fc00" retrieveAddressFromFile="false" size="432" format="HEX" type="Data Storage" wordSize="32" numberWords="108" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
+            0400024002000000051702160012052702265125ca240000ff230000ff23
+            0000ff230000ff230000ff230000a3230000052000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            0000003c0000000000000000000000000000000000002200004f00400010
+            00000009000000000d00004b3838008a000000080000003f480002400100
+            00008800024001000000c800024000000000100402400000000014040240
+            030000001804024000000000601202400000000018140240030000009014
+            0240010000009c14024001000000a8140240010000000400024002000000
+            0c0002400a00000004140240000000000000000000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            00000000000000000000000000000000000000000500000003fe13000200
+            000009fe53010108024037fe73010118024093feb30002000000ebfe3300
+            0200000003ff030201300140
+            <crc>
+                dff1
             </crc>
         </region>
     </nvm>

@@ -1,25 +1,37 @@
 `timescale 1 ns/100 ps
-// Version: 9.1 9.1.0.18
+// Version: 9.1 SP5 9.1.5.1
 
 
 module final_top(
        MSS_RESET_N,
        UART_0_TXD,
        UART_0_RXD,
+       M2F_GPO_31,
+       ADCDirectInput_0,
+       VAREF1,
+       UART_1_TXD,
+       UART_1_RXD,
+       RX,
+       TX,
        PWM,
        TACHIN,
        TACHIN_0,
-       PWM_0,
-       M2F_GPO_31
+       PWM_0
     );
 input  MSS_RESET_N;
 output UART_0_TXD;
 input  UART_0_RXD;
+output M2F_GPO_31;
+input  ADCDirectInput_0;
+input  VAREF1;
+output UART_1_TXD;
+input  UART_1_RXD;
+input  RX;
+output TX;
 output [8:1] PWM;
 input  [1:1] TACHIN;
 input  [1:1] TACHIN_0;
 output [2:1] PWM_0;
-output M2F_GPO_31;
 
     wire \CoreAPB3_0_APBmslave0_PADDR_[0] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
@@ -170,7 +182,17 @@ output M2F_GPO_31;
         \CoreAPB3_0_APBmslave1_PRDATA_[30] , 
         \CoreAPB3_0_APBmslave1_PRDATA_[31] , 
         CoreAPB3_0_APBmslave1_PREADY, CoreAPB3_0_APBmslave1_PSELx, 
-        CoreAPB3_0_APBmslave1_PSLVERR, final_mss_0_FAB_CLK, 
+        CoreAPB3_0_APBmslave1_PSLVERR, 
+        \CoreAPB3_0_APBmslave2_PRDATA_[0] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[1] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[2] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[3] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[4] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[5] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[6] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[7] , 
+        CoreAPB3_0_APBmslave2_PREADY, CoreAPB3_0_APBmslave2_PSELx, 
+        CoreAPB3_0_APBmslave2_PSLVERR, final_mss_0_FAB_CLK, 
         final_mss_0_M2F_RESET_N, 
         \final_mss_0_MSS_MASTER_APB_PADDR_[0] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[1] , 
@@ -281,21 +303,23 @@ output M2F_GPO_31;
         CoreAPB3_0_APBmslave0_PSLVERR), .PSELS1(
         CoreAPB3_0_APBmslave1_PSELx), .PREADYS1(
         CoreAPB3_0_APBmslave1_PREADY), .PSLVERRS1(
-        CoreAPB3_0_APBmslave1_PSLVERR), .PSELS2(), .PREADYS2(VCC_net), 
-        .PSLVERRS2(GND_net), .PSELS3(), .PREADYS3(VCC_net), .PSLVERRS3(
-        GND_net), .PSELS4(), .PREADYS4(VCC_net), .PSLVERRS4(GND_net), 
-        .PSELS5(), .PREADYS5(VCC_net), .PSLVERRS5(GND_net), .PSELS6(), 
-        .PREADYS6(VCC_net), .PSLVERRS6(GND_net), .PSELS7(), .PREADYS7(
-        VCC_net), .PSLVERRS7(GND_net), .PSELS8(), .PREADYS8(VCC_net), 
-        .PSLVERRS8(GND_net), .PSELS9(), .PREADYS9(VCC_net), .PSLVERRS9(
-        GND_net), .PSELS10(), .PREADYS10(VCC_net), .PSLVERRS10(GND_net)
-        , .PSELS11(), .PREADYS11(VCC_net), .PSLVERRS11(GND_net), 
-        .PSELS12(), .PREADYS12(VCC_net), .PSLVERRS12(GND_net), 
-        .PSELS13(), .PREADYS13(VCC_net), .PSLVERRS13(GND_net), 
-        .PSELS14(), .PREADYS14(VCC_net), .PSLVERRS14(GND_net), 
-        .PSELS15(), .PREADYS15(VCC_net), .PSLVERRS15(GND_net), .PADDR({
-        GND_net, GND_net, GND_net, GND_net, 
-        \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
+        CoreAPB3_0_APBmslave1_PSLVERR), .PSELS2(
+        CoreAPB3_0_APBmslave2_PSELx), .PREADYS2(
+        CoreAPB3_0_APBmslave2_PREADY), .PSLVERRS2(
+        CoreAPB3_0_APBmslave2_PSLVERR), .PSELS3(), .PREADYS3(VCC_net), 
+        .PSLVERRS3(GND_net), .PSELS4(), .PREADYS4(VCC_net), .PSLVERRS4(
+        GND_net), .PSELS5(), .PREADYS5(VCC_net), .PSLVERRS5(GND_net), 
+        .PSELS6(), .PREADYS6(VCC_net), .PSLVERRS6(GND_net), .PSELS7(), 
+        .PREADYS7(VCC_net), .PSLVERRS7(GND_net), .PSELS8(), .PREADYS8(
+        VCC_net), .PSLVERRS8(GND_net), .PSELS9(), .PREADYS9(VCC_net), 
+        .PSLVERRS9(GND_net), .PSELS10(), .PREADYS10(VCC_net), 
+        .PSLVERRS10(GND_net), .PSELS11(), .PREADYS11(VCC_net), 
+        .PSLVERRS11(GND_net), .PSELS12(), .PREADYS12(VCC_net), 
+        .PSLVERRS12(GND_net), .PSELS13(), .PREADYS13(VCC_net), 
+        .PSLVERRS13(GND_net), .PSELS14(), .PREADYS14(VCC_net), 
+        .PSLVERRS14(GND_net), .PSELS15(), .PREADYS15(VCC_net), 
+        .PSLVERRS15(GND_net), .PADDR({GND_net, GND_net, GND_net, 
+        GND_net, \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[18] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[17] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[16] , 
@@ -526,28 +550,34 @@ output M2F_GPO_31;
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, \CoreAPB3_0_APBmslave2_PRDATA_[7] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[6] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[5] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[4] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[3] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[2] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[1] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[0] }), .PRDATAS3({GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net}), .PRDATAS3({GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
+        GND_net, GND_net, GND_net}), .PRDATAS4({GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net}), .PRDATAS4({GND_net, GND_net, GND_net, 
+        GND_net, GND_net}), .PRDATAS5({GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net}), .PRDATAS5({GND_net, GND_net, GND_net, GND_net, 
+        GND_net}), .PRDATAS6({GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net})
-        , .PRDATAS6({GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), 
-        .PRDATAS7({GND_net, GND_net, GND_net, GND_net, GND_net, 
+        , .PRDATAS7({GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
@@ -845,8 +875,9 @@ output M2F_GPO_31;
         final_mss_0_MSS_MASTER_APB_PSLVERR), .M2F_RESET_N(
         final_mss_0_M2F_RESET_N), .UART_0_TXD(UART_0_TXD), .UART_0_RXD(
         UART_0_RXD), .FAB_CLK(final_mss_0_FAB_CLK), .M2F_GPO_31(
-        M2F_GPO_31), .MSSPADDR({
-        \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
+        M2F_GPO_31), .ADCDirectInput_0(ADCDirectInput_0), .VAREF1(
+        VAREF1), .UART_1_TXD(UART_1_TXD), .UART_1_RXD(UART_1_RXD), 
+        .MSSPADDR({\final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[18] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[17] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[16] , 
@@ -930,5 +961,36 @@ output M2F_GPO_31;
         \final_mss_0_MSS_MASTER_APB_PWDATA_[2] , 
         \final_mss_0_MSS_MASTER_APB_PWDATA_[1] , 
         \final_mss_0_MSS_MASTER_APB_PWDATA_[0] }));
+    final_top_CoreUARTapb_0_CoreUARTapb #( .BAUD_VALUE(4800), .BAUD_VAL_FRCTN(0)
+        , .BAUD_VAL_FRCTN_EN(0), .FAMILY(18), .FIXEDMODE(0), .PRG_BIT8(1)
+        , .PRG_PARITY(0), .RX_FIFO(1), .RX_LEGACY_MODE(0), .TX_FIFO(1)
+         )  CoreUARTapb_0 (.PCLK(final_mss_0_FAB_CLK), .PRESETN(
+        final_mss_0_M2F_RESET_N), .PSEL(CoreAPB3_0_APBmslave2_PSELx), 
+        .PENABLE(CoreAPB3_0_APBmslave0_PENABLE), .PWRITE(
+        CoreAPB3_0_APBmslave0_PWRITE), .TXRDY(), .RXRDY(), .PARITY_ERR(
+        ), .OVERFLOW(), .RX(RX), .TX(TX), .PREADY(
+        CoreAPB3_0_APBmslave2_PREADY), .PSLVERR(
+        CoreAPB3_0_APBmslave2_PSLVERR), .FRAMING_ERR(), .PADDR({
+        \CoreAPB3_0_APBmslave1_PADDR_[4] , 
+        \CoreAPB3_0_APBmslave1_PADDR_[3] , 
+        \CoreAPB3_0_APBmslave1_PADDR_[2] , 
+        \CoreAPB3_0_APBmslave1_PADDR_[1] , 
+        \CoreAPB3_0_APBmslave1_PADDR_[0] }), .PWDATA({
+        \CoreAPB3_0_APBmslave0_PWDATA_[7] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[6] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[5] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[4] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[3] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[2] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[1] , 
+        \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .PRDATA({
+        \CoreAPB3_0_APBmslave2_PRDATA_[7] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[6] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[5] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[4] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[3] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[2] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[1] , 
+        \CoreAPB3_0_APBmslave2_PRDATA_[0] }));
     
 endmodule

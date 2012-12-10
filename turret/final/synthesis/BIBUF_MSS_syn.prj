@@ -1,5 +1,5 @@
 #add_file options
-add_file -verilog "C:/Users/David/Desktop/final/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
 set_option -top_module BIBUF_MSS
 
 #device options
@@ -15,4 +15,4 @@ set_option -frequency 100.000
 
 #simulation options
 impl -active "synthesis"
-project -result_file "C:/Users/David/Desktop/final/synthesis/BIBUF_MSS.edn"
+project -result_file "C:/Users/bschlenk/Documents/GitHub/eecs373final/turret/final/synthesis/BIBUF_MSS.edn"

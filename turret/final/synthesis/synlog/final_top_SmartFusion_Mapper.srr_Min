@@ -1,13 +1,13 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Dec 08 20:15:15 2012
+# Timing Report written on Sun Dec 09 18:14:21 2012
 #
 
 
 Top view:               final_top
 Operating conditions:   smartfusion.COMWC-2
-Requested Frequency:    100.0 MHz
+Requested Frequency:    1.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
@@ -24,13 +24,13 @@ Performance Summary
 
 Worst slack in design: 4.357
 
-                                                                       Requested     Estimated     Requested     Estimated                Clock        Clock              
-Starting Clock                                                         Frequency     Frequency     Period        Period        Slack      Type         Group              
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     100.0 MHz     59.3 MHz      10.000        16.852        -6.852     inferred     Inferred_clkgroup_1
-final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     100.0 MHz     69.4 MHz      10.000        14.404        -4.404     inferred     Inferred_clkgroup_2
-System                                                                 100.0 MHz     NA            10.000        NA            NA         system       system_clkgroup    
-==========================================================================================================================================================================
+                                                                       Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack       Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     1.0 MHz       53.0 MHz      1000.000      18.864        981.136     inferred     Inferred_clkgroup_1
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     1.0 MHz       31.8 MHz      1000.000      31.471        968.529     inferred     Inferred_clkgroup_2
+System                                                                 1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
+===========================================================================================================================================================================
 
 
 

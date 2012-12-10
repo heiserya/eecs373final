@@ -1,9 +1,9 @@
 # Actel Physical design constraints file
 # Generated file
 
-# Version: 9.1 9.1.0.18
+# Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Sat Dec 08 20:10:29 2012 
+# Date generated: Sun Dec 09 17:59:18 2012 
 
 
 # 
@@ -17,10 +17,18 @@
 
 define_group -name UART_0_PADs
 
+define_group -name UART_1_PADs
+
 
 # 
 # I/O constraints
 # 
+
+set_io ADCDirectInput_0  \
+    -pinname V12         \
+    -fixed yes           \
+    -DIRECTION Input
+
 
 set_io M2F_GPO_31      \
     -pinname F22       \
@@ -28,9 +36,12 @@ set_io M2F_GPO_31      \
     -DIRECTION Output
 
 
-set_io MSS_RESET_N    \
-    -pinname R1       \
-    -fixed yes        \
+set_io MSS_RESET_N        \
+    -pinname R1           \
+    -fixed yes            \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
     -DIRECTION Input
 
 
@@ -94,11 +105,32 @@ set_io {PWM_0[2]}      \
     -DIRECTION Output
 
 
+set_io RX             \
+    -pinname J19      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io TX              \
+    -pinname J20       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io VAREF1         \
+    -pinname AB11     \
+    -fixed yes        \
+    -DIRECTION Input
+
+
 # User Group UART_0_PADs
 
 set_io UART_0_RXD            \
     -pinname U18             \
     -fixed yes               \
+    -iostd LVTTL             \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER Off     \
     -GROUP_NAME UART_0_PADs  \
     -DIRECTION Input
 
@@ -106,7 +138,36 @@ set_io UART_0_RXD            \
 set_io UART_0_TXD            \
     -pinname Y22             \
     -fixed yes               \
+    -iostd LVTTL             \
+    -OUT_LOAD 35             \
+    -RES_PULL None           \
+    -SKEW Off                \
+    -SLEW High               \
     -GROUP_NAME UART_0_PADs  \
+    -DIRECTION Output
+
+
+# User Group UART_1_PADs
+
+set_io UART_1_RXD            \
+    -pinname W22             \
+    -fixed yes               \
+    -iostd LVTTL             \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER Off     \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION Input
+
+
+set_io UART_1_TXD            \
+    -pinname V20             \
+    -fixed yes               \
+    -iostd LVTTL             \
+    -OUT_LOAD 35             \
+    -RES_PULL None           \
+    -SKEW Off                \
+    -SLEW High               \
+    -GROUP_NAME UART_1_PADs  \
     -DIRECTION Output
 
 
@@ -120,7 +181,9 @@ set_io UART_0_TXD            \
 # Old IO constraints, commented out for reference
 #
 
-# set_io MSS_RESET_N -pinname R1 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -DIRECTION Input 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io M2F_GPO_31 -pinname F22 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
 # set_io {PWM[1]} -pinname E3 -fixed yes -DIRECTION Output 
 # set_io {PWM[2]} -pinname F3 -fixed yes -DIRECTION Output 
 # set_io {PWM[3]} -pinname G4 -fixed yes -DIRECTION Output 
@@ -131,12 +194,10 @@ set_io UART_0_TXD            \
 # set_io {PWM[8]} -pinname C22 -fixed yes -DIRECTION Output 
 # set_io {PWM_0[1]} -pinname F1 -fixed yes -DIRECTION Output 
 # set_io {PWM_0[2]} -pinname E22 -fixed yes -DIRECTION Output 
-# set_io UART_0_RXD -pinname U18 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME UART_0_PADs -DIRECTION Input 
-# set_io UART_0_TXD -pinname Y22 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME UART_0_PADs -DIRECTION Output 
-# set_io GPIO_31_OUT -pinname U20 -fixed yes -DIRECTION Output 
-# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io RX -pinname J19 -fixed yes -DIRECTION Input 
+# set_io TX -pinname J20 -fixed yes -DIRECTION Output 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
 # set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
 # set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
-# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
-# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
-# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
