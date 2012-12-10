@@ -177,8 +177,14 @@ int main(){
 		if (buff[offset-1] == '\0') { // message fully received
 			//printf("%s\n\r", buff);
 			sscanf(buff, "%d %d %d %d %d %d", &joyx, &joyy, &cx, &cy, &start, &fire);
-			printf("JoyX: %d, JoyY: %d, CX: %d, CY: %d, Start: %d, Fire: %d\n\r", joyx, joyy, cx, cy, start, fire);
+			printf("JoyX: %3d, JoyY: %3d, CX: %3d, CY: %3d, Start: %d, Fire: %d\n\r", joyx, joyy, cx, cy, start, fire);
 			offset = 0;
+
+			wheel1(joyx);
+			wheel2(joyy);
+			wheel3(joyx);
+			wheel4(joyy);
+
 		}
 	}
 	/*while(1){

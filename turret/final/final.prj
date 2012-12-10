@@ -526,18 +526,18 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl2\final_top.adb,adb"
 STATE="utd"
-TIME="1355086077"
-SIZE="814592"
+TIME="1355095043"
+SIZE="4584960"
 ENDFILE
 VALUE "<project>\designer\impl2\final_top.fdb,fdb"
 STATE="utd"
-TIME="1355086198"
-SIZE="120890"
+TIME="1355095032"
+SIZE="122427"
 ENDFILE
 VALUE "<project>\designer\impl2\final_top_fp\final_top.pro,pro"
 STATE="utd"
-TIME="1355086215"
-SIZE="1861"
+TIME="1355095105"
+SIZE="2060"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
 STATE="utd"
@@ -595,17 +595,17 @@ PARENT="<project>\component\work\final_mss\final_mss.cxf"
 ENDFILE
 VALUE "<project>\synthesis\final_top.edn,syn_edn"
 STATE="utd"
-TIME="1355085602"
-SIZE="2435143"
+TIME="1355094861"
+SIZE="2466064"
 ENDFILE
 VALUE "<project>\synthesis\final_top_drc.rpt,log"
 STATE="utd"
-TIME="1355085624"
-SIZE="27753"
+TIME="1355094878"
+SIZE="27400"
 ENDFILE
 VALUE "<project>\synthesis\final_top_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1355085602"
+TIME="1355094860"
 SIZE="310"
 ENDFILE
 ENDLIST
@@ -813,6 +813,9 @@ LIST corepwm
 VALUE "<project>\component\Actel\DirectCore\corepwm\4.1.106\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\test\user\tb_user_corepwm.v,tb_hdl"
 ENDLIST
+LIST final_mss
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+ENDLIST
 LIST final_top_CoreUARTapb_0_CoreUARTapb
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.1.102\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
@@ -831,9 +834,6 @@ LIST CoreAPB3
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
-LIST final_mss
-VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
-ENDLIST
 ENDLIST
 LIST Other_Association
 LIST final_top
@@ -845,6 +845,14 @@ LIST corepwm
 VALUE "<project>\component\Actel\DirectCore\corepwm\4.1.106\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\test\user\tb_user_corepwm.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\corepwm\4.1.106\mti\scripts\wave_usertb_vlog.do,do"
+ENDLIST
+LIST final_mss
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
+VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
+VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
+VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 ENDLIST
 LIST final_top_CoreUARTapb_0_CoreUARTapb
 VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
@@ -871,14 +879,6 @@ VALUE "<project>\simulation\coreapb3_usertb_apb_master.bfm,sim"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\mti\scripts\wave_user.do,do"
-ENDLIST
-LIST final_mss
-VALUE "<project>\simulation\user.bfm,sim"
-VALUE "<project>\simulation\test.bfm,sim"
-VALUE "<project>\component\work\final_mss\testbench.v,tb_hdl"
-VALUE "<project>\component\work\final_mss\final_mss.pdc,pdc"
-VALUE "<project>\component\work\final_mss\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
-VALUE "<project>\simulation\CompileDssBfm.tcl,sim"
 ENDLIST
 ENDLIST
 LIST SimulationOptions
@@ -1064,7 +1064,4 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
-DESIGNFLOW:
-SD:final_top::work
-ACTIVE_VIEW:0
 ENDLIST
