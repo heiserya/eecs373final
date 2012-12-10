@@ -3,7 +3,7 @@ eecs373final
 
 The Awesome Turret for 373
 
-Header Pin Out
+Ribbon Cable Header Pin Out
 --------------
 1 Brown   - Trigger Servo (Top Servo Port)  
 2 Red     - Gun angle Servo (Bottom Servo Port)   
