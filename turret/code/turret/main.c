@@ -155,7 +155,7 @@ int get_range() {
 	to_return = inches;
 	int feet = inches/12;
 	inches %= 12;
-	printf("Adc_data: %d, voltage: %f, Distance: %d\' %d\"\n\r", adc_data, voltage, feet, inches);
+	//printf("Adc_data: %d, voltage: %f, Distance: %d\' %d\"\n\r", adc_data, voltage, feet, inches);
 	return inches;
 }
 
@@ -170,15 +170,27 @@ int main(){
 	int offset = 0;
 	size_t received;
 	int joyx, joyy, cx, cy, start, fire;
+	int startDown = 0;
+	int mode = 0; // 0 for manual, 1 for automatic
+	uint8_t tx[100];
+	int txSize;
 
 	while (1) {
 		while (!(received = UART_get_rx(&g_uart, buff+offset, sizeof(buff)-offset)));
 		offset += received;
+		//printf("Received: %d\n\r", received);
 		if (buff[offset-1] == '\0') { // message fully received
 			//printf("%s\n\r", buff);
-			sscanf(buff, "%d %d %d %d %d %d", &joyx, &joyy, &cx, &cy, &start, &fire);
-			printf("JoyX: %3d, JoyY: %3d, CX: %3d, CY: %3d, Start: %d, Fire: %d\n\r", joyx, joyy, cx, cy, start, fire);
+			sscanf(buff, "%d %d %d %d %d %d", &joyx, &joyy, &cx, &cy, &fire, &start);
+			printf("JoyX: %3d, JoyY: %3d, CX: %3d, CY: %3d, Fire: %d, Start: %d\n\r", joyx, joyy, cx, cy, fire, start);
 			offset = 0;
+
+			if (start && !startDown) {
+				mode = !mode;
+				startDown = 1;
+			}
+			if (!start && startDown)
+				startDown = 0;
 
 			wheel1(joyx);
 			wheel2(joyy);
@@ -186,6 +198,9 @@ int main(){
 			wheel4(joyy);
 
 		}
+		else continue;
+		txSize = sprintf(tx, "%d %d", mode, get_range()) + 1;
+		UART_send(&g_uart, tx, txSize);
 	}
 	/*while(1){
 		set_gun_angle(0);

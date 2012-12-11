@@ -1064,4 +1064,7 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
+DESIGNFLOW:
+SD:final_top::work
+ACTIVE_VIEW:0
 ENDLIST
