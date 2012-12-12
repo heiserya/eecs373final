@@ -536,7 +536,7 @@ SIZE="122427"
 ENDFILE
 VALUE "<project>\designer\impl2\final_top_fp\final_top.pro,pro"
 STATE="utd"
-TIME="1355095105"
+TIME="1355173014"
 SIZE="2060"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -1066,5 +1066,5 @@ ENDLIST
 LIST OpenedFileList
 DESIGNFLOW:
 SD:final_top::work
-ACTIVE_VIEW:0
+ACTIVE_VIEW:1
 ENDLIST

@@ -20,6 +20,7 @@
 
 int firing;
 int fire_counter;
+int curr_angle;
 
 ace_channel_handle_t adc_handler;
 pwm_instance_t motors;
@@ -109,7 +110,7 @@ void wheel3(int pwm){
 		PWM_disable(&motors, PWM_6);
 	}
 	else {
-		pwm *= -1;
+		pwm = pwm * -1;
 		PWM_set_duty_cycle(&motors, PWM_6, pwm);
 		PWM_enable(&motors, PWM_6);
 		PWM_disable(&motors, PWM_5);
@@ -170,6 +171,17 @@ int get_range() {
 	return inches;
 }
 
+void moveTurret(int delta) {
+	if (!delta)
+		return;
+	curr_angle += delta;
+	if (curr_angle < 0)
+		curr_angle = 0;
+	if (curr_angle > 204)
+		curr_angle = 204;
+	set_gun_angle(curr_angle);
+}
+
 int main(){
 	pwm_init();
 	MSS_GPIO_init();
@@ -186,33 +198,27 @@ int main(){
 	uint8_t tx[100];
 	int txSize;
 	firing = 0;
+	curr_angle = 0;
 
-	while(1) {
-		int i;
-		for (i=0; i < 255; i++) {
-			wheel3(i);
-			wait(100000);
-			printf("%d", i);
-		}
-		for (i=255; i > -255; i--) {
-			wheel3(i);
-			wait(100000);
-			printf("%d", i);
-		}
-		for (i=-255; i < 0; i++) {
-			wheel3(i);
-			printf("%d", i);
-			wait(100000);
-		}
-	}
-	/*while (1) {
+	MSS_GPIO_set_output(MSS_GPIO_31, 0);
+
+	/*while(1) {
+		wheel2(255);
+		//wheel4(255);
+		//wheel2(-255);
+		//wheel3(255);
+		//wheel4(-255);
+	}*/
+	while (1) {
 		while (!(received = UART_get_rx(&g_uart, buff+offset, sizeof(buff)-offset)));
 		offset += received;
 		//printf("Received: %d\n\r", received);
 		if (buff[offset-1] == '\0') { // message fully received
 			//printf("%s\n\r", buff);
-			sscanf(buff, "%d %d %d %d %d %d", &joyx, &joyy, &cx, &cy, &fire, &start);
-			printf("JoyX: %3d, JoyY: %3d, CX: %3d, CY: %3d, Fire: %d, Start: %d\n\r", joyx, joyy, cx, cy, fire, start);
+			if (6 != sscanf(buff, "%d %d %d %d %d %d", &joyx, &joyy, &cx, &cy, &fire, &start)) {
+				bzero(buff, BUFFER_SIZE);
+				continue;
+			}
 			offset = 0;
 
 			if (start && !startDown) {
@@ -222,10 +228,26 @@ int main(){
 			if (!start && startDown)
 				startDown = 0;
 
-			wheel1(joyx);
-			wheel2(joyy);
-			wheel3(joyx);
-			wheel4(joyy);
+			joyx = joyx * .65;
+			joyy = joyy * .65;
+
+			if (joyx < 0)
+				joyx -= 150;
+			else if (joyx > 0)
+				joyx += 150;
+			if (joyy < 0)
+				joyy -= 150;
+			else if (joyy > 0)
+				joyy += 150;
+
+			printf("JoyX: %3d, JoyY: %3d, CX: %3d, CY: %3d, Fire: %d, Start: %d\n\r", joyx, joyy, cx, cy, fire, start);
+
+			wheel1(joyy);
+			wheel2(joyx);
+			wheel3(joyy);
+			wheel4(joyx);
+
+			moveTurret(cy);
 
 			if (fire && !firing) {
 				start_gun();
@@ -240,7 +262,7 @@ int main(){
 		else continue;
 		txSize = sprintf(tx, "%d %d", mode, get_range()) + 1;
 		UART_send(&g_uart, tx, txSize);
-	}*/
+	}
 	/*while(1){
 		set_gun_angle(0);
 		wheel1(-255);
