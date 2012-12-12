@@ -1,47 +1,58 @@
-@P:  Worst Slack : -6.852
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency : 59.3 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period : 16.852
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period : 10.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack : -6.852
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency : 69.4 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period : 14.404
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period : 10.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack : -4.404
+@P:  Worst Slack : 968.529
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency : 53.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period : 18.864
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period : 1000.000
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack : 981.136
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency : 31.8 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period : 31.471
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period : 1000.000
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack : 968.529
 @P:  System - Estimated Frequency : NA
-@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Requested Frequency : 1.0 MHz
 @P:  System - Estimated Period : NA
-@P:  System - Requested Period : 10.000
+@P:  System - Requested Period : 1000.000
 @P:  System - Slack : NA
 @P:  Worst Slack(min analysis) : 4.357
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency(min analysis) : 59.3 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period(min analysis) : 16.852
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period(min analysis) : 10.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack(min analysis) : -6.852
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency(min analysis) : 69.4 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period(min analysis) : 14.404
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period(min analysis) : 10.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack(min analysis) : -4.404
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency(min analysis) : 53.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency(min analysis) : 1.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period(min analysis) : 18.864
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period(min analysis) : 1000.000
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack(min analysis) : 981.136
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency(min analysis) : 31.8 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency(min analysis) : 1.0 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period(min analysis) : 31.471
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period(min analysis) : 1000.000
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack(min analysis) : 968.529
 @P:  System - Estimated Frequency(min analysis) : NA
-@P:  System - Requested Frequency(min analysis) : 100.0 MHz
+@P:  System - Requested Frequency(min analysis) : 1.0 MHz
 @P:  System - Estimated Period(min analysis) : NA
-@P:  System - Requested Period(min analysis) : 10.000
+@P:  System - Requested Period(min analysis) : 1000.000
 @P:  System - Slack(min analysis) : NA
-@P:  Total Area : 2633.0
-@P:  Total Area : 3.0
+@P:  Total Area : 3653.0
+@P:  Total Area : 1040.0
+@P:  Total Area : 972.0
+@P:  Total Area : 338.0
+@P:  Total Area : 338.0
+@P:  Total Area : 281.0
+@P:  Total Area : 332.0
+@P:  Total Area : 332.0
+@P:  Total Area : 276.0
+@P:  Total Area : 114.0
+@P:  Total Area : 65.0
+@P:  Total Area : 75.0
+@P:  Total Area : 2.0
 @P:  Total Area : 0.0
-@P:  Total Area : 1701.0
-@P:  Total Area : 581.0
-@P:  Total Area : 264.0
-@P:  Total Area : 847.0
-@P:  Total Area : 789.0
-@P:  Total Area : 163.0
-@P:  Total Area : 261.0
-@P:  Total Area : 365.0
-@P:  Total Area : 140.0
-@P:  Total Area : 137.0
-@P:  Total Area : 2633.0
-@P:  CPU Time : 0h:00m:10s
+@P:  Total Area : 1714.0
+@P:  Total Area : 580.0
+@P:  Total Area : 233.0
+@P:  Total Area : 898.0
+@P:  Total Area : 820.0
+@P:  Total Area : 165.0
+@P:  Total Area : 233.0
+@P:  Total Area : 420.0
+@P:  Total Area : 77.0
+@P:  Total Area : 73.0
+@P:  Total Area : 3653.0
+@P:  CPU Time : 0h:00m:04s

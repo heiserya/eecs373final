@@ -8,15 +8,14 @@ KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
 KEY IDE_DES_LAYOUT_DONE "TRUE"
 KEY IDE_DES_BA_EXPORTED "TRUE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_mss.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\designer\impl1\final_mss.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss.edn;edn"
-VALUE "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.pdc;pdc"
-VALUE "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss_sdc.sdc;sdc"
+VALUE "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss.edn;edn"
+VALUE "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss_sdc.sdc;sdc"
 ENDLIST
 LIST OPTIONAL_FILES
-VALUE "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.pdc;Used"
-VALUE "C:\Users\thinkpad\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss_sdc.sdc;Used"
+VALUE "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\component\work\final_mss\final_mss.pdc;Used"
+VALUE "C:\Users\bschlenk\Documents\GitHub\eecs373final\controller_screen\HW\synthesis\final_mss_sdc.sdc;Used"
 ENDLIST
 LIST VCD_FILES
 ENDLIST

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.debug.264930219">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.debug.264930219" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactName="turret" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.debug.264930219" name="Debug" parent="cdt.managedbuild.config.gnu.cross.cortexm3.exe.debug">
+<folderInfo id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.debug.264930219." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cross.cortexm3.exe.debug.1037302020" name="Microsemi Cortex-M3 Tools" superClass="cdt.managedbuild.toolchain.gnu.cross.cortexm3.exe.debug">
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.cross.cortexm3.exe.debug.1377553486" name="Debug Platform" osList="all" superClass="cdt.managedbuild.target.gnu.platform.cross.cortexm3.exe.debug"/>
+<builder buildPath="${workspace_loc:/turret/Debug}" id="cdt.managedbuild.target.gnu.builder.cross.cortexm3.exe.debug.1447692228" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="cdt.managedbuild.target.gnu.builder.cross.cortexm3.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.c.compiler.cross.cortexm3.exe.debug.1179844106" name="GNU C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cross.cortexm3.exe.debug">
+<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cross.cortexm3.exe.debug.option.optimization.level.7771516" superClass="gnu.c.compiler.cross.cortexm3.exe.debug.option.optimization.level" valueType="enumerated"/>
+<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cross.cortexm3.exe.debug.option.debugging.level.1293542825" superClass="gnu.c.compiler.cross.cortexm3.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cross.cortexm3.exe.debug.1765740783" name="GNU C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cross.cortexm3.exe.debug">
+<option id="gnu.cpp.compiler.cross.cortexm3.exe.debug.option.optimization.level.726378025" superClass="gnu.cpp.compiler.cross.cortexm3.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.cross.cortexm3.exe.debug.option.debugging.level.1238777794" superClass="gnu.cpp.compiler.cross.cortexm3.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.c.linker.cross.cortexm3.exe.debug.1414058792" name="GNU C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cross.cortexm3.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cross.cortexm3.exe.debug.762489692" name="GNU C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cross.cortexm3.exe.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.assembler.cross.cortexm3.exe.debug.1877910877" name="GNU Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cross.cortexm3.exe.debug"/>
+<tool id="com.actel.softconsole.memory-map.gen.cross.cortexm3.xml.debug.412405877" name="Memory map generator" superClass="com.actel.softconsole.memory-map.gen.cross.cortexm3.xml.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.ihex.debug.838941086" name="GNU Intel Hex File Generator" superClass="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.ihex.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.srec.debug.971536959" name="GNU S-Record Generator" superClass="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.srec.debug"/>
+<tool id="cdt.managedbuild.tool.gnu.objdump.cross.cortexm3.lst.debug.58386319" name="GNU Listing Generator" superClass="cdt.managedbuild.tool.gnu.objdump.cross.cortexm3.lst.debug"/>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.actel.softconsole.arm.ActelARMManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.core8051s.SDCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-V -E -Wp -P -dD ${plugin_state_location}/${specs_file}" command="sdcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.cortexm1.ActelCortexM1ManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.cortexm3.ActelCortexM3ManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+<cconfiguration id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.release.1501313702">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.release.1501313702" moduleId="org.eclipse.cdt.core.settings" name="Release">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactName="turret" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.release.1501313702" name="Release" parent="cdt.managedbuild.config.gnu.cross.cortexm3.exe.release">
+<folderInfo id="cdt.managedbuild.config.gnu.cross.cortexm3.exe.release.1501313702." name="/" resourcePath="">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cross.cortexm3.exe.release.1934172742" name="Microsemi Cortex-M3 Tools" superClass="cdt.managedbuild.toolchain.gnu.cross.cortexm3.exe.release">
+<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.cross.cortexm3.exe.release.668417013" name="Release Platform" osList="all" superClass="cdt.managedbuild.target.gnu.platform.cross.cortexm3.exe.release"/>
+<builder buildPath="${workspace_loc:/turret/Release}" id="cdt.managedbuild.target.gnu.builder.cross.cortexm3.exe.release.2110066144" managedBuildOn="true" name="Gnu Make.Release" superClass="cdt.managedbuild.target.gnu.builder.cross.cortexm3.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.c.compiler.cross.cortexm3.exe.release.1644398287" name="GNU C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cross.cortexm3.exe.release">
+<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cross.cortexm3.exe.release.option.optimization.level.15737456" superClass="gnu.c.compiler.cross.cortexm3.exe.release.option.optimization.level" valueType="enumerated"/>
+<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cross.cortexm3.exe.release.option.debugging.level.1475627069" superClass="gnu.c.compiler.cross.cortexm3.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cross.cortexm3.exe.release.1014079969" name="GNU C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cross.cortexm3.exe.release">
+<option id="gnu.cpp.compiler.cross.cortexm3.exe.release.option.optimization.level.865067581" superClass="gnu.cpp.compiler.cross.cortexm3.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.cross.cortexm3.exe.release.option.debugging.level.594124337" superClass="gnu.cpp.compiler.cross.cortexm3.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool id="cdt.managedbuild.tool.gnu.c.linker.cross.cortexm3.exe.release.521344566" name="GNU C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cross.cortexm3.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cross.cortexm3.exe.release.1855681477" name="GNU C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cross.cortexm3.exe.release"/>
+<tool id="cdt.managedbuild.tool.gnu.assembler.cross.cortexm3.exe.release.126398715" name="GNU Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cross.cortexm3.exe.release"/>
+<tool id="com.actel.softconsole.memory-map.gen.cross.cortexm3.xml.release.1766322460" name="Memory map generator" superClass="com.actel.softconsole.memory-map.gen.cross.cortexm3.xml.release"/>
+<tool id="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.ihex.release.886541186" name="GNU Intel Hex File Generator" superClass="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.ihex.release"/>
+<tool id="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.srec.release.1939532396" name="GNU S-Record Generator" superClass="cdt.managedbuild.tool.gnu.objcopy.cross.cortexm3.srec.release"/>
+<tool id="cdt.managedbuild.tool.gnu.objdump.cross.cortexm3.lst.release.944213327" name="GNU Listing Generator" superClass="cdt.managedbuild.tool.gnu.objdump.cross.cortexm3.lst.release"/>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="com.actel.softconsole.arm.ActelARMManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.core8051s.SDCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="false" filePath=""/>
+<parser enabled="false"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-V -E -Wp -P -dD ${plugin_state_location}/${specs_file}" command="sdcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.cortexm1.ActelCortexM1ManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="com.actel.softconsole.cortexm3.ActelCortexM3ManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="arm-none-eabi-gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="turret.cdt.managedbuild.target.gnu.cross.cortexm3.exe.1692678015" name="Executable (Managed Make)" projectType="cdt.managedbuild.target.gnu.cross.cortexm3.exe"/>
+</storageModule>
+</cproject>

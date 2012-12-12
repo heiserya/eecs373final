@@ -1,5 +1,5 @@
 `timescale 1 ns/100 ps
-// Version: 9.1 9.1.0.18
+// Version: 9.1 SP5 9.1.5.1
 
 
 module final_mss(
@@ -16,6 +16,10 @@ module final_mss(
        MSSPWDATA,
        UART_0_TXD,
        UART_0_RXD,
+       UART_1_TXD,
+       UART_1_RXD,
+       ADCDirectInput_0,
+       VAREF1,
        MSS_RESET_N
     );
 output MSSPSEL;
@@ -31,30 +35,27 @@ input  [31:0] MSSPRDATA;
 output [31:0] MSSPWDATA;
 output UART_0_TXD;
 input  UART_0_RXD;
+output UART_1_TXD;
+input  UART_1_RXD;
+input  ADCDirectInput_0;
+input  VAREF1;
 input  MSS_RESET_N;
 
-    wire MSSINT_GPO_31_A, MSS_ADLIB_INST_EMCCLK, MSS_ADLIB_INST_FCLK, 
+    wire MSSINT_GPO_31_A, MSS_ACE_0_ADC5_Y, MSS_ACE_0_VAREF1_Y, 
+        MSS_ADLIB_INST_EMCCLK, MSS_ADLIB_INST_FCLK, 
         MSS_ADLIB_INST_MACCLK, MSS_ADLIB_INST_MACCLKCCC, 
         MSS_ADLIB_INST_PLLLOCK, MSS_RESET_0_MSS_RESET_N_Y, 
-        MSS_UART_0_RXD_Y, MSS_UART_0_TXD_D, GND_net, VCC_net;
+        MSS_UART_0_RXD_Y, MSS_UART_0_TXD_D, MSS_UART_1_RXD_Y, 
+        MSS_UART_1_TXD_D, GND_net, VCC_net;
     
-    INBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("R1") )  
-        MSS_RESET_0_MSS_RESET_N (.PAD(MSS_RESET_N), .Y(
-        MSS_RESET_0_MSS_RESET_N_Y));
-    VCC VCC (.Y(VCC_net));
-    OUTBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("Y22") )  MSS_UART_0_TXD (
-        .D(MSS_UART_0_TXD_D), .PAD(UART_0_TXD));
-    final_mss_tmp_MSS_CCC_0_MSS_CCC MSS_CCC_0 (.CLKA(GND_net), 
-        .CLKA_PAD(GND_net), .CLKA_PADP(GND_net), .CLKA_PADN(GND_net), 
-        .CLKB(GND_net), .CLKB_PAD(GND_net), .CLKB_PADP(GND_net), 
-        .CLKB_PADN(GND_net), .CLKC(GND_net), .CLKC_PAD(GND_net), 
-        .CLKC_PADP(GND_net), .CLKC_PADN(GND_net), .GLA(), .GLB(), .GLC(
-        ), .FAB_CLK(FAB_CLK), .YB(), .YC(), .MAINXIN(GND_net), .LPXIN(
-        GND_net), .FAB_LOCK(), .MAC_CLK(GND_net), .RCOSC_CLKOUT(), 
-        .MAINXIN_CLKOUT(), .LPXIN_CLKOUT(), .GLA0(MSS_ADLIB_INST_FCLK), 
-        .MSS_LOCK(MSS_ADLIB_INST_PLLLOCK), .MAC_CLK_CCC(
-        MSS_ADLIB_INST_MACCLKCCC), .MAC_CLK_IO(MSS_ADLIB_INST_MACCLK));
+    INBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("W22") )  MSS_UART_1_RXD (
+        .PAD(UART_1_RXD), .Y(MSS_UART_1_RXD_Y));
+    INBUF_A MSS_ACE_0_VAREF1 (.PAD(VAREF1), .Y(MSS_ACE_0_VAREF1_Y));
+    GND GND (.Y(GND_net));
+    OUTBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("V20") )  MSS_UART_1_TXD (
+        .D(MSS_UART_1_TXD_D), .PAD(UART_1_TXD));
     MSSINT MSSINT_GPO_31 (.A(MSSINT_GPO_31_A), .Y(M2F_GPO_31));
+    VCC VCC (.Y(VCC_net));
     MSS_APB #( .ACT_CONFIG(0), .ACT_DIE("IP4X3M1"), .ACT_FCLK(100000000)
         , .ACT_PKG("fg484") )  MSS_ADLIB_INST (.MSSPADDR({MSSPADDR[19], 
         MSSPADDR[18], MSSPADDR[17], MSSPADDR[16], MSSPADDR[15], 
@@ -147,37 +148,54 @@ input  MSS_RESET_N;
         GND_net), .I2C0SDAO(), .I2C0SCLI(GND_net), .I2C0SCLO(), 
         .SPI1DO(), .SPI1DOE(), .SPI1DI(GND_net), .SPI1CLKI(GND_net), 
         .SPI1CLKO(), .SPI1MODE(), .SPI1SSI(GND_net), .SPI1SSO({nc145, 
-        nc146, nc147, nc148, nc149, nc150, nc151, nc152}), .UART1TXD(), 
-        .UART1RXD(GND_net), .I2C1SDAI(GND_net), .I2C1SDAO(), .I2C1SCLI(
-        GND_net), .I2C1SCLO(), .MACTXD({nc153, nc154}), .MACRXD({
-        GND_net, GND_net}), .MACTXEN(), .MACCRSDV(GND_net), .MACRXER(
-        GND_net), .MACMDI(GND_net), .MACMDO(), .MACMDEN(), .MACMDC(), 
-        .EMCCLK(MSS_ADLIB_INST_EMCCLK), .EMCCLKRTN(
-        MSS_ADLIB_INST_EMCCLK), .EMCRDB({GND_net, GND_net, GND_net, 
+        nc146, nc147, nc148, nc149, nc150, nc151, nc152}), .UART1TXD(
+        MSS_UART_1_TXD_D), .UART1RXD(MSS_UART_1_RXD_Y), .I2C1SDAI(
+        GND_net), .I2C1SDAO(), .I2C1SCLI(GND_net), .I2C1SCLO(), 
+        .MACTXD({nc153, nc154}), .MACRXD({GND_net, GND_net}), .MACTXEN(
+        ), .MACCRSDV(GND_net), .MACRXER(GND_net), .MACMDI(GND_net), 
+        .MACMDO(), .MACMDEN(), .MACMDC(), .EMCCLK(
+        MSS_ADLIB_INST_EMCCLK), .EMCCLKRTN(MSS_ADLIB_INST_EMCCLK), 
+        .EMCRDB({GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net, GND_net, GND_net, GND_net, GND_net}), .EMCAB({
-        nc155, nc156, nc157, nc158, nc159, nc160, nc161, nc162, nc163, 
-        nc164, nc165, nc166, nc167, nc168, nc169, nc170, nc171, nc172, 
-        nc173, nc174, nc175, nc176, nc177, nc178, nc179, nc180}), 
-        .EMCWDB({nc181, nc182, nc183, nc184, nc185, nc186, nc187, 
-        nc188, nc189, nc190, nc191, nc192, nc193, nc194, nc195, nc196})
-        , .EMCRWn(), .EMCCS0n(), .EMCCS1n(), .EMCOEN0n(), .EMCOEN1n(), 
-        .EMCBYTEN({nc197, nc198}), .EMCDBOE(), .ADC0(GND_net), .ADC1(
-        GND_net), .ADC2(GND_net), .ADC3(GND_net), .ADC4(GND_net), 
-        .ADC5(GND_net), .ADC6(GND_net), .ADC7(GND_net), .ADC8(GND_net), 
-        .ADC9(GND_net), .ADC10(GND_net), .ADC11(GND_net), .SDD0(), 
-        .SDD1(), .SDD2(), .ABPS0(GND_net), .ABPS1(GND_net), .ABPS2(
-        GND_net), .ABPS3(GND_net), .ABPS4(GND_net), .ABPS5(GND_net), 
-        .ABPS6(GND_net), .ABPS7(GND_net), .ABPS8(GND_net), .ABPS9(
-        GND_net), .ABPS10(GND_net), .ABPS11(GND_net), .TM0(GND_net), 
-        .TM1(GND_net), .TM2(GND_net), .TM3(GND_net), .TM4(GND_net), 
-        .TM5(GND_net), .CM0(GND_net), .CM1(GND_net), .CM2(GND_net), 
-        .CM3(GND_net), .CM4(GND_net), .CM5(GND_net), .GNDTM0(GND_net), 
-        .GNDTM1(GND_net), .GNDTM2(GND_net), .VAREF0(GND_net), .VAREF1(
-        GND_net), .VAREF2(GND_net), .VAREFOUT(), .GNDVAREF(GND_net), 
-        .PUn(GND_net));
-    GND GND (.Y(GND_net));
+        GND_net, GND_net, GND_net}), .EMCAB({nc155, nc156, nc157, 
+        nc158, nc159, nc160, nc161, nc162, nc163, nc164, nc165, nc166, 
+        nc167, nc168, nc169, nc170, nc171, nc172, nc173, nc174, nc175, 
+        nc176, nc177, nc178, nc179, nc180}), .EMCWDB({nc181, nc182, 
+        nc183, nc184, nc185, nc186, nc187, nc188, nc189, nc190, nc191, 
+        nc192, nc193, nc194, nc195, nc196}), .EMCRWn(), .EMCCS0n(), 
+        .EMCCS1n(), .EMCOEN0n(), .EMCOEN1n(), .EMCBYTEN({nc197, nc198})
+        , .EMCDBOE(), .ADC0(GND_net), .ADC1(GND_net), .ADC2(GND_net), 
+        .ADC3(GND_net), .ADC4(GND_net), .ADC5(MSS_ACE_0_ADC5_Y), .ADC6(
+        GND_net), .ADC7(GND_net), .ADC8(GND_net), .ADC9(GND_net), 
+        .ADC10(GND_net), .ADC11(GND_net), .SDD0(), .SDD1(), .SDD2(), 
+        .ABPS0(GND_net), .ABPS1(GND_net), .ABPS2(GND_net), .ABPS3(
+        GND_net), .ABPS4(GND_net), .ABPS5(GND_net), .ABPS6(GND_net), 
+        .ABPS7(GND_net), .ABPS8(GND_net), .ABPS9(GND_net), .ABPS10(
+        GND_net), .ABPS11(GND_net), .TM0(GND_net), .TM1(GND_net), .TM2(
+        GND_net), .TM3(GND_net), .TM4(GND_net), .TM5(GND_net), .CM0(
+        GND_net), .CM1(GND_net), .CM2(GND_net), .CM3(GND_net), .CM4(
+        GND_net), .CM5(GND_net), .GNDTM0(GND_net), .GNDTM1(GND_net), 
+        .GNDTM2(GND_net), .VAREF0(GND_net), .VAREF1(MSS_ACE_0_VAREF1_Y)
+        , .VAREF2(GND_net), .VAREFOUT(), .GNDVAREF(GND_net), .PUn(
+        GND_net));
+    OUTBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("Y22") )  MSS_UART_0_TXD (
+        .D(MSS_UART_0_TXD_D), .PAD(UART_0_TXD));
     INBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("U18") )  MSS_UART_0_RXD (
         .PAD(UART_0_RXD), .Y(MSS_UART_0_RXD_Y));
+    final_mss_tmp_MSS_CCC_0_MSS_CCC MSS_CCC_0 (.CLKA(GND_net), 
+        .CLKA_PAD(GND_net), .CLKA_PADP(GND_net), .CLKA_PADN(GND_net), 
+        .CLKB(GND_net), .CLKB_PAD(GND_net), .CLKB_PADP(GND_net), 
+        .CLKB_PADN(GND_net), .CLKC(GND_net), .CLKC_PAD(GND_net), 
+        .CLKC_PADP(GND_net), .CLKC_PADN(GND_net), .GLA(), .GLB(), .GLC(
+        ), .FAB_CLK(FAB_CLK), .YB(), .YC(), .MAINXIN(GND_net), .LPXIN(
+        GND_net), .FAB_LOCK(), .MAC_CLK(GND_net), .RCOSC_CLKOUT(), 
+        .MAINXIN_CLKOUT(), .LPXIN_CLKOUT(), .GLA0(MSS_ADLIB_INST_FCLK), 
+        .MSS_LOCK(MSS_ADLIB_INST_PLLLOCK), .MAC_CLK_CCC(
+        MSS_ADLIB_INST_MACCLKCCC), .MAC_CLK_IO(MSS_ADLIB_INST_MACCLK));
+    INBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("R1") )  
+        MSS_RESET_0_MSS_RESET_N (.PAD(MSS_RESET_N), .Y(
+        MSS_RESET_0_MSS_RESET_N_Y));
+    INBUF_A MSS_ACE_0_ADC5 (.PAD(ADCDirectInput_0), .Y(
+        MSS_ACE_0_ADC5_Y));
     
 endmodule

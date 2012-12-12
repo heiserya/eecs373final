@@ -1,9 +1,9 @@
 # Actel Physical design constraints file
 # Generated file
 
-# Version: 9.1 9.1.0.18
+# Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Sat Dec 08 20:14:36 2012 
+# Date generated: Sun Dec 09 18:13:38 2012 
 
 
 # 
@@ -17,13 +17,27 @@
 
 define_group -name UART_0_PADs
 
+define_group -name UART_1_PADs
+
 
 # 
 # I/O constraints
 # 
 
+set_io ADCDirectInput_0  \
+    -pinname V12         \
+    -fixed yes           \
+    -DIRECTION Input
+
+
 set_io MSS_RESET_N    \
     -pinname R1       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io VAREF1         \
+    -pinname AB11     \
     -fixed yes        \
     -DIRECTION Input
 
@@ -44,6 +58,22 @@ set_io UART_0_TXD            \
     -DIRECTION Output
 
 
+# User Group UART_1_PADs
+
+set_io UART_1_RXD            \
+    -pinname W22             \
+    -fixed yes               \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION Input
+
+
+set_io UART_1_TXD            \
+    -pinname V20             \
+    -fixed yes               \
+    -GROUP_NAME UART_1_PADs  \
+    -DIRECTION Output
+
+
 
 #
 # Non IO constraints
@@ -54,9 +84,17 @@ set_io UART_0_TXD            \
 # Old IO constraints, commented out for reference
 #
 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
 # set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
 # set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
 # set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
 # set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
 # set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
 # set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
