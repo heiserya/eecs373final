@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+O_SRCS := 
+C_SRCS := 
+S_UPPER_SRCS := 
+S_SRCS := 
+OBJ_SRCS := 
+MEMORYMAP := 
+OBJS := 
+C_DEPS := 
+SRECFILES := 
+IHEXFILES := 
+LISTINGS := 
+EXECUTABLE := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+. \
+hal/CortexM3 \
+hal/CortexM3/GNU \
+drivers_config/mss_ace \
+drivers/mss_uart \
+drivers/mss_gpio \
+drivers/mss_ace \
+drivers/CoreUARTapb \
+CMSIS \
+CMSIS/startup_gcc \
+

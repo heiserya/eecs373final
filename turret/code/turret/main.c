@@ -16,6 +16,10 @@
 #define SERVO_PWM_ADDRESS 0x40050100
 #define COREUARTAPB0_BASE_ADDR 0x40050200
 #define BUFFER_SIZE 256
+#define FIRE_TIME 100000
+
+int firing;
+int fire_counter;
 
 ace_channel_handle_t adc_handler;
 pwm_instance_t motors;
@@ -25,12 +29,15 @@ UART_instance_t g_uart;
 void start_gun(){
 //EFFECT: Starts gun motors
 	MSS_GPIO_set_output(MSS_GPIO_31, 1);
+	firing = 1;
+	fire_counter = 0;
 	return;
 }
 
 void stop_gun(){
 //EFFECT: Stops gun motors
 	MSS_GPIO_set_output(MSS_GPIO_31, 0);
+	firing = 0;
 	return;
 }
 
@@ -51,13 +58,13 @@ void wheel1(int pwm){
 		PWM_disable(&motors, PWM_2);
 	}
 	else if (pwm > 0){
-		PWM_set_duty_cycle(&motors, PWM_1, pwm);;
+		PWM_set_duty_cycle(&motors, PWM_1, pwm);
 		PWM_enable(&motors, PWM_1);
 		PWM_disable(&motors, PWM_2);
 	}
 	else {
-		pwm *= -1;
-		PWM_set_duty_cycle(&motors, PWM_2, pwm);;
+		pwm = pwm * -1;
+		PWM_set_duty_cycle(&motors, PWM_2, pwm);
 		PWM_enable(&motors, PWM_2);
 		PWM_disable(&motors, PWM_1);
 	}
@@ -74,13 +81,13 @@ void wheel2(int pwm){
 		PWM_disable(&motors, PWM_4);
 	}
 	else if (pwm > 0){
-		PWM_set_duty_cycle(&motors, PWM_3, pwm);;
+		PWM_set_duty_cycle(&motors, PWM_3, pwm);
 		PWM_enable(&motors, PWM_3);
 		PWM_disable(&motors, PWM_4);
 	}
 	else {
-		pwm *= -1;
-		PWM_set_duty_cycle(&motors, PWM_4, pwm);;
+		pwm = pwm * -1;
+		PWM_set_duty_cycle(&motors, PWM_4, pwm);
 		PWM_enable(&motors, PWM_4);
 		PWM_disable(&motors, PWM_3);
 	}
@@ -97,13 +104,13 @@ void wheel3(int pwm){
 		PWM_disable(&motors, PWM_6);
 	}
 	else if (pwm > 0){
-		PWM_set_duty_cycle(&motors, PWM_5, pwm);;
+		PWM_set_duty_cycle(&motors, PWM_5, pwm);
 		PWM_enable(&motors, PWM_5);
 		PWM_disable(&motors, PWM_6);
 	}
 	else {
 		pwm *= -1;
-		PWM_set_duty_cycle(&motors, PWM_6, pwm);;
+		PWM_set_duty_cycle(&motors, PWM_6, pwm);
 		PWM_enable(&motors, PWM_6);
 		PWM_disable(&motors, PWM_5);
 	}
@@ -120,13 +127,13 @@ void wheel4(int pwm){
 		PWM_disable(&motors, PWM_8);
 	}
 	else if (pwm > 0){
-		PWM_set_duty_cycle(&motors, PWM_7, pwm);;
+		PWM_set_duty_cycle(&motors, PWM_7, pwm);
 		PWM_enable(&motors, PWM_7);
 		PWM_disable(&motors, PWM_8);
 	}
 	else {
-		pwm *= -1;
-		PWM_set_duty_cycle(&motors, PWM_8, pwm);;
+		pwm = pwm * -1;
+		PWM_set_duty_cycle(&motors, PWM_8, pwm);
 		PWM_enable(&motors, PWM_8);
 		PWM_disable(&motors, PWM_7);
 	}
@@ -145,6 +152,10 @@ void set_gun_angle(int angle){
 void range_init() {
 	ACE_init();
 	adc_handler = ACE_get_channel_handle((const uint8_t *)"ADCDirectInput_0");
+}
+
+void wait(int x) {
+	for (; x > 0; x--);
 }
 
 int get_range() {
@@ -174,8 +185,27 @@ int main(){
 	int mode = 0; // 0 for manual, 1 for automatic
 	uint8_t tx[100];
 	int txSize;
+	firing = 0;
 
-	while (1) {
+	while(1) {
+		int i;
+		for (i=0; i < 255; i++) {
+			wheel3(i);
+			wait(100000);
+			printf("%d", i);
+		}
+		for (i=255; i > -255; i--) {
+			wheel3(i);
+			wait(100000);
+			printf("%d", i);
+		}
+		for (i=-255; i < 0; i++) {
+			wheel3(i);
+			printf("%d", i);
+			wait(100000);
+		}
+	}
+	/*while (1) {
 		while (!(received = UART_get_rx(&g_uart, buff+offset, sizeof(buff)-offset)));
 		offset += received;
 		//printf("Received: %d\n\r", received);
@@ -197,11 +227,20 @@ int main(){
 			wheel3(joyx);
 			wheel4(joyy);
 
+			if (fire && !firing) {
+				start_gun();
+			}
+
+			if (firing && fire_counter <= FIRE_TIME)
+				fire_counter++;
+			if (!fire && firing && fire_counter >= FIRE_TIME)
+				stop_gun();
+
 		}
 		else continue;
 		txSize = sprintf(tx, "%d %d", mode, get_range()) + 1;
 		UART_send(&g_uart, tx, txSize);
-	}
+	}*/
 	/*while(1){
 		set_gun_angle(0);
 		wheel1(-255);
