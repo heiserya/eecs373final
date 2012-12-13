@@ -1,7 +1,7 @@
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Dec 09 18:14:21 2012
+# Timing Report written on Wed Dec 12 18:30:36 2012
 #
 
 
@@ -22,14 +22,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 4.357
+Worst slack in design: NA
 
                                                                        Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                                                         Frequency     Frequency     Period        Period        Slack       Type         Group              
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     1.0 MHz       53.0 MHz      1000.000      18.864        981.136     inferred     Inferred_clkgroup_1
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     1.0 MHz       58.7 MHz      1000.000      17.048        982.952     inferred     Inferred_clkgroup_1
 final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     1.0 MHz       31.8 MHz      1000.000      31.471        968.529     inferred     Inferred_clkgroup_2
-System                                                                 1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup    
 ===========================================================================================================================================================================
 
 
@@ -41,7 +40,6 @@ Clocks                                                                          
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  System                                                              |  0.000       4.357  |  No paths    -      |  No paths    -      |  No paths    -    
 final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
 final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
 final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
@@ -56,65 +54,6 @@ Interface Information
 *********************
 
 		No IO constraint found 
-
-
-
-====================================
-Detailed Report for Clock: final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                               Starting                                                                                                           Arrival          
-Instance                       Reference                                                              Type        Pin         Net                 Time        Slack
-                               Clock                                                                                                                               
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     GPO[31]     MSSINT_GPO_31_A     4.132       4.453
-===================================================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                              Starting                                                                                                      Required          
-Instance                      Reference                                                              Type       Pin     Net                 Time         Slack
-                              Clock                                                                                                                           
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSSINT_GPO_31     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSSINT     A       MSSINT_GPO_31_A     0.000        4.357
-==============================================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-    Propagation time:                        4.357
-    + Clock delay at starting point:         0.000 (ideal)
-    - Requested Period:                      0.000
-    - Hold time:                             0.000
-    - Clock delay at ending point:           0.000 (ideal)
-0.000
-    = Slack (critical) :                     4.357
-
-    Number of logic level(s):                0
-    Starting point:                          final_mss_0.MSS_ADLIB_INST / GPO[31]
-    Ending point:                            final_mss_0.MSSINT_GPO_31 / A
-    The start point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
-    The end   point is clocked by            System [rising]
-
-Instance / Net                             Pin         Pin               Arrival     No. of    
-Name                           Type        Name        Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST     MSS_APB     GPO[31]     Out     4.132     4.132       -         
-MSSINT_GPO_31_A                Net         -           -       0.225     -           1         
-final_mss_0.MSSINT_GPO_31      MSSINT      A           In      -         4.357       -         
-===============================================================================================
-
 
 
 ##### END OF TIMING REPORT #####]

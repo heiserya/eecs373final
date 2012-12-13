@@ -214,13 +214,13 @@
         <region name="ACTEL_AB_MSS_CONFIG" address="0x083e00" retrieveAddressFromFile="false" size="208" format="HEX" type="Data Storage" wordSize="32" numberWords="52" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
             000000000000000000000000000000000000000000000000001f1f004245
             45007e7f0100000000000008200100e1f505010000d2000000000000001e
-            1a0707000500100005001000008000002bacb0c20a1828b0c20a2bacb0c2
+            1a0707000500100005001000000000002bacb0c20a1828b0c20a2bacb0c2
             0a1828b0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
-            0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
+            0a2bacb0c20a18acb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
             0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb002
-            00000000789e080090d0531480fdc30080ff6300370a4eca0000b13c
+            00000000789e080090d0531480fdc30080ff6300370a20a700008ecd
             <crc>
-                14ab
+                0f67
             </crc>
         </region>
         <region name="ACTEL_PPE_MERGE_CONFIG" address="0x07fb00" retrieveAddressFromFile="false" size="48" format="HEX" type="Data Storage" wordSize="32" numberWords="12" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
@@ -241,13 +241,13 @@
             0240010000009c14024001000000a8140240010000000400024002000000
             0c0002400a00000004140240000000000000000000000000000000000000
             000000000000000000000000000000000000000000000000000000000000
+            000000000000000000000000000000000500000000000000000000000000
             000000000000000000000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000000000000000000000000
-            00000000000000000000000000000000000000000500000003fe13000200
+            00000000000000000000000000000000000000000000000003fe13000200
             000009fe53010108024037fe73010118024093feb30002000000ebfe3300
             0200000003ff030201300140
             <crc>
-                dff1
+                c9a6
             </crc>
         </region>
     </nvm>

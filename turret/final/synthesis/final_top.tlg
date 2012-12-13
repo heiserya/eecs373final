@@ -10,10 +10,10 @@ Selecting top level module final_top
 	APBSLOT0ENABLE=1'b1
 	APBSLOT1ENABLE=1'b1
 	APBSLOT2ENABLE=1'b1
-	APBSLOT3ENABLE=1'b1
-	APBSLOT4ENABLE=1'b1
-	APBSLOT5ENABLE=1'b1
-	APBSLOT6ENABLE=1'b1
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
 	APBSLOT7ENABLE=1'b0
 	APBSLOT8ENABLE=1'b0
 	APBSLOT9ENABLE=1'b0
@@ -35,10 +35,10 @@ Selecting top level module final_top
 	CAPB3Oll=16'b0000000000000001
 	CAPB3Ill=16'b0000000000000010
 	CAPB3lll=16'b0000000000000100
-	CAPB3O0l=16'b0000000000001000
-	CAPB3I0l=16'b0000000000010000
-	CAPB3l0l=16'b0000000000100000
-	CAPB3O1l=16'b0000000001000000
+	CAPB3O0l=16'b0000000000000000
+	CAPB3I0l=16'b0000000000000000
+	CAPB3l0l=16'b0000000000000000
+	CAPB3O1l=16'b0000000000000000
 	CAPB3I1l=16'b0000000000000000
 	CAPB3l1l=16'b0000000000000000
 	CAPB3OO0=16'b0000000000000000
@@ -59,7 +59,7 @@ Selecting top level module final_top
 	PWM_NUM=32'b00000000000000000000000000000010
 	APB_DWIDTH=32'b00000000000000000000000000100000
 	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
-	FIXED_PRESCALE=32'b00000000000000000000000000000000
+	FIXED_PRESCALE=32'b00000000000000000000001110000100
 	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
 	FIXED_PERIOD=32'b00000000000000000000000000000001
 	DAC_MODE1=32'b00000000000000000000000000000000
@@ -206,7 +206,7 @@ Selecting top level module final_top
 	PWM_NUM=32'b00000000000000000000000000000010
 	APB_DWIDTH=32'b00000000000000000000000000100000
 	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
-	FIXED_PRESCALE=32'b00000000000000000000000000000000
+	FIXED_PRESCALE=32'b00000000000000000000001110000100
 	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
 	FIXED_PERIOD=32'b00000000000000000000000000000001
 	DAC_MODE=16'b0000000000000000
@@ -537,8 +537,6 @@ Selecting top level module final_top
 
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
 
-@N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
-
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB
 
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
@@ -690,6 +688,10 @@ State machine has 7 reachable states with original encodings of:
 
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":370:0:370:7|Input PRDATAS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":377:0:377:7|Input PRDATAS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":384:0:384:7|Input PRDATAS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":391:0:391:7|Input PRDATAS6 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:7|Input PRDATAS7 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":405:0:405:7|Input PRDATAS8 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":412:0:412:7|Input PRDATAS9 is unused
@@ -699,6 +701,10 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":440:0:440:8|Input PRDATAS13 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":447:0:447:8|Input PRDATAS14 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":454:0:454:8|Input PRDATAS15 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":462:0:462:7|Input PREADYS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":464:0:464:7|Input PREADYS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":466:0:466:7|Input PREADYS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":468:0:468:7|Input PREADYS6 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":470:0:470:7|Input PREADYS7 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":472:0:472:7|Input PREADYS8 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":474:0:474:7|Input PREADYS9 is unused
@@ -708,6 +714,10 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":482:0:482:8|Input PREADYS13 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":484:0:484:8|Input PREADYS14 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":486:0:486:8|Input PREADYS15 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":494:0:494:8|Input PSLVERRS3 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":496:0:496:8|Input PSLVERRS4 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":498:0:498:8|Input PSLVERRS5 is unused
+@W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":500:0:500:8|Input PSLVERRS6 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":502:0:502:8|Input PSLVERRS7 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":504:0:504:8|Input PSLVERRS8 is unused
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":506:0:506:8|Input PSLVERRS9 is unused

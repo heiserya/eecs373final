@@ -3,7 +3,7 @@
 
 # Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Sun Dec 09 18:13:38 2012 
+# Date generated: Wed Dec 12 18:28:33 2012 
 
 
 # 
@@ -28,6 +28,12 @@ set_io ADCDirectInput_0  \
     -pinname V12         \
     -fixed yes           \
     -DIRECTION Input
+
+
+set_io GPIO_15_OUT     \
+    -pinname Y3        \
+    -fixed yes         \
+    -DIRECTION Output
 
 
 set_io MSS_RESET_N    \

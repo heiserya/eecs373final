@@ -10,7 +10,6 @@ module final_mss(
        MSSPSLVERR,
        M2F_RESET_N,
        FAB_CLK,
-       M2F_GPO_31,
        MSSPADDR,
        MSSPRDATA,
        MSSPWDATA,
@@ -20,6 +19,7 @@ module final_mss(
        UART_1_RXD,
        ADCDirectInput_0,
        VAREF1,
+       GPIO_15_OUT,
        MSS_RESET_N
     );
 output MSSPSEL;
@@ -29,7 +29,6 @@ input  MSSPREADY;
 input  MSSPSLVERR;
 output M2F_RESET_N;
 output FAB_CLK;
-output M2F_GPO_31;
 output [19:0] MSSPADDR;
 input  [31:0] MSSPRDATA;
 output [31:0] MSSPWDATA;
@@ -39,12 +38,13 @@ output UART_1_TXD;
 input  UART_1_RXD;
 input  ADCDirectInput_0;
 input  VAREF1;
+output GPIO_15_OUT;
 input  MSS_RESET_N;
 
-    wire MSSINT_GPO_31_A, MSS_ACE_0_ADC5_Y, MSS_ACE_0_VAREF1_Y, 
-        MSS_ADLIB_INST_EMCCLK, MSS_ADLIB_INST_FCLK, 
-        MSS_ADLIB_INST_MACCLK, MSS_ADLIB_INST_MACCLKCCC, 
-        MSS_ADLIB_INST_PLLLOCK, MSS_RESET_0_MSS_RESET_N_Y, 
+    wire MSS_ACE_0_ADC5_Y, MSS_ACE_0_VAREF1_Y, MSS_ADLIB_INST_EMCCLK, 
+        MSS_ADLIB_INST_FCLK, MSS_ADLIB_INST_MACCLK, 
+        MSS_ADLIB_INST_MACCLKCCC, MSS_ADLIB_INST_PLLLOCK, 
+        MSS_GPIO_0_GPIO_15_OUT_D, MSS_RESET_0_MSS_RESET_N_Y, 
         MSS_UART_0_RXD_Y, MSS_UART_0_TXD_D, MSS_UART_1_RXD_Y, 
         MSS_UART_1_TXD_D, GND_net, VCC_net;
     
@@ -54,7 +54,6 @@ input  MSS_RESET_N;
     GND GND (.Y(GND_net));
     OUTBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("V20") )  MSS_UART_1_TXD (
         .D(MSS_UART_1_TXD_D), .PAD(UART_1_TXD));
-    MSSINT MSSINT_GPO_31 (.A(MSSINT_GPO_31_A), .Y(M2F_GPO_31));
     VCC VCC (.Y(VCC_net));
     MSS_APB #( .ACT_CONFIG(0), .ACT_DIE("IP4X3M1"), .ACT_FCLK(100000000)
         , .ACT_PKG("fg484") )  MSS_ADLIB_INST (.MSSPADDR({MSSPADDR[19], 
@@ -105,14 +104,14 @@ input  MSS_RESET_N;
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
         GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, GND_net, 
-        GND_net, GND_net}), .GPO({MSSINT_GPO_31_A, nc40, nc41, nc42, 
-        nc43, nc44, nc45, nc46, nc47, nc48, nc49, nc50, nc51, nc52, 
-        nc53, nc54, nc55, nc56, nc57, nc58, nc59, nc60, nc61, nc62, 
-        nc63, nc64, nc65, nc66, nc67, nc68, nc69, nc70}), .UART0CTSn(
-        GND_net), .UART0DSRn(GND_net), .UART0RIn(GND_net), .UART0DCDn(
-        GND_net), .UART0RTSn(), .UART0DTRn(), .UART1CTSn(GND_net), 
-        .UART1DSRn(GND_net), .UART1RIn(GND_net), .UART1DCDn(GND_net), 
-        .UART1RTSn(), .UART1DTRn(), .I2C0SMBUSNI(GND_net), 
+        GND_net, GND_net}), .GPO({nc40, nc41, nc42, nc43, nc44, nc45, 
+        nc46, nc47, nc48, nc49, nc50, nc51, nc52, nc53, nc54, nc55, 
+        MSS_GPIO_0_GPIO_15_OUT_D, nc56, nc57, nc58, nc59, nc60, nc61, 
+        nc62, nc63, nc64, nc65, nc66, nc67, nc68, nc69, nc70}), 
+        .UART0CTSn(GND_net), .UART0DSRn(GND_net), .UART0RIn(GND_net), 
+        .UART0DCDn(GND_net), .UART0RTSn(), .UART0DTRn(), .UART1CTSn(
+        GND_net), .UART1DSRn(GND_net), .UART1RIn(GND_net), .UART1DCDn(
+        GND_net), .UART1RTSn(), .UART1DTRn(), .I2C0SMBUSNI(GND_net), 
         .I2C0SMBALERTNI(GND_net), .I2C0BCLK(GND_net), .I2C0SMBUSNO(), 
         .I2C0SMBALERTNO(), .I2C1SMBUSNI(GND_net), .I2C1SMBALERTNI(
         GND_net), .I2C1BCLK(GND_net), .I2C1SMBUSNO(), .I2C1SMBALERTNO()
@@ -182,6 +181,9 @@ input  MSS_RESET_N;
         .D(MSS_UART_0_TXD_D), .PAD(UART_0_TXD));
     INBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("U18") )  MSS_UART_0_RXD (
         .PAD(UART_0_RXD), .Y(MSS_UART_0_RXD_Y));
+    OUTBUF_MSS #( .ACT_CONFIG(0), .ACT_PIN("Y3") )  
+        MSS_GPIO_0_GPIO_15_OUT (.D(MSS_GPIO_0_GPIO_15_OUT_D), .PAD(
+        GPIO_15_OUT));
     final_mss_tmp_MSS_CCC_0_MSS_CCC MSS_CCC_0 (.CLKA(GND_net), 
         .CLKA_PAD(GND_net), .CLKA_PADP(GND_net), .CLKA_PADN(GND_net), 
         .CLKB(GND_net), .CLKB_PAD(GND_net), .CLKB_PADP(GND_net), 

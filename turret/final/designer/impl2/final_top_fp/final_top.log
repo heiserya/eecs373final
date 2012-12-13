@@ -6,10 +6,17 @@ Software Version: 9.1.5.1
 PDB file
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\designer\impl2\final_top_fp\final\
 _top.pdb' has been loaded successfully.
-DESIGN : final_top;  CHECKSUM : C714;  PDB_VERSION : 1.7
+DESIGN : final_top;  CHECKSUM : 8116;  PDB_VERSION : 1.7
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
 Driver : 3.0.0 build 1
 programmer '58969' : FlashPro3
-Warning: The programmer with id '58906' in the project file cannot be detected and connected.
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
 Opened
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\designer\impl2\final_top_fp\final\
 _top.pro'
@@ -21,7 +28,10 @@ Info: Updating FPGA Array data from file
 PDB file
 'C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\designer\impl2\final_top_fp\final\
 _top.pdb' has been loaded successfully.
-DESIGN : final_top;  CHECKSUM : C714;  PDB_VERSION : 1.7
+DESIGN : final_top;  CHECKSUM : 8898;  PDB_VERSION : 1.7
+Rescanning for Programmers...
+programmer '58969' : FlashPro3
+Rescanning for Programmers DONE.
 programmer '58969' : Scan Chain...
 Warning: programmer '58969' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
@@ -35,7 +45,7 @@ programmer '58969' : Verifying FPGA Array
 programmer '58969' :         Verifying FPGA Array -- pass
 programmer '58969' : Program System Init and Boot Clients...
 programmer '58969' : Verify System Init and Boot Clients...
-programmer '58969' : Finished: Mon Dec 10 15:56:49 2012 (Elapsed time 00:00:42)
+programmer '58969' : Finished: Wed Dec 12 18:35:21 2012 (Elapsed time 00:00:43)
 programmer '58969' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o

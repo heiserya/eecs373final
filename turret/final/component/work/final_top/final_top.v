@@ -6,7 +6,6 @@ module final_top(
        MSS_RESET_N,
        UART_0_TXD,
        UART_0_RXD,
-       M2F_GPO_31,
        ADCDirectInput_0,
        VAREF1,
        UART_1_TXD,
@@ -16,12 +15,12 @@ module final_top(
        PWM,
        TACHIN,
        TACHIN_0,
-       PWM_0
+       PWM_0,
+       GPIO_15_OUT
     );
 input  MSS_RESET_N;
 output UART_0_TXD;
 input  UART_0_RXD;
-output M2F_GPO_31;
 input  ADCDirectInput_0;
 input  VAREF1;
 output UART_1_TXD;
@@ -32,6 +31,7 @@ output [8:1] PWM;
 input  [1:1] TACHIN;
 input  [1:1] TACHIN_0;
 output [2:1] PWM_0;
+output GPIO_15_OUT;
 
     wire \CoreAPB3_0_APBmslave0_PADDR_[0] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
@@ -287,7 +287,7 @@ output [2:1] PWM_0;
     CoreAPB3 #( .APBSLOT0ENABLE(1), .APBSLOT10ENABLE(0), .APBSLOT11ENABLE(0)
         , .APBSLOT12ENABLE(0), .APBSLOT13ENABLE(0), .APBSLOT14ENABLE(0)
         , .APBSLOT15ENABLE(0), .APBSLOT1ENABLE(1), .APBSLOT2ENABLE(1)
-        , .APBSLOT3ENABLE(1), .APBSLOT4ENABLE(1), .APBSLOT5ENABLE(1), .APBSLOT6ENABLE(1)
+        , .APBSLOT3ENABLE(0), .APBSLOT4ENABLE(0), .APBSLOT5ENABLE(0), .APBSLOT6ENABLE(0)
         , .APBSLOT7ENABLE(0), .APBSLOT8ENABLE(0), .APBSLOT9ENABLE(0), .APB_DWIDTH(32)
         , .IADDR_ENABLE(0), .RANGESIZE(256) )  CoreAPB3_0 (.PRESETN(
         GND_net), .PCLK(GND_net), .PWRITE(
@@ -628,7 +628,7 @@ output [2:1] PWM_0;
         , .DAC_MODE15(0), .DAC_MODE16(0), .DAC_MODE2(0), .DAC_MODE3(0)
         , .DAC_MODE4(0), .DAC_MODE5(0), .DAC_MODE6(0), .DAC_MODE7(0), .DAC_MODE8(0)
         , .DAC_MODE9(0), .FAMILY(15), .FIXED_PERIOD(1), .FIXED_PERIOD_EN(0)
-        , .FIXED_PRESCALE(0), .FIXED_PRESCALE_EN(1), .FIXED_PWM_NEGEDGE1(0)
+        , .FIXED_PRESCALE(900), .FIXED_PRESCALE_EN(1), .FIXED_PWM_NEGEDGE1(0)
         , .FIXED_PWM_NEGEDGE10(0), .FIXED_PWM_NEGEDGE11(0), .FIXED_PWM_NEGEDGE12(0)
         , .FIXED_PWM_NEGEDGE13(0), .FIXED_PWM_NEGEDGE14(0), .FIXED_PWM_NEGEDGE15(0)
         , .FIXED_PWM_NEGEDGE16(0), .FIXED_PWM_NEGEDGE2(0), .FIXED_PWM_NEGEDGE3(0)
@@ -874,10 +874,10 @@ output [2:1] PWM_0;
         final_mss_0_MSS_MASTER_APB_PREADY), .MSSPSLVERR(
         final_mss_0_MSS_MASTER_APB_PSLVERR), .M2F_RESET_N(
         final_mss_0_M2F_RESET_N), .UART_0_TXD(UART_0_TXD), .UART_0_RXD(
-        UART_0_RXD), .FAB_CLK(final_mss_0_FAB_CLK), .M2F_GPO_31(
-        M2F_GPO_31), .ADCDirectInput_0(ADCDirectInput_0), .VAREF1(
-        VAREF1), .UART_1_TXD(UART_1_TXD), .UART_1_RXD(UART_1_RXD), 
-        .MSSPADDR({\final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
+        UART_0_RXD), .FAB_CLK(final_mss_0_FAB_CLK), .ADCDirectInput_0(
+        ADCDirectInput_0), .VAREF1(VAREF1), .UART_1_TXD(UART_1_TXD), 
+        .UART_1_RXD(UART_1_RXD), .GPIO_15_OUT(GPIO_15_OUT), .MSSPADDR({
+        \final_mss_0_MSS_MASTER_APB_PADDR_[19] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[18] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[17] , 
         \final_mss_0_MSS_MASTER_APB_PADDR_[16] , 
