@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by Actel SmartDesign Wed Dec 12 23:43:02 2012
+// Created by Actel SmartDesign Thu Dec 13 03:44:39 2012
 // Testbench Template
 // This is a basic testbench that instantiates your design with basic 
 // clock and reset pins connected.  If your design has special
@@ -56,9 +56,9 @@ final_top final_top_0 (
     .UART_0_TXD( ),
     .UART_1_TXD( ),
     .TX( ),
-    .PWM( ),
     .GPIO_15_OUT( ),
-    .PWM_0( )
+    .PWM_0( ),
+    .PWM( )
 
     // Inouts
 

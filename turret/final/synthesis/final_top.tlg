@@ -286,7 +286,7 @@ Selecting top level module final_top
 
 	FAMILY=32'b00000000000000000000000000001111
 	CONFIG_MODE=32'b00000000000000000000000000000000
-	PWM_NUM=32'b00000000000000000000000000001000
+	PWM_NUM=32'b00000000000000000000000000000111
 	APB_DWIDTH=32'b00000000000000000000000000100000
 	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
 	FIXED_PRESCALE=32'b00000000000000000000000000000000
@@ -433,7 +433,7 @@ Selecting top level module final_top
 
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":26:0:26:5|Synthesizing module reg_if
 
-	PWM_NUM=32'b00000000000000000000000000001000
+	PWM_NUM=32'b00000000000000000000000000000111
 	APB_DWIDTH=32'b00000000000000000000000000100000
 	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
 	FIXED_PRESCALE=32'b00000000000000000000000000000000
@@ -450,10 +450,6 @@ Selecting top level module final_top
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1320:0:1320:5|Pruning Register prescale_reg[31:0] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1320:0:1320:5|Pruning Register pwm_enable_reg[16:1] 
-
-@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":760:0:760:5|Pruning Register genblk1.CPWMO1OI[8].pwm_posedge_reg[256:225] 
-
-@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":760:0:760:5|Pruning Register genblk1.CPWMO1OI[8].pwm_negedge_reg[256:225] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":760:0:760:5|Pruning Register genblk1.CPWMO1OI[7].pwm_posedge_reg[224:193] 
 
@@ -483,8 +479,6 @@ Selecting top level module final_top
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":760:0:760:5|Pruning Register genblk1.CPWMO1OI[1].pwm_negedge_reg[32:1] 
 
-@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":514:0:514:5|Pruning Register genblk0.CPWMI0OI[8].CPWMOlOI[256:225] 
-
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":514:0:514:5|Pruning Register genblk0.CPWMI0OI[7].CPWMOlOI[224:193] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":514:0:514:5|Pruning Register genblk0.CPWMI0OI[6].CPWMOlOI[192:161] 
@@ -503,12 +497,14 @@ Selecting top level module final_top
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":377:0:377:5|Pruning Register CPWMlIOI[16:9] 
 
+@W: CL265 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":377:0:377:5|Pruning bit 8 of CPWMIIOI[8:1] - not in use ...
+
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\pwm_gen.v":26:0:26:6|Synthesizing module pwm_gen
 
-	PWM_NUM=32'b00000000000000000000000000001000
+	PWM_NUM=32'b00000000000000000000000000000111
 	APB_DWIDTH=32'b00000000000000000000000000100000
 	DAC_MODE=16'b0000000000000000
-   Generated name = pwm_gen_8s_32s_0
+   Generated name = pwm_gen_7s_32s_0
 
 @W: CG133 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\pwm_gen.v":114:0:114:6|No assignment to CPWMOl1
 @W: CG133 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":830:0:830:4|No assignment to CPWMI
@@ -672,7 +668,7 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
 @W: CL246 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":736:0:736:4|Input port bits 1 to 0 of PADDR[7:0] are unused
 
-@A: CL153 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":871:0:871:10|*Unassigned bits of PWM_STRETCH[7:0] have been referenced and are being tied to 0 - simulation mismatch possible
+@A: CL153 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":871:0:871:10|*Unassigned bits of PWM_STRETCH[6:0] have been referenced and are being tied to 0 - simulation mismatch possible
 @W: CL157 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":769:0:769:6|*Output TACHINT has undriven bits - a simulation mismatch is possible 
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":767:0:767:5|Input TACHIN is unused
 @W: CL246 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v":736:0:736:4|Input port bits 1 to 0 of PADDR[7:0] are unused

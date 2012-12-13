@@ -3,7 +3,7 @@
 
 # Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Wed Dec 12 23:43:00 2012 
+# Date generated: Thu Dec 13 03:44:37 2012 
 
 
 # 
@@ -67,24 +67,18 @@ set_io {PWM[4]}        \
 
 
 set_io {PWM[5]}        \
-    -pinname H6        \
-    -fixed yes         \
-    -DIRECTION Output
-
-
-set_io {PWM[6]}        \
     -pinname J6        \
     -fixed yes         \
     -DIRECTION Output
 
 
-set_io {PWM[7]}        \
+set_io {PWM[6]}        \
     -pinname B22       \
     -fixed yes         \
     -DIRECTION Output
 
 
-set_io {PWM[8]}        \
+set_io {PWM[7]}        \
     -pinname C22       \
     -fixed yes         \
     -DIRECTION Output
@@ -97,7 +91,7 @@ set_io {PWM_0[1]}      \
 
 
 set_io {PWM_0[2]}      \
-    -pinname E22       \
+    -pinname H6        \
     -fixed yes         \
     -DIRECTION Output
 

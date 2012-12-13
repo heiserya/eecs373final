@@ -33,7 +33,7 @@ C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\fina
 .pdc
    C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\synthesis\final_top_sdc.sdc
 
-The Import command succeeded ( 00:00:02 )
+The Import command succeeded ( 00:00:01 )
 'BLOCK' set to 'T'
 'ENABLE_BLOCK_MODE' set to '1'
 IDE_BEGINNING_OF_COMPILE
@@ -373,11 +373,11 @@ Optimized macros:
   - Buffers:                0
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        99
+  - Logic combining:        82
 
-    Total macros optimized  99
+    Total macros optimized  82
 
-Warning: CMP503: Remapped 653 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 619 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
 There were 0 error(s) and 288 warning(s) in this design.
@@ -393,8 +393,8 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:   4602  Total:   4608   (99.87%)
-    Fabric IO (W/ clocks)      Used:     12  Total:     94   (12.77%)
+    Fabric                     Used:   4442  Total:   4608   (96.40%)
+    Fabric IO (W/ clocks)      Used:     11  Total:     94   (11.70%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      2  Total:     32   (6.25%)
     Dedicated MSS IO           Used:      6  Total:     43   (13.95%)
@@ -422,15 +422,15 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 3524         | 3524
-    SEQ     | 1078         | 1078
+    COMB    | 3398         | 3398
+    SEQ     | 1044         | 1044
 
 I/O Function:
 
     Type                          | w/o register  | w/ register  | w/ DDR register
     ------------------------------|---------------|--------------|----------------
     Input I/O                     | 1             | 0            | 0
-    Output I/O                    | 11            | 0            | 0
+    Output I/O                    | 10            | 0            | 0
     Bidirectional I/O             | 0             | 0            | 0
     Differential Input I/O Pairs  | 0             | 0            | 0
     Differential Output I/O Pairs | 0             | 0            | 0
@@ -441,11 +441,11 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVTTL                           | 3.30v | N/A   | 1     | 11     | 0
+    LVTTL                           | 3.30v | N/A   | 1     | 10     | 0
 
 I/O Placement:
 
-    Locked  :  12 ( 100.00% )
+    Locked  :  11 ( 100.00% )
     Placed  :   0
     UnPlaced:   0
 
@@ -455,17 +455,17 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    653     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    619     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
 
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    1079    CLK_NET       Net   : final_mss_0_FAB_CLK
+    1045    CLK_NET       Net   : final_mss_0_FAB_CLK
                           Driver: final_mss_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
-    76      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_163
-                          Driver: I_352/U_CLKSRC
+    68      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI7
+                          Driver: I_327/U_CLKSRC
                           Source: NETLIST
     66      INT_NET       Net   :
 CoreUARTapb_0/CUARTOOlI/genblk115.genblk116.CUARTlOOI/CUARTlOlI/CUARTOO0I[0]
@@ -481,70 +481,66 @@ CoreUARTapb_0/CUARTOOlI/genblk113.genblk114.CUARTO11/CUARTlOlI/CUARTOO0I_RNI3LT[
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    788     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    754     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175
-                          Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173
-                          Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2
     23      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_1
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2_1
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169_0
     23      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_1
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122_1_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2_1
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162_0
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2_0
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162_1
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2_1
-    22      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2
-    22      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169_1_1
+    23      INT_NET       Net   :
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2_0_0
-    22      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171_0
+    23      INT_NET       Net   :
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124_1
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171_1_0
+    23      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI8_3_0
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMlOOI26_3_0
+    22      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWRITE
+                          Driver: final_mss_0/MSS_ADLIB_INST
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI8_3
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMlOOI26_3
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    788     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
+    754     SET/RESET_NET Net   : final_mss_0_M2F_RESET_N
                           Driver: final_mss_0/MSS_ADLIB_INST
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175
-                          Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173
-                          Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2
     23      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_1
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2_1
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169_0
     23      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_1
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122_1_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2_1
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162_0
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2_0
-    23      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162_1
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2_1
-    22      INT_NET       Net   : corepwm_0.genblk96.genblk97.reg_if.N_162
-                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMOIOI_1_sqmuxa_0_a2
-    22      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169_1_1
+    23      INT_NET       Net   :
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124_0
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1173_0_a2_0_0
-    22      INT_NET       Net   :
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171_0
+    23      INT_NET       Net   :
+corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124_1
                           Driver:
-corepwm_0/genblk96.genblk97.reg_if/genblk19.CPWMll0.CPWMl1175_0_a2_0
+corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171_1_0
+    23      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI8_3_0
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMlOOI26_3_0
+    22      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWRITE
+                          Driver: final_mss_0/MSS_ADLIB_INST
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI8_3
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/CPWMlOOI26_3
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1124
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1171
+    22      INT_NET       Net   : corepwm_1.genblk96.genblk97.reg_if.genblk13.CPWMlO0.CPWMl1122
+                          Driver: corepwm_0/genblk96.genblk97.reg_if/genblk18.CPWMIl0.CPWMl1169
 
 
 SDC Import: Begin processing constraints...
@@ -554,16 +550,13 @@ SDC Import: Begin processing constraints...
 SDC Import: End processing constraints
 
 
-The Compile command succeeded ( 00:00:10 )
-Warning: Overwriting the existing file:
-         C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\synthesis\final_top_drc_t\
-         emp.rpt.
+The Compile command succeeded ( 00:00:08 )
 Wrote to the file:
 C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\synthesis\final_top_drc_temp.rpt
 
-The Export command succeeded ( 00:00:01 )
+The Export command succeeded ( 00:00:02 )
 
-The Execute Script command succeeded ( 00:00:14 )
+The Execute Script command succeeded ( 00:00:16 )
 Warning: The database was closed without a save, modifications are lost
 Design closed.
 

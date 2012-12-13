@@ -1,48 +1,48 @@
-@P:  Worst Slack : 967.815
+@P:  Worst Slack : 967.977
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency : 62.4 MHz
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency : 1.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period : 16.035
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period : 16.038
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period : 1000.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack : 983.965
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency : 31.1 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack : 983.962
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency : 31.2 MHz
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency : 1.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period : 32.185
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period : 32.023
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period : 1000.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack : 967.815
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack : 967.977
 @P:  Worst Slack(min analysis) : NA
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Frequency(min analysis) : 62.4 MHz
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Frequency(min analysis) : 1.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period(min analysis) : 16.035
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Estimated Period(min analysis) : 16.038
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Requested Period(min analysis) : 1000.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack(min analysis) : 983.965
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency(min analysis) : 31.1 MHz
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock - Slack(min analysis) : 983.962
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Frequency(min analysis) : 31.2 MHz
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Frequency(min analysis) : 1.0 MHz
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period(min analysis) : 32.185
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Estimated Period(min analysis) : 32.023
 @P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Requested Period(min analysis) : 1000.000
-@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack(min analysis) : 967.815
-@P:  Total Area : 4048.0
-@P:  Total Area : 1043.0
-@P:  Total Area : 966.0
+@P:  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock - Slack(min analysis) : 967.977
+@P:  Total Area : 3905.0
+@P:  Total Area : 1039.0
+@P:  Total Area : 960.0
 @P:  Total Area : 332.0
 @P:  Total Area : 332.0
 @P:  Total Area : 276.0
 @P:  Total Area : 332.0
 @P:  Total Area : 332.0
 @P:  Total Area : 276.0
-@P:  Total Area : 115.0
+@P:  Total Area : 113.0
 @P:  Total Area : 65.0
-@P:  Total Area : 75.0
+@P:  Total Area : 71.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  Total Area : 1754.0
-@P:  Total Area : 594.0
+@P:  Total Area : 1596.0
+@P:  Total Area : 507.0
 @P:  Total Area : 233.0
-@P:  Total Area : 927.0
-@P:  Total Area : 1197.0
-@P:  Total Area : 165.0
+@P:  Total Area : 856.0
+@P:  Total Area : 1221.0
+@P:  Total Area : 166.0
 @P:  Total Area : 511.0
-@P:  Total Area : 521.0
-@P:  Total Area : 54.0
-@P:  Total Area : 45.0
-@P:  Total Area : 4048.0
-@P:  CPU Time : 0h:00m:05s
+@P:  Total Area : 543.0
+@P:  Total Area : 49.0
+@P:  Total Area : 40.0
+@P:  Total Area : 3905.0
+@P:  CPU Time : 0h:00m:04s

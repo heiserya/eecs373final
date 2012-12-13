@@ -12,10 +12,10 @@ module final_top(
        UART_1_RXD,
        RX,
        TX,
-       PWM,
        TACHIN,
        GPIO_15_OUT,
-       PWM_0
+       PWM_0,
+       PWM
     );
 input  MSS_RESET_N;
 output UART_0_TXD;
@@ -26,10 +26,10 @@ output UART_1_TXD;
 input  UART_1_RXD;
 input  RX;
 output TX;
-output [8:1] PWM;
 input  [1:1] TACHIN;
 output GPIO_15_OUT;
 output [2:1] PWM_0;
+output [7:1] PWM;
 
     wire \CoreAPB3_0_APBmslave0_PADDR_[0] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
@@ -769,7 +769,7 @@ output [2:1] PWM_0;
         , .FIXED_PWM_POS_EN16(1), .FIXED_PWM_POS_EN2(1), .FIXED_PWM_POS_EN3(1)
         , .FIXED_PWM_POS_EN4(1), .FIXED_PWM_POS_EN5(1), .FIXED_PWM_POS_EN6(1)
         , .FIXED_PWM_POS_EN7(1), .FIXED_PWM_POS_EN8(1), .FIXED_PWM_POS_EN9(1)
-        , .PWM_NUM(8), .PWM_STRETCH_VALUE1(0), .PWM_STRETCH_VALUE10(0)
+        , .PWM_NUM(7), .PWM_STRETCH_VALUE1(0), .PWM_STRETCH_VALUE10(0)
         , .PWM_STRETCH_VALUE11(0), .PWM_STRETCH_VALUE12(0), .PWM_STRETCH_VALUE13(0)
         , .PWM_STRETCH_VALUE14(0), .PWM_STRETCH_VALUE15(0), .PWM_STRETCH_VALUE16(0)
         , .PWM_STRETCH_VALUE2(0), .PWM_STRETCH_VALUE3(0), .PWM_STRETCH_VALUE4(0)
@@ -862,8 +862,7 @@ output [2:1] PWM_0;
         \CoreAPB3_0_APBmslave0_PWDATA_[2] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[1] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .TACHIN({TACHIN[1]}), 
-        .PWM({PWM[8], PWM[7], PWM[6], PWM[5], PWM[4], PWM[3], PWM[2], 
-        PWM[1]}));
+        .PWM({PWM[7], PWM[6], PWM[5], PWM[4], PWM[3], PWM[2], PWM[1]}));
     GND GND (.Y(GND_net));
     final_mss final_mss_0 (.MSS_RESET_N(MSS_RESET_N), .MSSPSEL(
         final_mss_0_MSS_MASTER_APB_PSELx), .MSSPENABLE(
