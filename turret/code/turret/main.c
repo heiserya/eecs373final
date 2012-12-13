@@ -15,8 +15,17 @@
 #define MOTOR_PWM_ADDRESS 0x40050000
 #define SERVO_PWM_ADDRESS 0x40050100
 #define COREUARTAPB0_BASE_ADDR 0x40050200
+#define TRIGGER_PULLED 225
 #define BUFFER_SIZE 256
-#define FIRE_TIME 120
+
+#define FIRE_TIME 60 //65
+#define TRIGGER_START_TIME 25 //30
+#define TRIGGER_END_TIME 55 //60
+
+#define FIRING_RANGE 20
+#define NUM_MODES 3
+
+#define SQUARE_TIME 10000
 
 int firing;
 int fire_counter;
@@ -24,6 +33,9 @@ int curr_angle;
 int curr_trigger;
 int shots_fired;
 int triggering;
+
+int square_time;
+int square_state;
 
 ace_channel_handle_t adc_handler;
 pwm_instance_t motors;
@@ -42,11 +54,12 @@ void stop_gun(){
 	//EFFECT: Stops gun motors
 	MSS_GPIO_set_output(MSS_GPIO_15, 0);
 	firing = 0;
+	fire_counter = 0;
 	return;
 }
 
 void pull_trigger() {
-	PWM_set_duty_cycle(&servos, PWM_1, 204);
+	PWM_set_duty_cycle(&servos, PWM_1, TRIGGER_PULLED);
 	triggering = 1;
 }
 
@@ -163,7 +176,7 @@ void set_gun_angle(int angle){
 	//          angle is a number between 0 and 204
 	//EFFECTS: Sets angle of gun on robot
 	angle += 46;
-	PWM_set_duty_cycle(&servos, PWM_1, angle);
+	//PWM_set_duty_cycle(&servos, PWM_1, angle);
 	return;
 }
 
@@ -201,8 +214,8 @@ void moveDatTrigger(int delta) {
 	curr_trigger += delta;
 	if (curr_trigger < 60)
 		curr_trigger = 60;
-	if (curr_trigger > 204)
-		curr_trigger = 204;
+	if (curr_trigger > TRIGGER_PULLED)
+		curr_trigger = TRIGGER_PULLED;
 	set_trigger(curr_trigger);
 }
 
@@ -236,7 +249,8 @@ int main(){
 	curr_trigger = 60;
 	shots_fired = 0;
 	triggering = 0;
-
+	square_time = 0;
+	square_state = 0;
 
 	//release_trigger();
 	MSS_GPIO_set_output(MSS_GPIO_15, 0);
@@ -287,7 +301,9 @@ int main(){
 		printf("JoyX: %4d, JoyY: %4d, CX: %4d, CY: %4d, Fire: %d, Start: %d, Range: %d\n\r", joyx, joyy, cx, cy, fire, start, get_range());
 
 		if (start && !startDown) {
-			mode = !mode;
+			mode ++;
+			if (mode > NUM_MODES-1)
+				mode = 0;
 			startDown = 1;
 			start_counter = 0;
 		}
@@ -333,25 +349,25 @@ int main(){
 		wheel3(joyy);
 		wheel4(right);
 
-		//moveTurret(cy/8);
+		moveTurret(cy/8);
 		//moveDatTrigger(cy/8);
 
-		if (fire && !firing) {
+		if ((fire && !firing) || (get_range() < FIRING_RANGE && !firing && mode)) {
 			start_gun();
 		}
 
-		if (firing && fire_counter <= FIRE_TIME)
+		if (firing && fire_counter < FIRE_TIME)
 			fire_counter++;
 		if (firing && fire_counter >= FIRE_TIME) {
 			stop_gun();
 			shots_fired++;
 		}
-		if (fire_counter > 60 && !triggering)
+		if (fire_counter > TRIGGER_START_TIME && !triggering)
 			pull_trigger();
-		if (fire_counter > 100 && triggering)
+		if (fire_counter > TRIGGER_END_TIME && triggering)
 			release_trigger();
 
-		txSize = sprintf(tx, "@%4d %4d %4d %4d", mode, get_range(), shots_fired, curr_angle) + 1;
+		txSize = sprintf(tx, "%d %d %d %d %d", mode, get_range(), shots_fired, ((curr_angle-5)*.25)-5, firing) + 1;
 		sprintf(size_buff, "@%c", txSize);
 		UART_send(&g_uart, size_buff, 2);
 		UART_send(&g_uart, tx, txSize);
