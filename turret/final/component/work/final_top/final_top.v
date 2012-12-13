@@ -14,9 +14,8 @@ module final_top(
        TX,
        PWM,
        TACHIN,
-       TACHIN_0,
-       PWM_0,
-       GPIO_15_OUT
+       GPIO_15_OUT,
+       PWM_0
     );
 input  MSS_RESET_N;
 output UART_0_TXD;
@@ -29,9 +28,8 @@ input  RX;
 output TX;
 output [8:1] PWM;
 input  [1:1] TACHIN;
-input  [1:1] TACHIN_0;
-output [2:1] PWM_0;
 output GPIO_15_OUT;
+output [2:1] PWM_0;
 
     wire \CoreAPB3_0_APBmslave0_PADDR_[0] , 
         \CoreAPB3_0_APBmslave0_PADDR_[1] , 
@@ -628,7 +626,7 @@ output GPIO_15_OUT;
         , .DAC_MODE15(0), .DAC_MODE16(0), .DAC_MODE2(0), .DAC_MODE3(0)
         , .DAC_MODE4(0), .DAC_MODE5(0), .DAC_MODE6(0), .DAC_MODE7(0), .DAC_MODE8(0)
         , .DAC_MODE9(0), .FAMILY(15), .FIXED_PERIOD(1), .FIXED_PERIOD_EN(0)
-        , .FIXED_PRESCALE(900), .FIXED_PRESCALE_EN(1), .FIXED_PWM_NEGEDGE1(0)
+        , .FIXED_PRESCALE(0), .FIXED_PRESCALE_EN(0), .FIXED_PWM_NEGEDGE1(0)
         , .FIXED_PWM_NEGEDGE10(0), .FIXED_PWM_NEGEDGE11(0), .FIXED_PWM_NEGEDGE12(0)
         , .FIXED_PWM_NEGEDGE13(0), .FIXED_PWM_NEGEDGE14(0), .FIXED_PWM_NEGEDGE15(0)
         , .FIXED_PWM_NEGEDGE16(0), .FIXED_PWM_NEGEDGE2(0), .FIXED_PWM_NEGEDGE3(0)
@@ -665,12 +663,7 @@ output GPIO_15_OUT;
         , .TACH_EDGE13(0), .TACH_EDGE14(0), .TACH_EDGE15(0), .TACH_EDGE16(0)
         , .TACH_EDGE2(0), .TACH_EDGE3(0), .TACH_EDGE4(0), .TACH_EDGE5(0)
         , .TACH_EDGE6(0), .TACH_EDGE7(0), .TACH_EDGE8(0), .TACH_EDGE9(0)
-        , .TACH_NUM(1) )  corepwm_1 (.PCLK(final_mss_0_FAB_CLK), 
-        .PENABLE(CoreAPB3_0_APBmslave0_PENABLE), .PRESETN(
-        final_mss_0_M2F_RESET_N), .PSEL(CoreAPB3_0_APBmslave1_PSELx), 
-        .PREADY(CoreAPB3_0_APBmslave1_PREADY), .PSLVERR(
-        CoreAPB3_0_APBmslave1_PSLVERR), .TACHINT(), .PWRITE(
-        CoreAPB3_0_APBmslave0_PWRITE), .PADDR({
+        , .TACH_NUM(1) )  corepwm_1 (.PADDR({
         \CoreAPB3_0_APBmslave1_PADDR_[7] , 
         \CoreAPB3_0_APBmslave1_PADDR_[6] , 
         \CoreAPB3_0_APBmslave1_PADDR_[5] , 
@@ -678,7 +671,8 @@ output GPIO_15_OUT;
         \CoreAPB3_0_APBmslave1_PADDR_[3] , 
         \CoreAPB3_0_APBmslave1_PADDR_[2] , 
         \CoreAPB3_0_APBmslave1_PADDR_[1] , 
-        \CoreAPB3_0_APBmslave1_PADDR_[0] }), .PRDATA({
+        \CoreAPB3_0_APBmslave1_PADDR_[0] }), .PCLK(final_mss_0_FAB_CLK)
+        , .PENABLE(CoreAPB3_0_APBmslave0_PENABLE), .PRDATA({
         \CoreAPB3_0_APBmslave1_PRDATA_[31] , 
         \CoreAPB3_0_APBmslave1_PRDATA_[30] , 
         \CoreAPB3_0_APBmslave1_PRDATA_[29] , 
@@ -710,8 +704,9 @@ output GPIO_15_OUT;
         \CoreAPB3_0_APBmslave1_PRDATA_[3] , 
         \CoreAPB3_0_APBmslave1_PRDATA_[2] , 
         \CoreAPB3_0_APBmslave1_PRDATA_[1] , 
-        \CoreAPB3_0_APBmslave1_PRDATA_[0] }), .PWDATA({
-        \CoreAPB3_0_APBmslave0_PWDATA_[31] , 
+        \CoreAPB3_0_APBmslave1_PRDATA_[0] }), .PRESETN(
+        final_mss_0_M2F_RESET_N), .PSEL(CoreAPB3_0_APBmslave1_PSELx), 
+        .PWDATA({\CoreAPB3_0_APBmslave0_PWDATA_[31] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[30] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[29] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[28] , 
@@ -742,8 +737,11 @@ output GPIO_15_OUT;
         \CoreAPB3_0_APBmslave0_PWDATA_[3] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[2] , 
         \CoreAPB3_0_APBmslave0_PWDATA_[1] , 
-        \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .TACHIN({TACHIN_0[1]}), 
-        .PWM({PWM_0[2], PWM_0[1]}));
+        \CoreAPB3_0_APBmslave0_PWDATA_[0] }), .PREADY(
+        CoreAPB3_0_APBmslave1_PREADY), .PSLVERR(
+        CoreAPB3_0_APBmslave1_PSLVERR), .TACHINT(), .TACHIN({TACHIN[1]})
+        , .PWM({PWM_0[2], PWM_0[1]}), .PWRITE(
+        CoreAPB3_0_APBmslave0_PWRITE));
     corepwm #( .APB_DWIDTH(32), .CONFIG_MODE(0), .DAC_MODE1(0), .DAC_MODE10(0)
         , .DAC_MODE11(0), .DAC_MODE12(0), .DAC_MODE13(0), .DAC_MODE14(0)
         , .DAC_MODE15(0), .DAC_MODE16(0), .DAC_MODE2(0), .DAC_MODE3(0)

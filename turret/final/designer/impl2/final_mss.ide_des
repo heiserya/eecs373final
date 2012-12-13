@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\designer\impl2\final_mss.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\final_mss.pdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

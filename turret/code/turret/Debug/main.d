@@ -7,7 +7,8 @@ main.d main.o: ../main.c ../drivers/mss_uart/mss_uart.h \
  ../drivers/mss_ace/../../drivers_config/mss_ace/ace_handles.h \
  ../drivers/mss_ace/../../drivers_config/mss_ace/ace_config.h \
  ../drivers/CoreUARTapb/core_uart_apb.h \
- ../drivers/CoreUARTapb/../../cpu_types.h ../core_pwm.h ../cpu_types.h
+ ../drivers/CoreUARTapb/../../cpu_types.h ../drivers/CorePWM/core_pwm.h \
+ ../drivers/CorePWM/../../cpu_types.h
 
 ../drivers/mss_uart/mss_uart.h:
 
@@ -31,6 +32,6 @@ main.d main.o: ../main.c ../drivers/mss_uart/mss_uart.h \
 
 ../drivers/CoreUARTapb/../../cpu_types.h:
 
-../core_pwm.h:
+../drivers/CorePWM/core_pwm.h:
 
-../cpu_types.h:
+../drivers/CorePWM/../../cpu_types.h:

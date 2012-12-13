@@ -5,10 +5,10 @@
 
 #Implementation: synthesis
 
-#Wed Dec 12 18:30:27 2012
+#Wed Dec 12 23:44:01 2012
 
 $ Start of Compile
-#Wed Dec 12 18:30:27 2012
+#Wed Dec 12 23:44:01 2012
 
 Synopsys Verilog Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
 @N|Running in 32-bit mode
@@ -21,10 +21,6 @@ Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\pwm_gen.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v"
-@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
-@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\mss_tshell.v"
-@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
-@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\final_mss.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v"
@@ -33,26 +29,13 @@ Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\mss_tshell.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\final_mss.v"
 @I::"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\final_top.v"
 Verilog syntax check successful!
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\tach_if.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\pwm_gen.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\corepwm.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\mss_tshell.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\MSS_CCC_0\final_mss_tmp_MSS_CCC_0_MSS_CCC.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_mss\final_mss.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v changed - recompiling
-File C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\work\final_top\final_top.v changed - recompiling
+Options changed - recompiling
 Selecting top level module final_top
 @W: CG775 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
 @N: CG364 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
@@ -113,8 +96,8 @@ Selecting top level module final_top
 	CONFIG_MODE=32'b00000000000000000000000000000000
 	PWM_NUM=32'b00000000000000000000000000000010
 	APB_DWIDTH=32'b00000000000000000000000000100000
-	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
-	FIXED_PRESCALE=32'b00000000000000000000001110000100
+	FIXED_PRESCALE_EN=32'b00000000000000000000000000000000
+	FIXED_PRESCALE=32'b00000000000000000000000000000000
 	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
 	FIXED_PERIOD=32'b00000000000000000000000000000001
 	DAC_MODE1=32'b00000000000000000000000000000000
@@ -260,8 +243,8 @@ Selecting top level module final_top
 
 	PWM_NUM=32'b00000000000000000000000000000010
 	APB_DWIDTH=32'b00000000000000000000000000100000
-	FIXED_PRESCALE_EN=32'b00000000000000000000000000000001
-	FIXED_PRESCALE=32'b00000000000000000000001110000100
+	FIXED_PRESCALE_EN=32'b00000000000000000000000000000000
+	FIXED_PRESCALE=32'b00000000000000000000000000000000
 	FIXED_PERIOD_EN=32'b00000000000000000000000000000000
 	FIXED_PERIOD=32'b00000000000000000000000000000001
 	DAC_MODE=16'b0000000000000000
@@ -271,8 +254,6 @@ Selecting top level module final_top
 	FIXED_PWM_NEG_EN=16'b0000000000000000
 	FIXED_PWM_NEGEDGE=512'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
    Generated name = reg_if_Z3
-
-@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1320:0:1320:5|Pruning Register prescale_reg[31:0] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1320:0:1320:5|Pruning Register pwm_enable_reg[16:1] 
 
@@ -287,8 +268,6 @@ Selecting top level module final_top
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":514:0:514:5|Pruning Register genblk0.CPWMI0OI[2].CPWMOlOI[64:33] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":514:0:514:5|Pruning Register genblk0.CPWMI0OI[1].CPWMOlOI[32:1] 
-
-@W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":377:0:377:5|Pruning Register CPWMlOOI[31:0] 
 
 @W: CL169 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":377:0:377:5|Pruning Register CPWMlIOI[16:9] 
 
@@ -784,7 +763,7 @@ State machine has 7 reachable states with original encodings of:
 @W: CL159 :"C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused
 @END
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Dec 12 18:30:28 2012
+# Wed Dec 12 23:44:02 2012
 
 ###########################################################]
 Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
@@ -804,12 +783,13 @@ Available hyper_sources - for debug and ip models
 
 @W:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net final_mss_0.MSS_ADLIB_INST_FCLK appears to be a clock source which was not identfied. Assuming default frequency. 
 @W:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_mss\mss_ccc_0\final_mss_tmp_mss_ccc_0_mss_ccc.v":81:40:81:47|Net CoreUARTapb_0/PCLK appears to be a clock source which was not identfied. Assuming default frequency. 
-Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
 
 @N: MF179 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1354:0:1357:0|Found 32 bit by 32 bit '<' comparator, 'genblk1\.CPWMO1OI\[1\]\.un1_period_cnt'
 @N:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":127:0:127:5|Found counter in view:work.timebase_32s(verilog) inst period_cnt[31:0]
 @N:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Found counter in view:work.timebase_32s(verilog) inst CPWMlIlI[31:0]
 @N: MF179 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":153:0:156:0|Found 32 bit by 32 bit '<' comparator, 'un1_period_cnt'
+@N: MF179 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":191:0:194:0|Found 32 bit by 32 bit '<' comparator, 'un1_sync_pulse'
 @N: MF179 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\reg_if.v":1354:0:1357:0|Found 32 bit by 32 bit '<' comparator, 'genblk1\.CPWMO1OI\[1\]\.un1_period_cnt'
 @N:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":127:0:127:5|Found counter in view:work.timebase_32s_genblk100\.genblk102\.genblk103\.timebase(verilog) inst period_cnt[31:0]
 @N:"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Found counter in view:work.timebase_32s_genblk100\.genblk102\.genblk103\.timebase(verilog) inst CPWMlIlI[31:0]
@@ -847,43 +827,21 @@ original code -> new code
 @N: MF135 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Found RAM, 'CUARTlO0I.CUARTll0I[7:0]', 16 words by 8 bits 
 @N: BN116 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8.v":768:0:768:5|Removing sequential instance CUARTlO0I.CUARTll0I[7:0] of view:PrimLib.ram1(prim) because there are no references to its outputs 
 @N: MF176 |Default generator successful 
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[13],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[12]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[12],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[11]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[11],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[10]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[31],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[30]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[30],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[29]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[29],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[28]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[28],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[27]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[27],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[26]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[26],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[25]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[25],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[24]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[24],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[23]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[23],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[22]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[22],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[21]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[21],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[20]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[20],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[19]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[19],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[18]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[18],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[17]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[17],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[16]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[16],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[15]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[15],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[14]
-@W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Removing sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[14],  because it is equivalent to instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[10]
-Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 78MB peak: 78MB)
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 79MB peak: 79MB)
 
-@W: MO129 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\actel\directcore\corepwm\4.1.106\rtl\vlog\core_obfuscated\timebase.v":81:0:81:5|Sequential instance corepwm_1.genblk100.genblk102.genblk103.timebase.CPWMlIlI[10] has been reduced to a combinational gate by constant propagation
 @W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTOO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTO1l
 @W: BN132 :"c:\users\bschlenk\documents\github\eecs373final\turret\final\component\work\final_top\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":851:0:851:5|Removing sequential instance CoreUARTapb_0.CUARTOOlI.CUARTIO0,  because it is equivalent to instance CoreUARTapb_0.CUARTOOlI.CUARTI1l
-Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 77MB peak: 79MB)
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 78MB peak: 80MB)
 
-Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:02s; Memory used current: 81MB peak: 88MB)
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:02s; Memory used current: 82MB peak: 89MB)
 
-Starting Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 81MB peak: 88MB)
+Starting Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 83MB peak: 89MB)
 
-Finished Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 81MB peak: 88MB)
+Finished Early Timing Optimization (Time elapsed 0h:00m:02s; Memory used current: 83MB peak: 89MB)
 
-Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:02s; Memory used current: 81MB peak: 88MB)
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:02s; Memory used current: 82MB peak: 89MB)
 
-Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 82MB peak: 88MB)
+Finished preparing to map (Time elapsed 0h:00m:03s; Memory used current: 84MB peak: 89MB)
 
 
 High Fanout Net Report
@@ -891,76 +849,84 @@ High Fanout Net Report
 
 Driver Instance / Pin Name                                                            Fanout, notes                   
 ----------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST / M2FRESETn                                                699 : 697 asynchronous set/reset
-CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk106.genblk108.genblk109.CUARTI0 / Q            25                              
+final_mss_0.MSS_ADLIB_INST / M2FRESETn                                                785 : 783 asynchronous set/reset
+CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk106.genblk108.genblk109.CUARTI0 / Q            26                              
 CoreUARTapb_0.CUARTOOlI.genblk115.genblk116.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] / Q      66                              
 CoreUARTapb_0.CUARTOOlI.genblk115.genblk116.CUARTlOOI.CUARTlOlI.CUARTOO0I[1] / Q      34                              
 CoreUARTapb_0.CUARTOOlI.genblk113.genblk114.CUARTO11.CUARTlOlI.CUARTOO0I[0] / Q       66                              
 CoreUARTapb_0.CUARTOOlI.genblk113.genblk114.CUARTO11.CUARTlOlI.CUARTOO0I[1] / Q       34                              
 corepwm_0.genblk100.genblk102.genblk103.timebase.un1_period_cnt_0.I_248 / Y           32                              
 corepwm_0.genblk96.genblk97.reg_if.genblk1.CPWMO1OI[1].un1_period_cnt_0.I_248 / Y     32                              
-corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa / Y                              32                              
-corepwm_1.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa / Y                              32                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_0_a2 / Y                66                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0_a2 / Y                66                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1177_0_a3 / Y                32                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1179_0_a3 / Y                32                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1181_0_a3 / Y                32                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1183_0_a3 / Y                32                              
-corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1185_0_a2 / Y                33                              
+corepwm_1.genblk100.genblk102.genblk103.timebase.un1_sync_pulse_0.I_248 / Y           36                              
+corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI6 / Y                                      33                              
 corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1187_0_a2 / Y                33                              
-corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_2_0_a3 / Y                       32                              
-corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_3_0_a3 / Y                       32                              
-corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_4_0_a3 / Y                       32                              
-corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_5_0_a3 / Y                       32                              
 corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a2 / Y                         66                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1185_0_a2 / Y                33                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMIIOI_1_sqmuxa_0_a2 / Y                         35                              
 CoreAPB3_0.CAPB3O11[0] / Y                                                            33                              
-CoreAPB3_0.CAPB3O11[1] / Y                                                            37                              
-corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a3 / Y                         32                              
+CoreAPB3_0.CAPB3O11[1] / Y                                                            33                              
+corepwm_1.genblk100.genblk102.genblk103.timebase.period_cntlde_0 / Y                  32                              
+corepwm_1.genblk100.genblk102.genblk103.timebase.period_cnt8_0_a2 / Y                 33                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1177_0_a3 / Y                32                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1183_0_a2 / Y                70                              
+CoreUARTapb_0.un1_CUARTO1OI23_0_a5 / Y                                                35                              
+corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1 / Y                            32                              
+corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa / Y                              32                              
 corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_7_0_a3 / Y                       32                              
 corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_6_0_a3 / Y                       32                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_5_0_a3 / Y                       32                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_4_0_a3 / Y                       32                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_3_0_a3 / Y                       32                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_2_0_a3 / Y                       32                              
 corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1_0_a3 / Y                       32                              
 corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_0_a3 / Y                         32                              
-corepwm_1.genblk96.genblk97.reg_if.prescale_reg5 / Y                                  32                              
-corepwm_1.genblk100.genblk102.genblk103.timebase.period_cntlde_0 / Y                  32                              
-corepwm_1.genblk100.genblk102.genblk103.timebase.period_cnt8_0_a3 / Y                 33                              
-corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1 / Y                            32                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0_a2 / Y                66                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_0_a2 / Y                66                              
+corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a3 / Y                         32                              
+corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1181_0_a3 / Y                32                              
+corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI_0_sqmuxa / Y                              32                              
+corepwm_1.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa / Y                              32                              
+corepwm_1.genblk96.genblk97.reg_if.prescale_reg5 / Y                                  64                              
 ======================================================================================================================
 
-@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk115\.genblk116\.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_315 
-@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk113\.genblk114\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_316 
-@N: FP130 |Promoting Net corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1173 on CLKINT  I_317 
-Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1, fanout 32 segments 2
-Replicating Combinational Instance corepwm_1.genblk100.genblk102.genblk103.timebase.period_cnt8_0_a3, fanout 33 segments 2
-Replicating Combinational Instance corepwm_1.genblk100.genblk102.genblk103.timebase.period_cntlde_0, fanout 32 segments 2
-Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.prescale_reg5, fanout 32 segments 2
+@N: FP130 |Promoting Net corepwm_0.genblk96\.genblk97\.reg_if.N_163 on CLKINT  I_352 
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk115\.genblk116\.CUARTlOOI.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_353 
+@N: FP130 |Promoting Net CoreUARTapb_0.CUARTOOlI.genblk113\.genblk114\.CUARTO11.CUARTlOlI.CUARTOO0I[0] on CLKINT  I_354 
+Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.prescale_reg5, fanout 64 segments 3
+Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa, fanout 32 segments 2
+Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI_0_sqmuxa, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1181_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1173_0_a2, fanout 66 segments 3
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0_a2, fanout 66 segments 3
 Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_0_a3, fanout 32 segments 2
 Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_2_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_3_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_4_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_5_0_a3, fanout 32 segments 2
 Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_6_0_a3, fanout 32 segments 2
 Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_7_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a3, fanout 32 segments 2
-Replicating Combinational Instance CoreAPB3_0.CAPB3O11[1], fanout 38 segments 2
-Replicating Combinational Instance CoreAPB3_0.CAPB3O11[0], fanout 33 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a2, fanout 67 segments 3
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_5_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_4_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_3_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_2_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1187_0_a2, fanout 34 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1185_0_a2, fanout 34 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1183_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1181_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1179_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1177_0_a3, fanout 32 segments 2
-Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1175_0_a2, fanout 67 segments 3
-Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa, fanout 32 segments 2
 Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa, fanout 32 segments 2
+Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMIlOI_1_sqmuxa_1, fanout 32 segments 2
+Replicating Combinational Instance CoreUARTapb_0.un1_CUARTO1OI23_0_a5, fanout 38 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1177_0_a3, fanout 32 segments 2
+Replicating Combinational Instance corepwm_1.genblk100.genblk102.genblk103.timebase.period_cnt8_0_a2, fanout 33 segments 2
+Replicating Combinational Instance corepwm_1.genblk100.genblk102.genblk103.timebase.period_cntlde_0, fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3O11[1], fanout 33 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3O11[0], fanout 33 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMIIOI_1_sqmuxa_0_a2, fanout 36 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1185_0_a2, fanout 34 segments 2
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.CPWMOIOI_1_sqmuxa_0_a2, fanout 68 segments 3
+Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk19.CPWMll0.CPWMl1187_0_a2, fanout 34 segments 2
+Replicating Combinational Instance corepwm_1.genblk96.genblk97.reg_if.CPWMlOOI6, fanout 34 segments 2
+Replicating Combinational Instance corepwm_1.genblk100.genblk102.genblk103.timebase.un1_sync_pulse_0.I_248, fanout 39 segments 2
 Replicating Combinational Instance corepwm_0.genblk96.genblk97.reg_if.genblk1.CPWMO1OI[1].un1_period_cnt_0.I_248, fanout 32 segments 2
 Replicating Combinational Instance corepwm_0.genblk100.genblk102.genblk103.timebase.un1_period_cnt_0.I_248, fanout 32 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk113.genblk114.CUARTO11.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.genblk115.genblk116.CUARTlOOI.CUARTlOlI.CUARTOO0I[1], fanout 34 segments 2
-Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk106.genblk108.genblk109.CUARTI0, fanout 25 segments 2
-Finished technology mapping (Time elapsed 0h:00m:03s; Memory used current: 83MB peak: 88MB)
+Replicating Sequential Instance CoreUARTapb_0.CUARTOOlI.CUARTI10.genblk106.genblk108.genblk109.CUARTI0, fanout 26 segments 2
+Finished technology mapping (Time elapsed 0h:00m:03s; Memory used current: 98MB peak: 100MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 6 
 
@@ -982,21 +948,21 @@ New registers created by retiming :
 
 		#####   END RETIMING REPORT  #####
 
-Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:03s; Memory used current: 83MB peak: 88MB)
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:03s; Memory used current: 98MB peak: 100MB)
 
 
 Added 0 Buffers
-Added 32 Cells via replication
+Added 38 Cells via replication
 	Added 3 Sequential Cells via replication
-	Added 29 Combinational Cells via replication
-Finished restoring hierarchy (Time elapsed 0h:00m:03s; Memory used current: 84MB peak: 88MB)
+	Added 35 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:03s; Memory used current: 99MB peak: 100MB)
 
 Writing Analyst data base C:\Users\bschlenk\Documents\GitHub\eecs373final\turret\final\synthesis\final_top.srm
-Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 82MB peak: 88MB)
+Finished Writing Netlist Databases (Time elapsed 0h:00m:04s; Memory used current: 97MB peak: 100MB)
 
 Writing EDIF Netlist and constraint files
 E-2010.09A-1
-Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Memory used current: 84MB peak: 88MB)
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:05s; Memory used current: 99MB peak: 100MB)
 
 @W: MT420 |Found inferred clock final_mss|MSS_ADLIB_INST_EMCCLK_inferred_clock with period 1000.00ns. A user-defined clock should be declared on object "n:final_mss_0.MSS_ADLIB_INST_EMCCLK"
 
@@ -1007,7 +973,7 @@ Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:04s; Mem
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Dec 12 18:30:36 2012
+# Timing Report written on Wed Dec 12 23:44:07 2012
 #
 
 
@@ -1029,13 +995,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 968.529
+Worst slack in design: 967.815
 
                                                                        Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                                                         Frequency     Frequency     Period        Period        Slack       Type         Group              
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     1.0 MHz       58.7 MHz      1000.000      17.048        982.952     inferred     Inferred_clkgroup_1
-final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     1.0 MHz       31.8 MHz      1000.000      31.471        968.529     inferred     Inferred_clkgroup_2
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     1.0 MHz       62.4 MHz      1000.000      16.035        983.965     inferred     Inferred_clkgroup_1
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     1.0 MHz       31.1 MHz      1000.000      32.185        967.815     inferred     Inferred_clkgroup_2
 ===========================================================================================================================================================================
 
 
@@ -1049,10 +1015,10 @@ Clocks                                                                          
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                                            Ending                                                              |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  1000.000    982.952  |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  1000.000    983.965  |  No paths    -      |  No paths    -      |  No paths    -    
 final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
-final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  |  1000.000    968.529  |  No paths    -      |  No paths    -      |  No paths    -    
+final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock  |  1000.000    967.815  |  No paths    -      |  No paths    -      |  No paths    -    
 ================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -1079,16 +1045,16 @@ Starting Points with Worst Slack
 Instance                       Reference                                                              Type        Pin              Net                                         Time        Slack  
                                Clock                                                                                                                                                              
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[2]      final_mss_0_MSS_MASTER_APB_PADDR_\[2\]      2.679       982.952
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[6]      final_mss_0_MSS_MASTER_APB_PADDR_\[6\]      2.679       983.103
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[7]      final_mss_0_MSS_MASTER_APB_PADDR_\[7\]      2.679       983.254
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[3]      final_mss_0_MSS_MASTER_APB_PADDR_\[3\]      2.679       984.952
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[4]      final_mss_0_MSS_MASTER_APB_PADDR_\[4\]      2.679       985.264
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[5]      final_mss_0_MSS_MASTER_APB_PADDR_\[5\]      2.679       985.568
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[10]     final_mss_0_MSS_MASTER_APB_PADDR_\[10\]     2.679       989.916
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[11]     final_mss_0_MSS_MASTER_APB_PADDR_\[11\]     2.679       990.055
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[9]      final_mss_0_MSS_MASTER_APB_PADDR_\[9\]      2.679       990.062
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[8]      final_mss_0_MSS_MASTER_APB_PADDR_\[8\]      2.679       990.343
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[6]      final_mss_0_MSS_MASTER_APB_PADDR_\[6\]      2.679       983.965
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[7]      final_mss_0_MSS_MASTER_APB_PADDR_\[7\]      2.679       984.116
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[3]      final_mss_0_MSS_MASTER_APB_PADDR_\[3\]      2.679       984.422
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[2]      final_mss_0_MSS_MASTER_APB_PADDR_\[2\]      2.679       984.619
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[4]      final_mss_0_MSS_MASTER_APB_PADDR_\[4\]      2.679       984.664
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[5]      final_mss_0_MSS_MASTER_APB_PADDR_\[5\]      2.679       984.869
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[10]     final_mss_0_MSS_MASTER_APB_PADDR_\[10\]     2.679       989.728
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[11]     final_mss_0_MSS_MASTER_APB_PADDR_\[11\]     2.679       989.867
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[8]      final_mss_0_MSS_MASTER_APB_PADDR_\[8\]      2.679       990.145
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPADDR[9]      final_mss_0_MSS_MASTER_APB_PADDR_\[9\]      2.679       990.323
 ==================================================================================================================================================================================================
 
 
@@ -1099,16 +1065,16 @@ Ending Points with Worst Slack
 Instance                       Reference                                                              Type        Pin               Net                 Time         Slack  
                                Clock                                                                                                                                        
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[31]     PRDATA_0_iv[31]     1000.000     982.952
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[0]      PRDATA_0_iv[0]      1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[2]      PRDATA_0_iv[2]      1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[8]      PRDATA_0_iv[8]      1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[9]      PRDATA_0_iv[9]      1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[10]     PRDATA_0_iv[10]     1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[11]     PRDATA_0_iv[11]     1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[12]     PRDATA_0_iv[12]     1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[13]     PRDATA_0_iv[13]     1000.000     983.065
-final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[14]     PRDATA_0_iv[14]     1000.000     983.065
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[23]     PRDATA_0_iv[23]     1000.000     983.965
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[29]     PRDATA_0_iv[29]     1000.000     983.965
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[4]      PRDATA_0_iv[4]      1000.000     983.977
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[5]      PRDATA_0_iv[5]      1000.000     983.977
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[14]     PRDATA_0_iv[14]     1000.000     984.078
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[0]      PRDATA_0_iv[0]      1000.000     984.293
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[17]     PRDATA_0_iv[17]     1000.000     984.450
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[27]     PRDATA_0_iv[27]     1000.000     984.450
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[28]     PRDATA_0_iv[28]     1000.000     984.450
+final_mss_0.MSS_ADLIB_INST     final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     MSS_APB     MSSPRDATA[22]     PRDATA_0_iv[22]     1000.000     984.627
 ============================================================================================================================================================================
 
 
@@ -1123,48 +1089,54 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         1000.000
 
-    - Propagation time:                      17.048
+    - Propagation time:                      16.035
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 982.952
+    = Slack (non-critical) :                 983.965
 
-    Number of logic level(s):                8
-    Starting point:                          final_mss_0.MSS_ADLIB_INST / MSSPADDR[2]
-    Ending point:                            final_mss_0.MSS_ADLIB_INST / MSSPRDATA[31]
+    Number of logic level(s):                10
+    Starting point:                          final_mss_0.MSS_ADLIB_INST / MSSPADDR[6]
+    Ending point:                            final_mss_0.MSS_ADLIB_INST / MSSPRDATA[23]
     The start point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
     The end   point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock [rising] on pin FCLK
 
-Instance / Net                                                                                     Pin               Pin               Arrival     No. of    
-Name                                                                                   Type        Name              Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-final_mss_0.MSS_ADLIB_INST                                                             MSS_APB     MSSPADDR[2]       Out     2.679     2.679       -         
-final_mss_0_MSS_MASTER_APB_PADDR_\[2\]                                                 Net         -                 -       2.037     -           13        
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2_0               NOR2A       A                 In      -         4.716       -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2_0               NOR2A       Y                 Out     0.627     5.343       -         
-N_160                                                                                  Net         -                 -       1.639     -           8         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2                 NOR2B       B                 In      -         6.982       -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2                 NOR2B       Y                 Out     0.627     7.609       -         
-N_163                                                                                  Net         -                 -       2.172     -           16        
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1179_0_a3                 NOR2B       B                 In      -         9.782       -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1179_0_a3                 NOR2B       Y                 Out     0.627     10.409      -         
-CPWMl1179                                                                              Net         -                 -       2.172     -           16        
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[4\]\.CPWMIlOI_RNI7HMB[128]     OR2B        B                 In      -         12.582      -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[4\]\.CPWMIlOI_RNI7HMB[128]     OR2B        Y                 Out     0.627     13.209      -         
-CPWMIlOI_m_i[128]                                                                      Net         -                 -       0.322     -           1         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[3\]\.CPWMIlOI_RNI71HH[96]      AOI1B       C                 In      -         13.531      -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[3\]\.CPWMIlOI_RNI71HH[96]      AOI1B       Y                 Out     0.398     13.929      -         
-CPWMO0_0_iv_0_1[31]                                                                    Net         -                 -       0.322     -           1         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[6\]\.CPWMIlOI_RNIJOGV[192]     NOR3C       C                 In      -         14.250      -         
-corepwm_0.genblk96\.genblk97\.reg_if.genblk0\.CPWMI0OI\[6\]\.CPWMIlOI_RNIJOGV[192]     NOR3C       Y                 Out     0.666     14.916      -         
-CPWMO0_0_iv_0_5[31]                                                                    Net         -                 -       0.322     -           1         
-corepwm_0.genblk96\.genblk97\.reg_if.period_reg_RNICH452[31]                           OR3C        C                 In      -         15.237      -         
-corepwm_0.genblk96\.genblk97\.reg_if.period_reg_RNICH452[31]                           OR3C        Y                 Out     0.666     15.903      -         
-CPWMO0[31]                                                                             Net         -                 -       0.322     -           1         
-CoreAPB3_0.CAPB3llOI.PRDATA_0_iv[31]                                                   AO1B        A                 In      -         16.224      -         
-CoreAPB3_0.CAPB3llOI.PRDATA_0_iv[31]                                                   AO1B        Y                 Out     0.502     16.727      -         
-PRDATA_0_iv[31]                                                                        Net         -                 -       0.322     -           1         
-final_mss_0.MSS_ADLIB_INST                                                             MSS_APB     MSSPRDATA[31]     In      -         17.048      -         
-=============================================================================================================================================================
-Total path delay (propagation time + setup) of 17.048 is 7.420(43.5%) logic and 9.628(56.5%) route.
+Instance / Net                                                                         Pin               Pin               Arrival     No. of    
+Name                                                                       Type        Name              Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+final_mss_0.MSS_ADLIB_INST                                                 MSS_APB     MSSPADDR[6]       Out     2.679     2.679       -         
+final_mss_0_MSS_MASTER_APB_PADDR_\[6\]                                     Net         -                 -       0.806     -           3         
+corepwm_1.genblk96\.genblk97\.reg_if.CPWMlOOI6_3                           NOR2        B                 In      -         3.485       -         
+corepwm_1.genblk96\.genblk97\.reg_if.CPWMlOOI6_3                           NOR2        Y                 Out     0.514     4.000       -         
+CPWMlOOI8_3                                                                Net         -                 -       1.184     -           4         
+corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2     NOR3C       A                 In      -         5.183       -         
+corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1183_0_a2     NOR3C       Y                 Out     0.464     5.647       -         
+CPWMl1183_0_a2                                                             Net         -                 -       0.322     -           1         
+I_352                                                                      CLKINT      A                 In      -         5.969       -         
+I_352                                                                      CLKINT      Y                 Out     0.174     6.143       -         
+corepwm_0.genblk96\.genblk97\.reg_if.N_163                                 Net         -                 -       1.601     -           76        
+corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1177_0_a3     NOR2A       A                 In      -         7.743       -         
+corepwm_0.genblk96\.genblk97\.reg_if.genblk19\.CPWMll0\.CPWMl1177_0_a3     NOR2A       Y                 Out     0.627     8.371       -         
+CPWMl1177                                                                  Net         -                 -       2.172     -           16        
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO_10[23]              OR2B        B                 In      -         10.543      -         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO_10[23]              OR2B        Y                 Out     0.627     11.171      -         
+CPWMIlOI_m_i[88]                                                           Net         -                 -       0.322     -           1         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO_6[23]               NOR3C       C                 In      -         11.492      -         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO_6[23]               NOR3C       Y                 Out     0.666     12.158      -         
+CPWMO0_0_iv_0_1[23]                                                        Net         -                 -       0.322     -           1         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO[23]                 NOR3C       C                 In      -         12.479      -         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0_RNO[23]                 NOR3C       Y                 Out     0.666     13.145      -         
+CPWMO0_0_iv_0_5[23]                                                        Net         -                 -       0.322     -           1         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0[23]                     NAND2       A                 In      -         13.466      -         
+corepwm_0.genblk96\.genblk97\.reg_if.CPWMO0_0_iv_0[23]                     NAND2       Y                 Out     0.488     13.955      -         
+CPWMO0[23]                                                                 Net         -                 -       0.322     -           1         
+CoreAPB3_0.CAPB3llOI.PRDATA_0_iv_RNO[23]                                   NAND2       B                 In      -         14.276      -         
+CoreAPB3_0.CAPB3llOI.PRDATA_0_iv_RNO[23]                                   NAND2       Y                 Out     0.627     14.903      -         
+un1_corepwm_0_m[23]                                                        Net         -                 -       0.322     -           1         
+CoreAPB3_0.CAPB3llOI.PRDATA_0_iv[23]                                       NAND2       A                 In      -         15.225      -         
+CoreAPB3_0.CAPB3llOI.PRDATA_0_iv[23]                                       NAND2       Y                 Out     0.488     15.713      -         
+PRDATA_0_iv[23]                                                            Net         -                 -       0.322     -           1         
+final_mss_0.MSS_ADLIB_INST                                                 MSS_APB     MSSPRDATA[23]     In      -         16.035      -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 16.035 is 8.021(50.0%) logic and 8.014(50.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1183,16 +1155,16 @@ Starting Points with Worst Slack
 Instance                                                              Reference                                                              Type         Pin     Net               Time        Slack  
                                                                       Clock                                                                                                                            
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[0]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       CPWMlIlI[0]       0.580       967.815
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[1]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       CPWMlIlI[1]       0.580       967.843
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[0]     0.737       968.529
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[1]     0.737       968.596
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[2]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       CPWMlIlI[2]       0.580       968.826
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[2]     0.737       969.255
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[0]     0.737       969.424
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[1]     0.737       969.507
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[3]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[3]     0.737       970.381
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[2]     0.737       970.520
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[4]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[4]     0.737       971.040
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[3]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[3]     0.737       971.179
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[5]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       period_cnt[5]     0.737       972.166
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[0]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[0]     0.737       969.413
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[1]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[1]     0.737       969.497
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[3]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       Q       CPWMlIlI[3]       0.580       969.640
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[2]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     Q       period_cnt[2]     0.737       970.155
 =======================================================================================================================================================================================================
 
 
@@ -1203,16 +1175,16 @@ Ending Points with Worst Slack
 Instance                                                               Reference                                                              Type         Pin     Net                Time         Slack  
                                                                        Clock                                                                                                                              
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[31]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       CPWMlIlI_n31       999.461      967.815
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[31]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       period_cnt_n31     999.461      968.529
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[30]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       CPWMlIlI_n30       999.461      968.783
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[30]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       period_cnt_n30     999.461      969.365
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[31]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n31     999.496      969.424
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[30]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n30     999.496      970.260
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[31]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n31     999.496      969.413
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[29]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       CPWMlIlI_n29       999.461      969.815
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[30]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n30     999.496      970.249
 corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[29]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       period_cnt_n29     999.461      970.265
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[29]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n29     999.496      971.160
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[28]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       period_cnt_n28     999.461      971.165
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[27]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       period_cnt_n27     999.427      972.096
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[28]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n28     999.461      972.171
-corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[27]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n27     999.496      972.944
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[28]       final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1C0       D       CPWMlIlI_n28       999.461      970.847
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.period_cnt[29]     final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock     DFN1E1C0     D       period_cnt_n29     999.496      971.149
 ==========================================================================================================================================================================================================
 
 
@@ -1227,117 +1199,108 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         999.461
 
-    - Propagation time:                      30.933
+    - Propagation time:                      31.647
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     968.529
+    = Slack (critical) :                     967.815
 
-    Number of logic level(s):                31
-    Starting point:                          corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[0] / Q
-    Ending point:                            corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[31] / D
+    Number of logic level(s):                28
+    Starting point:                          corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[0] / Q
+    Ending point:                            corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[31] / D
     The start point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock [rising] on pin CLK
     The end   point is clocked by            final_mss_tmp_MSS_CCC_0_MSS_CCC|final_mss_0_FAB_CLK_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                                             Pin      Pin               Arrival     No. of    
-Name                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
---------------------------------------------------------------------------------------------------------------------------------------------
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[0]               DFN1C0     Q        Out     0.737     0.737       -         
-period_cnt[0]                                                                   Net        -        -       2.082     -           14        
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIP13E[0]       OR2B       B        In      -         2.819       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIP13E[0]       OR2B       Y        Out     0.627     3.446       -         
-N_360                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINO4L[2]       NOR2A      B        In      -         3.832       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINO4L[2]       NOR2A      Y        Out     0.386     4.218       -         
-N_361                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIMJ6S[3]       OR2B       B        In      -         4.604       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIMJ6S[3]       OR2B       Y        Out     0.627     5.231       -         
-N_362                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIMI831[4]      NOR2A      B        In      -         5.617       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIMI831[4]      NOR2A      Y        Out     0.386     6.003       -         
-N_363                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINLAA1[5]      OR2B       B        In      -         6.389       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINLAA1[5]      OR2B       Y        Out     0.627     7.016       -         
-N_364                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIPSCH1[6]      NOR2A      B        In      -         7.402       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIPSCH1[6]      NOR2A      Y        Out     0.386     7.788       -         
-N_365                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIS7FO1[7]      OR2B       B        In      -         8.173       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIS7FO1[7]      OR2B       Y        Out     0.627     8.801       -         
-N_366                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI0NHV1[8]      NOR2A      B        In      -         9.187       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI0NHV1[8]      NOR2A      Y        Out     0.386     9.572       -         
-N_367                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI5AK62[9]      OR2B       B        In      -         9.958       -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI5AK62[9]      OR2B       Y        Out     0.627     10.586      -         
-N_368                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI8L982[10]     NOR2A      B        In      -         10.971      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI8L982[10]     NOR2A      Y        Out     0.386     11.357      -         
-N_369                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIC0V92[11]     OR2B       B        In      -         11.743      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIC0V92[11]     OR2B       Y        Out     0.627     12.370      -         
-N_370                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIHBKB2[12]     NOR2A      B        In      -         12.756      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIHBKB2[12]     NOR2A      Y        Out     0.386     13.142      -         
-N_371                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINM9D2[13]     OR2B       B        In      -         13.528      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNINM9D2[13]     OR2B       Y        Out     0.627     14.155      -         
-N_372                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIU1VE2[14]     NOR2A      B        In      -         14.541      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIU1VE2[14]     NOR2A      Y        Out     0.386     14.927      -         
-N_373                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI6DKG2[15]     OR2B       B        In      -         15.313      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI6DKG2[15]     OR2B       Y        Out     0.627     15.940      -         
-N_374                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIFO9I2[16]     NOR2A      B        In      -         16.326      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIFO9I2[16]     NOR2A      Y        Out     0.386     16.712      -         
-N_375                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIP3VJ2[17]     OR2B       B        In      -         17.097      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIP3VJ2[17]     OR2B       Y        Out     0.627     17.725      -         
-N_376                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI4FKL2[18]     NOR2A      B        In      -         18.111      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI4FKL2[18]     NOR2A      Y        Out     0.386     18.496      -         
-N_377                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIGQ9N2[19]     OR2B       B        In      -         18.882      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIGQ9N2[19]     OR2B       Y        Out     0.627     19.510      -         
-N_378                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIM9VO2[20]     NOR2A      B        In      -         19.895      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIM9VO2[20]     NOR2A      Y        Out     0.386     20.281      -         
-N_379                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNITOKQ2[21]     OR2B       B        In      -         20.667      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNITOKQ2[21]     OR2B       Y        Out     0.627     21.294      -         
-N_380                                                                           Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI58AS2[22]     NOR2A      B        In      -         21.680      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI58AS2[22]     NOR2A      Y        Out     0.386     22.066      -         
-N_64                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIENVT2[23]     OR2B       B        In      -         22.452      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIENVT2[23]     OR2B       Y        Out     0.627     23.079      -         
-N_65                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIO6LV2[24]     NOR2A      B        In      -         23.465      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIO6LV2[24]     NOR2A      Y        Out     0.386     23.851      -         
-N_66                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI3MA13[25]     OR2B       B        In      -         24.237      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNI3MA13[25]     OR2B       Y        Out     0.627     24.864      -         
-N_67                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIF5033[26]     NOR2A      B        In      -         25.250      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIF5033[26]     NOR2A      Y        Out     0.386     25.636      -         
-N_68                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNISKL43[27]     OR2B       B        In      -         26.021      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNISKL43[27]     OR2B       Y        Out     0.627     26.649      -         
-N_69                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIA4B63[28]     OR2A       B        In      -         27.035      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIA4B63[28]     OR2A       Y        Out     0.514     27.549      -         
-N_70                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIPJ083[29]     OR2A       B        In      -         27.935      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNIPJ083[29]     OR2A       Y        Out     0.514     28.449      -         
-N_71                                                                            Net        -        -       0.386     -           2         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNO_0[31]        OR2A       B        In      -         28.835      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNO_0[31]        OR2A       Y        Out     0.514     29.349      -         
-N_72                                                                            Net        -        -       0.322     -           1         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNO[31]          XA1A       B        In      -         29.671      -         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt_RNO[31]          XA1A       Y        Out     0.940     30.611      -         
-period_cnt_n31                                                                  Net        -        -       0.322     -           1         
-corepwm_0.genblk100\.genblk102\.genblk103\.timebase.period_cnt[31]              DFN1C0     D        In      -         30.933      -         
-============================================================================================================================================
-Total path delay (propagation time + setup) of 31.471 is 17.558(55.8%) logic and 13.913(44.2%) route.
+Instance / Net                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[0]               DFN1C0     Q        Out     0.580     0.580       -         
+CPWMlIlI[0]                                                                   Net        -        -       1.279     -           5         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIJ475[0]       OR2B       B        In      -         1.860       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIJ475[0]       OR2B       Y        Out     0.516     2.376       -         
+N_42                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIUSQ7[2]       OR2A       B        In      -         2.761       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIUSQ7[2]       OR2A       Y        Out     0.646     3.408       -         
+N_43                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIAPEA[3]       NOR2A      B        In      -         3.794       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIAPEA[3]       NOR2A      Y        Out     0.407     4.200       -         
+N_44                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNINP2D[4]       NOR2B      A        In      -         4.586       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNINP2D[4]       NOR2B      Y        Out     0.488     5.074       -         
+N_45                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI5UMF[5]       NOR2B      A        In      -         5.460       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI5UMF[5]       NOR2B      Y        Out     0.488     5.949       -         
+N_46                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIK6BI[6]       NOR2B      A        In      -         6.334       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIK6BI[6]       NOR2B      Y        Out     0.488     6.823       -         
+N_47                                                                          Net        -        -       0.806     -           3         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIL3KN[8]       OR3C       B        In      -         7.629       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIL3KN[8]       OR3C       Y        Out     0.624     8.253       -         
+N_298                                                                         Net        -        -       0.806     -           3         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI7O8Q[9]       OR2A       B        In      -         9.059       -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI7O8Q[9]       OR2A       Y        Out     0.646     9.706       -         
+N_299                                                                         Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI928U[10]      OR2A       B        In      -         10.092      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI928U[10]      OR2A       Y        Out     0.646     10.738      -         
+N_300                                                                         Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNICC721[11]     OR2A       B        In      -         11.124      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNICC721[11]     OR2A       Y        Out     0.646     11.771      -         
+N_301                                                                         Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIGM661[12]     OR2A       B        In      -         12.156      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIGM661[12]     OR2A       Y        Out     0.646     12.803      -         
+N_302                                                                         Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIL06A1[13]     OR2A       B        In      -         13.189      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIL06A1[13]     OR2A       Y        Out     0.646     13.835      -         
+N_303                                                                         Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIRA5E1[14]     OR2A       B        In      -         14.221      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIRA5E1[14]     OR2A       Y        Out     0.646     14.867      -         
+CPWMlIlI_c14                                                                  Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI2L4I1[15]     OR2A       B        In      -         15.253      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI2L4I1[15]     OR2A       Y        Out     0.646     15.900      -         
+N_48                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIAV3M1[16]     OR2A       B        In      -         16.285      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIAV3M1[16]     OR2A       Y        Out     0.646     16.932      -         
+N_49                                                                          Net        -        -       0.806     -           3         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNITJ2U1[18]     NOR3B      C        In      -         17.738      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNITJ2U1[18]     NOR3B      Y        Out     0.488     18.227      -         
+N_51                                                                          Net        -        -       1.184     -           4         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIDC162[19]     NOR3C      B        In      -         19.410      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIDC162[19]     NOR3C      Y        Out     0.624     20.034      -         
+N_53                                                                          Net        -        -       0.806     -           3         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIJQ0A2[21]     NOR2B      A        In      -         20.841      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIJQ0A2[21]     NOR2B      Y        Out     0.488     21.329      -         
+N_54                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIQ80E2[22]     OR2B       A        In      -         21.715      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIQ80E2[22]     OR2B       Y        Out     0.488     22.203      -         
+N_55                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI2NVH2[23]     OR2A       B        In      -         22.589      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI2NVH2[23]     OR2A       Y        Out     0.646     23.235      -         
+N_56                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIB5VL2[24]     OR2A       B        In      -         23.621      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIB5VL2[24]     OR2A       Y        Out     0.646     24.268      -         
+N_57                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNILJUP2[25]     NOR2A      B        In      -         24.653      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNILJUP2[25]     NOR2A      Y        Out     0.407     25.060      -         
+N_58                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI02UT2[26]     OR2B       A        In      -         25.446      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI02UT2[26]     OR2B       Y        Out     0.488     25.934      -         
+N_59                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNICGT13[27]     OR2A       B        In      -         26.320      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNICGT13[27]     OR2A       Y        Out     0.646     26.966      -         
+N_60                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIPUS53[28]     OR2A       B        In      -         27.352      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNIPUS53[28]     OR2A       Y        Out     0.646     27.999      -         
+N_61                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI7DS93[29]     OR2A       B        In      -         28.384      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNI7DS93[29]     OR2A       Y        Out     0.646     29.031      -         
+N_62                                                                          Net        -        -       0.386     -           2         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNO_0[31]        OR2A       B        In      -         29.417      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNO_0[31]        OR2A       Y        Out     0.646     30.063      -         
+N_63                                                                          Net        -        -       0.322     -           1         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNO[31]          XA1A       B        In      -         30.385      -         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI_RNO[31]          XA1A       Y        Out     0.940     31.325      -         
+CPWMlIlI_n31                                                                  Net        -        -       0.322     -           1         
+corepwm_1.genblk100\.genblk102\.genblk103\.timebase.CPWMlIlI[31]              DFN1C0     D        In      -         31.647      -         
+==========================================================================================================================================
+Total path delay (propagation time + setup) of 32.185 is 17.752(55.2%) logic and 14.433(44.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1349,23 +1312,21 @@ Target Part: A2F200M3F_FBGA256_Std
 Report for cell final_top.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2    60      1.0       60.0
-             AND2A    12      1.0       12.0
-              AND3    52      1.0       52.0
-               AO1    30      1.0       30.0
-              AO16     1      1.0        1.0
-              AO1A     3      1.0        3.0
-              AO1B    60      1.0       60.0
-              AO1C    70      1.0       70.0
-              AO1D     2      1.0        2.0
-              AOI1     3      1.0        3.0
-             AOI1A    20      1.0       20.0
-             AOI1B   156      1.0      156.0
-              AX1A     1      1.0        1.0
-              AX1B     2      1.0        2.0
+              AND2    86      1.0       86.0
+             AND2A    15      1.0       15.0
+              AND3    65      1.0       65.0
+               AO1    38      1.0       38.0
+              AO1B    59      1.0       59.0
+              AO1C    81      1.0       81.0
+              AO1D     3      1.0        3.0
+              AOI1     5      1.0        5.0
+             AOI1A    25      1.0       25.0
+             AOI1B   136      1.0      136.0
+              AOI5     1      1.0        1.0
+              AX1B     1      1.0        1.0
               AX1C     1      1.0        1.0
-              AX1D     3      1.0        3.0
-              AX1E     6      1.0        6.0
+              AX1D     2      1.0        2.0
+              AX1E     5      1.0        5.0
              AXOI5     1      1.0        1.0
              AXOI7     1      1.0        1.0
             CLKINT     3      0.0        0.0
@@ -1373,54 +1334,54 @@ Report for cell final_top.verilog
                INV     6      1.0        6.0
               MAJ3     1      1.0        1.0
            MSS_CCC     1      0.0        0.0
-               MX2   255      1.0      255.0
-              MX2C     7      1.0        7.0
-             NAND2    22      1.0       22.0
-              NOR2   138      1.0      138.0
-             NOR2A   109      1.0      109.0
-             NOR2B   101      1.0      101.0
+               MX2   254      1.0      254.0
+              MX2C     8      1.0        8.0
+             NAND2    23      1.0       23.0
+              NOR2   152      1.0      152.0
+             NOR2A   125      1.0      125.0
+             NOR2B   105      1.0      105.0
               NOR3    15      1.0       15.0
              NOR3A    93      1.0       93.0
-             NOR3B    31      1.0       31.0
-             NOR3C   201      1.0      201.0
-               OA1    27      1.0       27.0
-              OA1A    40      1.0       40.0
-              OA1B     5      1.0        5.0
-              OA1C     6      1.0        6.0
+             NOR3B    18      1.0       18.0
+             NOR3C   221      1.0      221.0
+               OA1    29      1.0       29.0
+              OA1A    56      1.0       56.0
+              OA1B     4      1.0        4.0
+              OA1C     7      1.0        7.0
               OAI1     5      1.0        5.0
-               OR2    23      1.0       23.0
-              OR2A   122      1.0      122.0
-              OR2B   310      1.0      310.0
-               OR3    12      1.0       12.0
-              OR3A     9      1.0        9.0
-              OR3B     7      1.0        7.0
-              OR3C    57      1.0       57.0
+               OR2    21      1.0       21.0
+              OR2A   168      1.0      168.0
+              OR2B   291      1.0      291.0
+               OR3     6      1.0        6.0
+              OR3A     8      1.0        8.0
+              OR3B     5      1.0        5.0
+              OR3C   134      1.0      134.0
              RCOSC     1      0.0        0.0
                VCC    24      0.0        0.0
-               XA1    20      1.0       20.0
-              XA1A   116      1.0      116.0
-              XA1B    18      1.0       18.0
+               XA1    25      1.0       25.0
+              XA1A   145      1.0      145.0
+              XA1B    22      1.0       22.0
               XA1C    18      1.0       18.0
               XAI1     2      1.0        2.0
-             XNOR2   387      1.0      387.0
+             XNOR2   450      1.0      450.0
              XNOR3     1      1.0        1.0
                XO1     1      1.0        1.0
-              XOR2    24      1.0       24.0
+              XOR2    20      1.0       20.0
               XOR3     6      1.0        6.0
 
 
               DFN1     4      1.0        4.0
-            DFN1C0   106      1.0      106.0
+            DFN1C0   128      1.0      128.0
             DFN1E0     8      1.0        8.0
           DFN1E0C0    55      1.0       55.0
           DFN1E0P0     4      1.0        4.0
             DFN1E1   280      1.0      280.0
-          DFN1E1C0   527      1.0      527.0
-          DFN1E1P0     3      1.0        3.0
+          DFN1E1C0   589      1.0      589.0
+          DFN1E1P0     5      1.0        5.0
             DFN1P0     5      1.0        5.0
            MSS_APB     1      0.0        0.0
                    -----          ----------
-             TOTAL  3725              3671.0
+             TOTAL  4102              4048.0
 
 
   IO Cell usage:
@@ -1434,14 +1395,14 @@ Report for cell final_top.verilog
              TOTAL    20
 
 
-Core Cells         : 3671 of 4608 (80%)
+Core Cells         : 4048 of 4608 (88%)
 IO Cells           : 20
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
-Process took 0h:00m:07s realtime, 0h:00m:04s cputime
-# Wed Dec 12 18:30:36 2012
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Wed Dec 12 23:44:07 2012
 
 ###########################################################]

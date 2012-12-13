@@ -4,7 +4,7 @@
 #include "drivers/mss_gpio/mss_gpio.h"
 #include "drivers/mss_ace/mss_ace.h"
 #include "drivers/CoreUARTapb/core_uart_apb.h"
-#include "core_pwm.h"
+#include "drivers/CorePWM/core_pwm.h"
 
 #define SERVO_PRESCALE 999
 #define SERVO_PERIOD 1999
@@ -16,7 +16,7 @@
 #define SERVO_PWM_ADDRESS 0x40050100
 #define COREUARTAPB0_BASE_ADDR 0x40050200
 #define BUFFER_SIZE 256
-#define FIRE_TIME 200
+#define FIRE_TIME 120
 
 int firing;
 int fire_counter;
@@ -46,17 +46,17 @@ void stop_gun(){
 }
 
 void pull_trigger() {
-	PWM_set_duty_cycle(&servos, PWM_2, 2500);
+	PWM_set_duty_cycle(&servos, PWM_1, 204);
 	triggering = 1;
 }
 
 void release_trigger() {
-	PWM_set_duty_cycle(&servos, PWM_2, 600);
+	PWM_set_duty_cycle(&servos, PWM_1, 60);
 	triggering = 0;
 }
 
 void set_trigger(int butt) {
-	PWM_set_duty_cycle(&servos, PWM_2, butt);
+	PWM_set_duty_cycle(&servos, PWM_1, butt);
 }
 
 void pwm_init(){
@@ -199,11 +199,11 @@ void moveDatTrigger(int delta) {
 	if (!delta)
 		return;
 	curr_trigger += delta;
-	if (curr_angle < 600)
-		curr_angle = 600;
-	if (curr_angle > 2500)
-		curr_angle = 2500;
-	set_trigger(curr_angle);
+	if (curr_trigger < 60)
+		curr_trigger = 60;
+	if (curr_trigger > 204)
+		curr_trigger = 204;
+	set_trigger(curr_trigger);
 }
 
 void tankControl(jx, jy, cx, cy) {
@@ -228,19 +228,21 @@ int main(){
 	int startDown = 0;
 	int mode = 0; // 0 for manual, 1 for automatic
 	uint8_t tx[100];
+	uint8_t size_buff[3];
 	size_t txSize;
 	int start_counter = 0;
 	firing = 0;
 	curr_angle = 0;
-	curr_trigger = 600;
+	curr_trigger = 60;
 	shots_fired = 0;
 	triggering = 0;
 
-	release_trigger();
+
+	//release_trigger();
 	MSS_GPIO_set_output(MSS_GPIO_15, 0);
 
 	/*while(1) {
-		set_gun_angle(200);
+		set_trigger(200);
 		//wheel2(255);
 		//wheel4(255);
 		//wheel2(-255);
@@ -257,7 +259,7 @@ int main(){
 			continue;
 		offset = 0;
 		while (1) {
-			while (!(received = UART_get_rx(&g_uart, buff + offset, receive_size)) && receive_size != 0);
+			while (receive_size != 0 && !(received = UART_get_rx(&g_uart, buff + offset, receive_size)));
 			offset += received;
 			receive_size -= received;
 			if (receive_size <= 0) {
@@ -311,8 +313,8 @@ int main(){
 		if(cx < -85)
 			cx = -85;
 
-		left = joyx - cx*2;
-		right = joyx + cx*2;
+		left = joyx - cx*5;
+		right = joyx + cx*5;
 
 		if(left < -255)
 			left = -255;
@@ -332,7 +334,7 @@ int main(){
 		wheel4(right);
 
 		//moveTurret(cy/8);
-		moveDatTrigger(cy/8);
+		//moveDatTrigger(cy/8);
 
 		if (fire && !firing) {
 			start_gun();
@@ -344,12 +346,14 @@ int main(){
 			stop_gun();
 			shots_fired++;
 		}
-		if (fire_counter > 100 && !triggering)
+		if (fire_counter > 60 && !triggering)
 			pull_trigger();
-		if (fire_counter > 150 && triggering)
+		if (fire_counter > 100 && triggering)
 			release_trigger();
 
 		txSize = sprintf(tx, "@%4d %4d %4d %4d", mode, get_range(), shots_fired, curr_angle) + 1;
+		sprintf(size_buff, "@%c", txSize);
+		UART_send(&g_uart, size_buff, 2);
 		UART_send(&g_uart, tx, txSize);
 	}
 	/*while(1){

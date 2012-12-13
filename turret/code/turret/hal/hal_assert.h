@@ -6,7 +6,6 @@
  */
 #ifndef HAL_ASSERT_HEADER
 #define HAL_ASSERT_HEADER
-#define NDEBUG
 
 #if defined(NDEBUG)
 /***************************************************************************//**

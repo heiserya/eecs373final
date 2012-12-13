@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Actel SmartDesign Wed Dec 12 18:30:02 2012
+// Created by Actel SmartDesign Wed Dec 12 23:43:01 2012
 // Parameters for corepwm
 //--------------------------------------------------------------------
 
@@ -25,8 +25,8 @@ parameter DAC_MODE9 = 0;
 parameter FAMILY = 15;
 parameter FIXED_PERIOD = 1;
 parameter FIXED_PERIOD_EN = 0;
-parameter FIXED_PRESCALE = 900;
-parameter FIXED_PRESCALE_EN = 1;
+parameter FIXED_PRESCALE = 0;
+parameter FIXED_PRESCALE_EN = 0;
 parameter FIXED_PWM_NEGEDGE1 = 0;
 parameter FIXED_PWM_NEGEDGE10 = 0;
 parameter FIXED_PWM_NEGEDGE11 = 0;

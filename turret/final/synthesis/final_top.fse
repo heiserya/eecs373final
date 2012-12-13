@@ -1,40 +1,40 @@
 
-fsm_encoding {1589508951} sequential
+fsm_encoding {1189508951} sequential
 
-fsm_state_encoding {1589508951} 00 {00}
+fsm_state_encoding {1189508951} 00 {00}
 
-fsm_state_encoding {1589508951} 01 {01}
+fsm_state_encoding {1189508951} 01 {01}
 
-fsm_state_encoding {1589508951} 10 {10}
+fsm_state_encoding {1189508951} 10 {10}
 
-fsm_state_encoding {1589508951} 11 {11}
+fsm_state_encoding {1189508951} 11 {11}
 
-fsm_registers {1589508951} {CUARTOl0[1]}  {CUARTOl0[0]} 
+fsm_registers {1189508951} {CUARTOl0[1]}  {CUARTOl0[0]} 
 
-fsm_encoding {1225302533} onehot
+fsm_encoding {825302533} onehot
 
-fsm_state_encoding {1225302533} CUARTlIll {0000001}
+fsm_state_encoding {825302533} CUARTlIll {0000001}
 
-fsm_state_encoding {1225302533} CUARTOlll {0000010}
+fsm_state_encoding {825302533} CUARTOlll {0000010}
 
-fsm_state_encoding {1225302533} CUARTIlll {0000100}
+fsm_state_encoding {825302533} CUARTIlll {0000100}
 
-fsm_state_encoding {1225302533} CUARTllll {0001000}
+fsm_state_encoding {825302533} CUARTllll {0001000}
 
-fsm_state_encoding {1225302533} CUARTO0ll {0010000}
+fsm_state_encoding {825302533} CUARTO0ll {0010000}
 
-fsm_state_encoding {1225302533} CUARTI0ll {0100000}
+fsm_state_encoding {825302533} CUARTI0ll {0100000}
 
-fsm_state_encoding {1225302533} CUARTl0ll {1000000}
+fsm_state_encoding {825302533} CUARTl0ll {1000000}
 
-fsm_registers {1225302533} {CUARTO1ll[6]}  {CUARTO1ll[5]}  {CUARTO1ll[4]}  {CUARTO1ll[3]}  {CUARTO1ll[2]}  {CUARTO1ll[1]}  {CUARTO1ll[0]} 
+fsm_registers {825302533} {CUARTO1ll[6]}  {CUARTO1ll[5]}  {CUARTO1ll[4]}  {CUARTO1ll[3]}  {CUARTO1ll[2]}  {CUARTO1ll[1]}  {CUARTO1ll[0]} 
 
-fsm_encoding {1372307232} sequential
+fsm_encoding {972307232} sequential
 
-fsm_state_encoding {1372307232} 00 {00}
+fsm_state_encoding {972307232} 00 {00}
 
-fsm_state_encoding {1372307232} 01 {01}
+fsm_state_encoding {972307232} 01 {01}
 
-fsm_state_encoding {1372307232} 10 {10}
+fsm_state_encoding {972307232} 10 {10}
 
-fsm_registers {1372307232} {CUARTOl0[1]}  {CUARTOl0[0]} 
+fsm_registers {972307232} {CUARTOl0[1]}  {CUARTOl0[0]} 

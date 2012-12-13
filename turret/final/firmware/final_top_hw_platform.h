@@ -2,7 +2,7 @@
 #define final_top_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Actel SmartDesign  Wed Dec 12 18:30:04 2012
+*Created by Actel SmartDesign  Wed Dec 12 23:43:02 2012
 *
 *Memory map specification for peripherals in final_top
 */

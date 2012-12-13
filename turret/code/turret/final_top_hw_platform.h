@@ -2,7 +2,7 @@
 #define final_top_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Actel SmartDesign  Sat Dec 08 20:10:30 2012
+*Created by Actel SmartDesign  Wed Dec 12 23:43:02 2012
 *
 *Memory map specification for peripherals in final_top
 */
@@ -13,6 +13,7 @@
 *---------------------------------------------------------------------------*/
 #define COREPWM_0                       0x40050000U
 #define COREPWM_1                       0x40050100U
+#define COREUARTAPB_0                   0x40050200U
 
 
 #endif /* final_top_HW_PLATFORM_H_*/

@@ -3,7 +3,7 @@
 
 # Version: 9.1 SP5 9.1.5.1
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Wed Dec 12 18:29:57 2012 
+# Date generated: Wed Dec 12 23:43:00 2012 
 
 
 # 
@@ -182,6 +182,57 @@ set_io UART_1_TXD            \
 # set_io UART_0_TXD -pinname Y22 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME UART_0_PADs -DIRECTION Output 
 # set_io UART_1_RXD -pinname W22 -fixed yes -iostd LVTTL -RES_PULL None -SCHMITT_TRIGGER Off -GROUP_NAME UART_1_PADs -DIRECTION Input 
 # set_io UART_1_TXD -pinname V20 -fixed yes -iostd LVTTL -OUT_LOAD 35 -RES_PULL None -SKEW Off -SLEW High -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_0_OUT -pinname V1 -fixed yes -DIRECTION Output 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
+# set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
+# set_io GPIO_0_OUT -pinname V1 -fixed yes -DIRECTION Output 
+# set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
+# set_io GPIO_1_OUT -pinname R3 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io VAREF1 -pinname AB11 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -GROUP_NAME UART_0_PADs -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -GROUP_NAME UART_1_PADs -DIRECTION Output 
 # set_io ADCDirectInput_0 -pinname V12 -fixed yes -DIRECTION Input 
 # set_io GPIO_15_OUT -pinname Y3 -fixed yes -DIRECTION Output 
 # set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
